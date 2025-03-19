@@ -1,40 +1,60 @@
-import './hero.scss';
+import "./hero.scss";
 
 const HeroRight = () => {
-
     return (
-        <div className='hero-right'>
-            <div className='border-top'></div>
-            <div className='first'>
-                <div className='circle bg-first'></div>
-                <div className='circle bg-second'></div>
-                <div className='circle bg-third'></div>
+        <div className="hero-right">
+            <div className="border-top"></div>
+            <div className="first">
+                <div className="circle bg-first"></div>
+                <div className="circle bg-second"></div>
+                <div className="circle bg-third"></div>
             </div>
-            <div className='second'>
+            <div className="second">
                 <code className="text-white-0">
                     <div>
                         <span className="me-2 text-pink-100">const</span>
                         <span className="me-2">developer</span>
                         <span className="me-2 text-pink-100">=</span>
-                        <span>{'{'}</span>
+                        <span>{"{"}</span>
                     </div>
                     <div>
                         <span className="ms-4 me-2">name:</span>
-                        <span className='text-yellow-500'>
+                        <span className="text-yellow-500">
                             {`'`}HANG{`',`}
+                        </span>
+                    </div>
+                    <div>
+                        <span className="ms-4 me-2">goal:</span>
+                        <span className="text-green-700">
+                            {`'`}Frontend Developer{`',`}
                         </span>
                     </div>
                     <div className="ms-4 me-2 text-pink-200">
                         <span className="text-white-0">skills:</span>
                         <span>{`['`}</span>
-                       
-                        <span >HTML</span>
+
+                        <span>HTML5</span>
                         <span>{"', '"}</span>
-                        <span >CSS</span>
+                        <span>CSS3</span>
                         <span>{"', '"}</span>
-                        <span >React</span>
+                        <span>Sass</span>
+                        <span>{"', '"}</span>
+                        <span>Javascript</span>
+                        <span>{"', '"}</span>
+                        <span>Typescript</span> 
+                        <span>{"', '"}</span>
                        
+                        <span>React</span>
+                        <span>{"', '"}</span>
+                        <span>Github</span> 
+                        <span>{"', '"}</span>
+                        <span>Responsive Design</span> 
+                        <span>{"', '"}</span>
                        
+                        <span>SEO</span>
+                        <span>{"', '"}</span>
+                        <span>Terminal</span>
+
                         <span>{"'],"}</span>
                     </div>
                     <div>
@@ -55,7 +75,7 @@ const HeroRight = () => {
                     <div>
                         <span className="ms-4 me-2 text-green-700">hireable:</span>
                         <span className="text-red-500">function</span>
-                        <span>{'() {'}</span>
+                        <span>{"() {"}</span>
                     </div>
                     <div>
                         <span className="ms-5 me-2 text-red-500">return</span>
@@ -64,12 +84,12 @@ const HeroRight = () => {
                     <div>
                         <span className="ms-5 ps-3 text-blue-100">this.</span>
                         <span className="me-2 ">hardWorker</span>
-                        <span className='text-blue-100'>&amp;&amp;</span>
+                        <span className="text-blue-100">&amp;&amp;</span>
                     </div>
                     <div>
                         <span className="ms-5 ps-3 text-blue-100">this.</span>
                         <span className="me-2 ">problemSolver</span>
-                        <span className='text-blue-100'>&amp;&amp;</span>
+                        <span className="text-blue-100">&amp;&amp;</span>
                     </div>
                     <div>
                         <span className="ms-5 ps-3 text-blue-100">this.</span>
@@ -77,13 +97,19 @@ const HeroRight = () => {
                         <span className="me-2 text-blue-100">&gt;=</span>
                         <span className="text-red-500">5</span>
                     </div>
-                    <div><span className="ms-5 me-2 ">{`);`}</span></div>
-                    <div><span className="ms-4">{`};`}</span></div>
-                    <div><span>{`};`}</span></div>
+                    <div>
+                        <span className="ms-5 me-2 ">{`);`}</span>
+                    </div>
+                    <div>
+                        <span className="ms-4">{`};`}</span>
+                    </div>
+                    <div>
+                        <span>{`};`}</span>
+                    </div>
                 </code>
             </div>
         </div>
-    )
-}
+    );
+};
 
 export default HeroRight;
