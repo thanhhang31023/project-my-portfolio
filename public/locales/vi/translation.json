@@ -1,13 +1,21 @@
 {
     "appHeader": {
-        "brand": "HANG",
+        "brand": "HẰNG",
         "home": "Trang chủ",
         "project": "Dự án",
         "contact": "Liên hệ",
         "about": "Về tác giả"
     },
     "heroSection": {
-        "exp": "Kinh nghiệm",
+        "greeting": "Xin chào!",
+        "im": "Tôi là",
+       
+        "after":"",
+        
+        "job1": "Lập trình viên Frontend",
+        "job2": "Tương lai lập trình viên Fullstack ",
+        "job3": "Luôn học hỏi",
+        "exp": "Kỹ năng của tôi",
         "cv": "Tải CV"
     },
     "introSection": {

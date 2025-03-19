@@ -1,24 +1,27 @@
 import { Col, Container, Row } from "react-bootstrap";
 import HeroLeft from "components/sections/hero/hero.left";
 import HeroRight from "components/sections/hero/hero.right";
-import { MdFileDownload } from "react-icons/md";
+//import { MdFileDownload } from "react-icons/md";
 import bg from 'assets/section.svg';
 import Introduction from "components/sections/introduction";
-import ResizeButton from "components/sections/resize.button";
-import { useTranslation } from "react-i18next";
+//import ResizeButton from "components/sections/resize.button";
+//import { useTranslation } from "react-i18next";
 import Divider from "components/sections/divider";
-import Experience from "components/sections/experience";
+//import Experience from "components/sections/experience";
 import Skill from "components/sections/skill";
 import { useRef } from "react";
+import Project from "@/components/sections/project";
+import Experience from "@/components/sections/experience";
 
 const HomePage = () => {
-    const { t } = useTranslation();
+   // const { t } = useTranslation();
 
-    const expRef = useRef<HTMLElement>(null);
+   const skillRef = useRef<HTMLElement>(null);
 
-    const scrollToExperienceSection = () => {
-        expRef.current?.scrollIntoView({ behavior: "smooth" })
-    }
+   const scrollToSkillSection = () => {
+       skillRef.current?.scrollIntoView({ behavior: "smooth" , block:"nearest"  });
+   };
+   
 
     return (
         <div className="homepage-screen">
@@ -37,20 +40,21 @@ const HomePage = () => {
                     style={{ position: "relative" }}
                 >
                     <Row>
-                        <Col className="d-none d-md-block" md={6}>
-                            <HeroLeft
-                                scrollToExperienceSection={scrollToExperienceSection}
-                            />
+                        <Col className="d-flex d-md-block" md={6}>
+                        <HeroLeft
+    scrollToSkillSection={scrollToSkillSection}
+/>
+
                         </Col>
                         <Col md={6}>
                             <HeroRight />
                         </Col>
-                        <Col xs={12} className="d-md-none d-flex mt-4 justify-content-center">
+                        {/* <Col xs={12} className="d-md-none d-flex mt-4 justify-content-center">
                             <ResizeButton
                                 btnText={t("heroSection.cv")}
                                 btnIcons={<MdFileDownload />}
                             />
-                        </Col>
+                        </Col> */}
                     </Row>
                 </Container>
             </section>
@@ -59,18 +63,25 @@ const HomePage = () => {
                     <Introduction />
                 </Container>
             </section>
+            <section>
+                <Container>
+                    <Project />
+                </Container>
+            </section>
             <Divider />
-            <section ref={expRef}>
+            <section ref={skillRef}>
+    <Container>
+        <Skill />
+    </Container>
+</section>
+
+<section>
                 <Container>
                     <Experience />
                 </Container>
             </section>
             <Divider />
-            <section>
-                <Container>
-                    <Skill />
-                </Container>
-            </section>
+           
 
         </div>
     )

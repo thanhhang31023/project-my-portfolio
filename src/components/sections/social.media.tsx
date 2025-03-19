@@ -1,34 +1,36 @@
-import { FaFacebook } from "react-icons/fa6";
-import { SiUdemy } from "react-icons/si";
-import { FaTiktok } from "react-icons/fa";
-import { SiYoutubeshorts } from "react-icons/si";
+import { FaFacebook, FaGithub, FaEnvelope, FaPhone } from "react-icons/fa6";
+import { SiLine } from "react-icons/si";
 
 interface IProps {
-    youtube: string;
-    tiktok: string;
-    udemy: string;
+    github: string;
+    email: string;
+    phone: string;
+    line: string;
     facebook: string;
 }
+
 const SocialMedia = (props: IProps) => {
-    const { youtube, tiktok, udemy, facebook } = props;
+    const { github, email, phone, line, facebook } = props;
 
     return (
         <div className="my-4 d-flex items-center gap-3">
-            <a href={youtube} target='_blank' className="highlight" title="Comming soon">
-                <SiYoutubeshorts size={30} />
+            <a href={github} target="_blank" className="highlight" title="GitHub">
+                <FaGithub size={30} />
             </a>
-            <a href={tiktok} target='_blank' className="highlight" title="Comming soon">
-                <FaTiktok size={30} />
+            <a href={`mailto:${email}`} className="highlight" title="Email">
+                <FaEnvelope size={30} />
             </a>
-            <a href={udemy} target='_blank' className="highlight" title="Comming soon">
-                <SiUdemy size={30} />
+            <a href={`tel:${phone}`} className="highlight" title="Gọi điện">
+                <FaPhone size={30} />
             </a>
-            <a href={facebook} target='_blank' className="highlight" title="Comming soon">
+            <a href={line} target="_blank" className="highlight" title="Line">
+                <SiLine size={30} />
+            </a>
+            <a href={facebook} target="_blank" className="highlight" title="Facebook">
                 <FaFacebook size={30} />
             </a>
-
         </div>
-    )
-}
+    );
+};
 
 export default SocialMedia;

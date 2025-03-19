@@ -49,3 +49,35 @@
         padding: 30px 30px 40px 30px;
     }
 }
+
+@media (max-width: 768px) {
+    .hero-right {
+        display: none;
+    }
+    .hero-left {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: center; // Căn giữa nội dung
+       
+    }
+    .social-icons {
+        display: flex;
+        justify-content: center;  // Căn giữa theo chiều ngang
+        align-items: center;      // Căn giữa theo chiều dọc
+        gap: 15px;               // Khoảng cách giữa các icon
+        margin: 10px auto;       // Căn giữa toàn bộ hàng icon
+        flex-wrap: wrap;         // Đảm bảo icon không bị tràn
+    }
+    .hero-buttons {
+        display: flex;
+        justify-content: center;  // Căn giữa theo chiều ngang
+        align-items: center;      // Căn giữa theo chiều dọc
+        flex-wrap: wrap;          // Đảm bảo nút không bị vỡ khi thu nhỏ
+        gap: 15px;               // Khoảng cách giữa các nút
+        margin-top: 20px;
+    }
+    
+}
+
+
