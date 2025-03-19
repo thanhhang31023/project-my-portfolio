@@ -20,12 +20,15 @@
     },
     "introSection": {
         "about": "Giới thiệu",
+        "and4": "và",
         "and": "và",
-        "heading1": "Yêu thích lập trình và tôi tin rằng mình đã học hỏi được ít nhiều điều gì đó. 🤷‍♂️",
-        "heading2": "Tôi nắm vững các ngôn ngữ huyền thoại như là",
-        "heading3": "Lĩnh vực quan tâm của tôi là",
-        "heading4": "xây dựng các công nghệ web mới và các sản phẩm liên quan",
-        "heading5": "Bất cứ khi nào có thể, tôi cũng áp dụng niềm đam mê phát triển sản phẩm của mình với"
+        "and1": "tinh tế, mượt mà",
+        "and2": "hiệu suất cao.",
+        "heading1": "🔥 Tôi là một lập trình viên đam mê xây dựng trải nghiệm người dùng hoàn hảo trên nền tảng web.",
+        "heading2": "Tôi đã tự học để nắm được các kiến thức về",
+        "heading3": "🎯 Mục tiêu của tôi là trở thành một ",
+        "heading4": "Frontend Developer chuyên nghiệp.",
+        "heading5": "Tôi luôn sẵn sàng học hỏi và thử thách bản thân để tạo ra các giao diện"
     },
     "experience": {
         "title": "Kinh nghiệm làm việc"

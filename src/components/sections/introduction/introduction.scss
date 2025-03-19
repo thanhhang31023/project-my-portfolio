@@ -24,3 +24,16 @@
         }
     }
 }
+
+.avatar-image {
+    width: 230px; 
+    height: 280px;
+    border-radius: 50%;
+    object-fit: cover;
+@media screen and (max-width: 1024px) {
+    width: 160px;
+    height: 210px;
+    
+}
+
+}

@@ -1,6 +1,6 @@
 import { Col, Row } from 'react-bootstrap';
-//import Tilt from "react-parallax-tilt";
-//import avatarImg from "assets/avatar.svg";
+import Tilt from "react-parallax-tilt";
+import avatarImg from "assets/avatar4.png";
 import './introduction.scss';
 import { useTranslation } from 'react-i18next';
 
@@ -13,7 +13,7 @@ const Introduction = () => {
                 <Col xs={12} md={9}>
                     <h2 className='text-center text-md-start'>
                         {i18n.resolvedLanguage === "ja" ? <>
-                            LET ME <span className='text-pink-100'> INTRODUCE </span> MYSELF
+                             <span className='text-pink-100'> 自己紹介 </span> 
                         </>
                             :
                             <>
@@ -27,7 +27,19 @@ const Introduction = () => {
                         <br />
                         <br />{t("introSection.heading2")}
                         <i>
-                            <b className='text-pink-100'> Html {t("introSection.and")} Javascript. </b>
+                            <b className='text-pink-100'> Html, Css, Javascript, Typescript {t("introSection.and4")} React. </b>
+                        </i>
+                        
+                        <br />
+                        <br />
+                        {t("introSection.heading5")}
+                        <i><b className='text-pink-100'>&nbsp; {t("introSection.and1")}</b> </i>
+                        {t("introSection.and")}
+                        <i>
+                            <b className='text-pink-100'>
+                                {" "}
+                                {t("introSection.and2")}
+                            </b>
                         </i>
                         <br />
                         <br />
@@ -37,25 +49,15 @@ const Introduction = () => {
                                 {t("introSection.heading4")}
                             </b>
                         </i>
-                        <br />
-                        <br />
-                        {t("introSection.heading5")}
-                        <i><b className='text-pink-100'>&nbsp;Css</b> </i>
-                        {t("introSection.and")}
-                        <i>
-                            <b className='text-pink-100'>
-                                {" "}
-                                React
-                            </b>
-                        </i>
 
                     </p>
                 </Col>
-                {/* <Col md={3} className='d-md-block d-none'>
-                    <Tilt>
-                        //<img src={avatarImg} className="img-fluid" alt="avatar" />
-                    </Tilt>
-                </Col> */}
+                <Col md={3} className='d-md-block d-none'>
+    <Tilt>
+        <img src={avatarImg} className="img-fluid avatar-image" alt="avatar" />
+    </Tilt>
+</Col>
+
             </Row>
             <div className="about-container d-none d-md-flex">
                 <span className="about-label">{t("introSection.about")}</span>
