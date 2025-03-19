@@ -57,7 +57,7 @@ const About = () => {
                 <Col md={6} xs={12} className="mt-md-5 mt-3">
                     <div className="d-flex flex-column align-items-center gap-3">
                         <div><h4 className="text-center brand-red">Education</h4></div>
-                        <div >
+                        <div>
                             <GlowCard identifier={`experience-5`}>
                                 <div className="p-3 relative">
                                     <div className="experience-container">
@@ -86,11 +86,12 @@ const About = () => {
                 <Col md={6} xs={12} className=" mt-md-5 mt-3">
                     <h3 className="mb-md-5 mb-2">FIND ME ON </h3>
                     <SocialMedia
-                        youtube={APP_DATA.YOUTUBE_URL}
-                        facebook={APP_DATA.FACEBOOK_URL}
-                        tiktok={APP_DATA.TIKTOK_URL}
-                        udemy={APP_DATA.UDEMY_URL}
-                    />
+                    github={APP_DATA.GITHUB_URL}
+                    email={APP_DATA.EMAIL}
+                    phone={APP_DATA.PHONE}
+                    line={APP_DATA.LINE_URL}
+                    facebook={APP_DATA.FACEBOOK_URL}
+                />
                 </Col >
                 <Col md={6} xs={12} className="d-flex flex-column align-items-center justify-content-center">
                     <AnimationLottie
