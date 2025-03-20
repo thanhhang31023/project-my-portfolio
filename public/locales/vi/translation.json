@@ -45,6 +45,7 @@
     "contact": {
         "title": "LIÊN HỆ",
         
+        
         "name": "Họ và tên:",
         "mail": "Email:",
         "mes": "Tin nhắn:",
@@ -53,5 +54,10 @@
         "title3": "Hãy liên hệ với tôi nếu bạn có bất kỳ câu hỏi hay cơ hội hợp tác nào!"
 
 
-    }
+    },
+    "toast": {
+            "success": "Tin nhắn đã được gửi thành công! Vui lòng kiểm tra hộp thư đến, thư rác hoặc spam của bạn.",
+            "error": "Gửi tin nhắn thất bại!",
+            "mes":"Đang gửi tin nhắn..."
+          }
 }

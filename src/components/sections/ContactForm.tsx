@@ -4,15 +4,17 @@ import { TbMailForward } from "react-icons/tb";
 //import { toast } from "react-toastify";
 //import * as axios from "axios";
 //import * as toast from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
 import { useTranslation } from "react-i18next";
 import emailjs from "@emailjs/browser";
-import { toast } from "react-toastify";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
+//toast.configure(); // Cấu hình toast một lần trong component
 
 const ContactForm = () => {
     const { t } = useTranslation();
 
-    const [error, setError] = useState({ email: false, required: false });
+    //const [error, setError] = useState({ email: false, required: false });
     const [isLoading, setIsLoading] = useState(false);
     const [userInput, setUserInput] = useState({
         name: "",
@@ -20,19 +22,19 @@ const ContactForm = () => {
         message: "",
     });
 
-    const checkRequired = () => {
-        if (userInput.email && userInput.message && userInput.name) {
-            setError({ ...error, required: false });
-        }
-    };
+    // const checkRequired = () => {
+    //     if (userInput.email && userInput.message && userInput.name) {
+    //         setError({ ...error, required: false });
+    //     }
+    // };
 
     const handleSendMail = async (e: React.FormEvent) => {
         e.preventDefault();
 
-        if (!userInput.email || !userInput.message || !userInput.name) {
-            toast.error("Vui lòng điền đầy đủ thông tin!");
-            return;
-        }
+        // if (!userInput.email || !userInput.message || !userInput.name) {
+        //     toast.error("Vui lòng điền đầy đủ thông tin!");
+        //     return;
+        // }
 
         setIsLoading(true);
 
@@ -40,7 +42,6 @@ const ContactForm = () => {
             name: userInput.name, // Phải khớp với {{name}}
             email: userInput.email, // Phải khớp với {{email}}
             message: userInput.message, // Phải khớp với {{message}}
-         
         };
 
         emailjs
@@ -51,12 +52,12 @@ const ContactForm = () => {
                 "HjV1dyYbgw3ztJ849" // Thay bằng Public Key của bạn
             )
             .then(() => {
-                toast.success("Tin nhắn đã được gửi thành công!");
+                toast.success(t("toast.success"));
                 setUserInput({ name: "", email: "", message: "" });
             })
             .catch((error) => {
                 console.error("Lỗi gửi email:", error);
-                toast.error("Gửi tin nhắn thất bại!");
+                toast.error(t("toast.error"));
             })
             .finally(() => {
                 setIsLoading(false);
@@ -66,7 +67,7 @@ const ContactForm = () => {
     return (
         <div className="contact-form">
             <p className="title">{t("contact.title2")}</p>
-            <div className="form-container">
+            <form className="form-container" onSubmit={handleSendMail}>
                 <p className="description">{t("contact.title3")}</p>
 
                 <div className="input-group">
@@ -75,7 +76,6 @@ const ContactForm = () => {
                         type="text"
                         value={userInput.name}
                         onChange={(e) => setUserInput({ ...userInput, name: e.target.value })}
-                        onBlur={checkRequired}
                         required
                     />
                 </div>
@@ -86,7 +86,6 @@ const ContactForm = () => {
                         type="email"
                         value={userInput.email}
                         onChange={(e) => setUserInput({ ...userInput, email: e.target.value })}
-                        onBlur={checkRequired}
                         required
                     />
                 </div>
@@ -97,14 +96,13 @@ const ContactForm = () => {
                         rows={4}
                         value={userInput.message}
                         onChange={(e) => setUserInput({ ...userInput, message: e.target.value })}
-                        onBlur={checkRequired}
                         required
                     />
                 </div>
 
-                <button className="submit-btn" onClick={handleSendMail} disabled={isLoading}>
+                <button className="submit-btn" type="submit" disabled={isLoading}>
                     {isLoading ? (
-                        "Đang gửi..."
+                        t("toast.mes")
                     ) : (
                         <>
                             {t("contact.send")}&nbsp;
@@ -112,7 +110,10 @@ const ContactForm = () => {
                         </>
                     )}
                 </button>
-            </div>
+
+                {/* Thêm ToastContainer để hiển thị thông báo */}
+                <ToastContainer />
+            </form>
         </div>
     );
 };
