@@ -10,8 +10,9 @@ import Divider from "components/sections/divider";
 //import Experience from "components/sections/experience";
 import Skill from "components/sections/skill";
 import { useRef } from "react";
-import Project from "@/components/sections/project";
-import Experience from "@/components/sections/experience";
+//import Project from "@/components/sections/project";
+//import Experience from "@/components/sections/experience";
+import ContactSection from "components/sections/ContactSection";
 
 const HomePage = () => {
     // const { t } = useTranslation();
@@ -58,25 +59,24 @@ const HomePage = () => {
                     <Introduction />
                 </Container>
             </section>
-            <Divider />
-            <section>
-                <Container>
-                    <Project />
-                </Container>
-            </section>
-            <Divider />
+           
+               <Divider />
             <section ref={skillRef}>
                 <Container>
                     <Skill />
                 </Container>
             </section>
 
-            <section>
+            {/* <section>
                 <Container>
                     <Experience />
                 </Container>
-            </section>
+            </section> */}
             <Divider />
+            <div>
+      {/* Các thành phần khác */}
+      <ContactSection />
+    </div>
         </div>
     );
 };

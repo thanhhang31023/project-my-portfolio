@@ -1,6 +1,8 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import 'styles/global.scss';
+import "styles/contact.scss";
+
 import Layout from '@/layout';
 import {
   createBrowserRouter,

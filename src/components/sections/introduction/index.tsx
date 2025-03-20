@@ -18,11 +18,11 @@ const Introduction = () => {
                 <Col xs={12} md={9}>
                     <h2 className='text-center text-md-start'>
                         {i18n.resolvedLanguage === "ja" ? <>
-                             <span className='text-pink-100'> 自己紹介 </span> 
+                             <span className='text-pink-100'> 自己概要 </span> 
                         </>
                             :
                             <>
-                                <span className='text-pink-100'>GIỚI THIỆU</span> BẢN THÂN
+                                <span className='text-pink-100'>Đôi nét </span>về bản thân
                             </>
                         }
                     </h2>
