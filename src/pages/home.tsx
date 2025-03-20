@@ -74,8 +74,9 @@ const HomePage = () => {
             </section> */}
             <Divider />
             <div>
-      {/* Các thành phần khác */}
-      <ContactSection />
+            <section id="contact">
+                <ContactSection />
+            </section>
     </div>
         </div>
     );

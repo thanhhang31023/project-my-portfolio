@@ -109,6 +109,18 @@ body {
     }
 }
 
+// /* Ngăn sáng lên khi đang ở trang đó */
+.nav-link.disable-active {
+    color: inherit !important; /* Giữ nguyên màu mặc định */
+    font-weight: normal !important;
+}
+
+/* Chỉ sáng lên khi hover */
+.nav-link:hover {
+    color: #ff69b4 !important; /* Màu khi hover */
+}
+
+
 .divider {
     height: 1px;
     border-top: 1px solid var(--border-hero-right);

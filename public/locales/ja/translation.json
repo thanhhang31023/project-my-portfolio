@@ -4,7 +4,12 @@
         "home": "ホーム",
         "project": "プロジェクト",
         "contact": "コンタクト",
-        "about": "自己詳細"
+        "about": "自己詳細",
+        "darkMode" : "ダークモード",
+        "lightMode" : "ライトモード",
+        "language": "言語",
+        "language1": "日本語",
+        "language2": "ベトナム語"
     },
     "heroSection": {
         "greeting": "こんにちは",

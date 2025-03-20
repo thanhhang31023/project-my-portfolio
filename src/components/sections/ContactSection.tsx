@@ -13,7 +13,7 @@ const ContactSection = () => {
         const { t } = useTranslation();
     return (
         <div id="contact" className="contact-section">
-            <div className="contact-header">
+            <div  className="contact-header">
                 <span>{t("contact.title")}</span>
                 <div className="line"></div>
             </div>

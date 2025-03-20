@@ -4,7 +4,13 @@
         "home": "Trang chủ",
         "project": "Dự án",
         "contact": "Liên hệ",
-        "about": "Chi tiết bản thân"
+        "about": "Chi tiết bản thân",
+        "darkMode" : "Chế độ tối",
+        "lightMode" : "Chế độ sáng",
+        "language": "Ngôn ngữ",
+        "language1": "Tiếng Nhật",
+        "language2": "Tiếng Việt"
+        
     },
     "heroSection": {
         "greeting": "Xin chào!",

@@ -10,6 +10,8 @@ import { NavDropdown } from "react-bootstrap";
 import viFlag from "assets/svg/language/vi.svg";
 import jaFlag from "assets/svg/language/ja.svg";
 type ThemeContextType = "light" | "dark";
+import { useNavigate, useLocation } from "react-router-dom";
+//import { start } from "repl";
 
 function AppHeader() {
     const { theme, setTheme } = useCurrentApp();
@@ -37,16 +39,41 @@ function AppHeader() {
         setTheme(mode);
     };
 
-    const renderFlag = (language: string) => {
-        return <img style={{ height: 20, width: 20 }} src={language === "ja" ? jaFlag : viFlag} alt={language} />;
+    // const renderFlag = (language: string) => {
+    //     return <img style={{ height: 20, width: 20 }} src={language === "ja" ? jaFlag : viFlag} alt={language} />;
+    // };
+
+    const navigate = useNavigate();
+    const location = useLocation();
+
+    const scrollToContact = (e: React.MouseEvent) => {
+        e.preventDefault();
+    
+        if (location.pathname !== "/") {
+            navigate("/", { replace: true });
+            
+            // Chờ trang tải hoàn toàn rồi mới cuộn
+            setTimeout(() => {
+                const contactSection = document.getElementById("contact");
+                if (contactSection) {
+                    contactSection.scrollIntoView({ behavior: "smooth", block: "start" });
+                }
+            }, 500); // Điều chỉnh thời gian nếu cần
+        } else {
+            const contactSection = document.getElementById("contact");
+            if (contactSection) {
+                contactSection.scrollIntoView({ behavior: "smooth", block: "start" });
+            }
+        }
     };
+    
 
     return (
         <Navbar
             data-bs-theme={theme}
             expand="lg"
             className={`navbar-custom ${scrolled ? "scrolled" : ""}`}
-            style={{ zIndex:9 }}
+            style={{ zIndex: 9 }}
         >
             <Container>
                 <Link className="navbar-brand" to="/" onClick={() => window.scrollTo(0, 0)}>
@@ -54,10 +81,20 @@ function AppHeader() {
                 </Link>
 
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                <Navbar.Collapse id="basic-navbar-nav" >
-
+                <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
-                        <NavLink className="nav-link" to="/" onClick={() => window.scrollTo(0, 0)}>
+                        {/* Trang chủ - Chỉ sáng nếu đang ở Home và KHÔNG có hash */}
+                        <NavLink
+                            className={({ isActive }) => (isActive ? "nav-link disable-active" : "nav-link")}
+                            to="/"
+                            end
+                            onClick={() => {
+                                window.history.replaceState(null, "", "/");
+                                setTimeout(() => {
+                                    window.scrollTo(0, 0);
+                                }, 100);
+                            }}
+                        >
                             {t("appHeader.home")}
                         </NavLink>
 
@@ -68,32 +105,63 @@ function AppHeader() {
                         <NavLink className="nav-link" to="/about" onClick={() => window.scrollTo(0, 0)}>
                             {t("appHeader.about")}
                         </NavLink>
-                    </Nav>
-                    <Nav className="ms-auto">
-                        <div className="nav-link" style={{ cursor: "pointer" }}>
-                            {theme === "light" ? (
-                                <MdOutlineLightMode onClick={() => handleMode("dark")} style={{ fontSize: 20 }} />
-                            ) : (
-                                <MdNightlight onClick={() => handleMode("light")} style={{ fontSize: 20 }} />
-                            )}
-                        </div>
 
-                        <NavDropdown title={renderFlag(i18n.resolvedLanguage!)}>
+                        {/* Liên hệ - Chỉ sáng khi đã cuộn xuống phần Contact */}
+                        <NavLink
+                            className={({ isActive }) => (isActive ? "nav-link " : "nav-link")}
+                            to="/#contact"
+                            onClick={scrollToContact}
+                        >
+                            {t("appHeader.contact")}
+                        </NavLink>
+                    </Nav>
+
+                    <Nav className="ms-auto">
+                    <div className="nav-link d-flex align-items-center gap-2" 
+     style={{ cursor: "pointer" }} 
+     onClick={() => handleMode(theme === "light" ? "dark" : "light")} // Xử lý click trên cả div
+>
+    {theme === "light" ? (
+        <>
+            <MdOutlineLightMode style={{ fontSize: 20 }} />
+            <span className="nav-text">{t("appHeader.darkMode")}</span>
+        </>
+    ) : (
+        <>
+            <MdNightlight style={{ fontSize: 20 }} />
+            <span className="nav-text">{t("appHeader.lightMode")}</span>
+        </>
+    )}
+</div>
+
+
+                        <NavDropdown
+                            title={
+                                <div className="d-flex align-items-center gap-2">
+                                    <img
+                                        style={{ height: 20, width: 20 }}
+                                        src={i18n.resolvedLanguage === "ja" ? jaFlag : viFlag}
+                                        alt="lang"
+                                    />
+                                    <span className="nav-text">{t("appHeader.language")}</span>
+                                </div>
+                            }
+                        >
                             <div
                                 onClick={() => i18n.changeLanguage("ja")}
                                 className="dropdown-item d-flex gap-2 align-items-center"
                                 style={{ cursor: "pointer" }}
                             >
                                 <img style={{ height: 20, width: 20 }} src={jaFlag} alt="日本語" />
-                                <span>日本語</span>
+                                <span>{t("appHeader.language1")}</span>
                             </div>
                             <div
                                 onClick={() => i18n.changeLanguage("vi")}
                                 className="dropdown-item d-flex gap-2 align-items-center"
                                 style={{ cursor: "pointer" }}
                             >
-                                <img style={{ height: 20, width: 20 }} src={viFlag} alt="vietnamese" />
-                                <span>Tiếng Việt</span>
+                                <img style={{ height: 20, width: 20 }} src={viFlag} alt="Tiếng Việt" />
+                                <span>{t("appHeader.language2")}</span>
                             </div>
                         </NavDropdown>
                     </Nav>
