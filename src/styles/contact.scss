@@ -1,7 +1,7 @@
 .contact-section {
     margin-top: 50px;
     text-align: center;
-    color: white;
+    color: var(--text-white);
   
     .contact-header {
       font-size: 24px;
@@ -12,7 +12,7 @@
       .line {
         width: 60px;
         height: 4px;
-        background: #16f2b3;
+        background: var(--brand-name-100);
         margin: auto;
       }
     }
@@ -22,8 +22,8 @@
       justify-content: space-between;
       align-items: center;
       flex-wrap: wrap;
-      gap: 3rem;
-      margin-top: 30px;
+      gap: 0;
+      margin-top: 10px;
     }
   
     .contact-form-wrapper {
@@ -40,18 +40,18 @@
       width: 100%;
       max-width: 550px; /* Giới hạn chiều rộng để không quá lớn trên màn hình rộng */
       padding: 2rem;
-      background: #111827;
+      background: var(--background-contact);
       border-radius: 8px;
       text-align: left;
   
       .title {
         font-size: 20px;
-        color: #16f2b3;
+        color: var(--brand-name-100);
       }
   
       .description {
         font-size: 14px;
-        color: #d3d8e8;
+        color: var(--text-white);
         margin-bottom: 15px;
       }
   
@@ -68,10 +68,10 @@
         textarea {
           width: 100%;
           padding: 10px;
-          border: 1px solid #353a52;
+          border: var(--boder-input);
           border-radius: 5px;
-          background: #10172d;
-          color: white;
+          background: var(--background-text-input);
+          color: var(--text-white);
         }
   
         textarea {
@@ -83,15 +83,17 @@
         width: 100%;
         padding: 10px;
         background: linear-gradient(90deg, #ff416c, #ff4b2b);
-        color: white;
+        color: var(--text-white);
         font-weight: bold;
         border: none;
         border-radius: 5px;
         cursor: pointer;
-        transition: 0.3s;
+     
   
         &:hover {
-          background: linear-gradient(90deg, #ff4b2b, #ff416c);
+        
+          transform: translateX(5px); 
+         
         }
       }
     }
@@ -122,11 +124,11 @@
   
         a {
           font-size: 24px;
-          color: #ff416c;
+          color: var(--resize-button);
           transition: 0.3s;
   
           &:hover {
-            color: #ff4b2b;
+            color: var(--resize-button);
           }
         }
       }
@@ -152,7 +154,7 @@
       .contact-info {
         min-width: 100%;
         text-align: center;
-        margin-top: 1.5rem;
+        margin-top: 1rem;
   
         .social-icons {
           justify-content: center;
@@ -160,4 +162,78 @@
       }
     }
   }
-  
+  .required {
+    color: var(--text-pink-100);
+    font-size: 0.8em;
+    margin-left: 5px;
+    font-weight:400;
+    
+}
+.contact-link {
+    text-decoration: none;
+    color: var(--text-white);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: color 0.3s ease, transform 0.2s;
+
+    &:hover {
+        color: var(--brand-social); // Màu hồng khi hover
+        transform: scale(1.1);
+    }
+}
+
+.icon {
+    font-size: 24px;
+    &:hover {
+        color: var(--brand-social); // Màu hồng khi hover
+        transform: scale(1.1);
+    }
+}
+
+.contact-info p {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+.submit-btn-wrapper {
+    display: flex;
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    margin-top: 16px; /* Thêm khoảng cách với input trên */
+}
+.lottie-container {
+    display: flex;
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center;
+    text-align: center; /* Căn giữa theo chiều dọc nếu cần */
+   max-width: 70%; /* Đảm bảo nó chiếm toàn bộ không gian của Col */
+    margin-bottom: 3px; /* Tạo khoảng cách giữa hộp thư và thông tin liên hệ */
+    cursor: pointer;
+    transition: transform 0.3s ease;
+
+    &:hover {
+        transform: scale(1.1); // Phóng to nhẹ khi hover
+       // opacity: 0.8;
+    }
+
+    
+}
+
+@media (max-width: 1024px) {
+    .lottie-container {
+        max-width:90%; /* Tăng kích thước trên mobile */
+    }
+}
+
+/* Điều chỉnh kích thước trên màn hình nhỏ */
+@media (max-width: 768px) {
+    .lottie-container {
+        max-width:40%; /* Tăng kích thước trên mobile */
+    }
+}
+
+@media (max-width: 576px) {
+    .lottie-container {
+        max-width:50%; /* Tăng kích thước trên mobile */
+    }
+}

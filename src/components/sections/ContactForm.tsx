@@ -8,6 +8,10 @@ import { useTranslation } from "react-i18next";
 import emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+// import { Col } from "react-bootstrap";
+// import AnimationLottie from "@/components/share/animation-lottie";
+// import { CONTACT_LOTTIE } from "assets/lottie/string/contact";
+import ResizeButton from "components/sections/resize.button";
 
 //toast.configure(); // Cấu hình toast một lần trong component
 
@@ -31,10 +35,10 @@ const ContactForm = () => {
     const handleSendMail = async (e: React.FormEvent) => {
         e.preventDefault();
 
-        // if (!userInput.email || !userInput.message || !userInput.name) {
-        //     toast.error("Vui lòng điền đầy đủ thông tin!");
-        //     return;
-        // }
+        if (!userInput.email || !userInput.message || !userInput.name) {
+            toast.error(t("toast.required"));
+            return;
+        }
 
         setIsLoading(true);
 
@@ -71,7 +75,10 @@ const ContactForm = () => {
                 <p className="description">{t("contact.title3")}</p>
 
                 <div className="input-group">
-                    <label>{t("contact.name")}</label>
+                    <label>
+                        {t("contact.name")}
+                        <span className="required">{t("contact.required")}</span>
+                    </label>
                     <input
                         type="text"
                         value={userInput.name}
@@ -81,7 +88,10 @@ const ContactForm = () => {
                 </div>
 
                 <div className="input-group">
-                    <label>{t("contact.mail")}</label>
+                    <label>
+                        {t("contact.mail")}
+                        <span className="required">{t("contact.required")}</span>
+                    </label>
                     <input
                         type="email"
                         value={userInput.email}
@@ -91,7 +101,10 @@ const ContactForm = () => {
                 </div>
 
                 <div className="input-group">
-                    <label>{t("contact.mes")}</label>
+                    <label>
+                        {t("contact.mes")}
+                        <span className="required">{t("contact.required")}</span>
+                    </label>
                     <textarea
                         rows={4}
                         value={userInput.message}
@@ -100,16 +113,34 @@ const ContactForm = () => {
                     />
                 </div>
 
-                <button className="submit-btn" type="submit" disabled={isLoading}>
-                    {isLoading ? (
-                        t("toast.mes")
-                    ) : (
-                        <>
-                            {t("contact.send")}&nbsp;
-                            <TbMailForward />
-                        </>
-                    )}
-                </button>
+                <div className="submit-btn-wrapper">
+                    <ResizeButton
+                        btnText={isLoading ? t("toast.mes") : t("contact.send")}
+                        btnIcons={!isLoading && <TbMailForward />}
+                        btnStyle={{
+                            background: "linear-gradient(90deg, #ff416c, #8d4fff)",
+                            color: "#fff",
+                            border: "none",
+                            padding: "15px 25px",
+                            borderRadius: "50px",
+                            fontSize: "16px",
+                            display: "flex",
+                            alignItems: "center",
+                            gap: "10px",
+                            justifyContent: "center",
+                            cursor: isLoading ? "not-allowed" : "pointer",
+                            opacity: isLoading ? 0.7 : 1,
+                            width: "auto", // Để nút tự động co lại theo nội dung
+                            fontWeight: "bold",
+                            minWidth: "120px",
+                        }}
+                        // onClick={
+                        //     !isLoading
+                        //         ? () => handleSendMail(new Event("submit") as unknown as React.FormEvent)
+                        //         : undefined
+                        // }
+                    />
+                </div>
 
                 {/* Thêm ToastContainer để hiển thị thông báo */}
                 <ToastContainer />

@@ -37,6 +37,8 @@ a {
     }
 }
 
+
+
 body {
     padding-top: 60px;
     background-color: var(--background-body);
@@ -77,6 +79,15 @@ body {
     color: var(--text-white);
 }
 
+.social-icon {
+    padding: 5px;
+    transition: transform 0.3s ease, color 0.3s ease;
+
+    &:hover {
+        transform: scale(1.3); /* Phóng to khi hover */
+    }
+}
+
 .resize-button {
     display: flex;
     align-items: center;
@@ -89,10 +100,12 @@ body {
     text-decoration: none;
     border: none;
     font-weight: 600;
+    transition: transform 0.3s ease-in-out; /* Tạo hiệu ứng mượt */
 
     &:hover {
-        gap: 10px;
-        text-decoration: none;
+        //gap: 10px;
+       
+        transform: translateX(5px); 
     }
 }
 
@@ -172,6 +185,7 @@ body {
 
     &:hover {
         border-color: var(--brand-social);
+        
     }
 }
 

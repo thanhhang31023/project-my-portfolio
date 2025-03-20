@@ -51,13 +51,16 @@
         "mes": "Tin nhắn:",
         "send": "Gửi tin nhắn ",
         "title2": "Liên hệ với tôi",
-        "title3": "Hãy liên hệ với tôi nếu bạn có bất kỳ câu hỏi hay cơ hội hợp tác nào!"
+        "title3": "Hãy liên hệ với tôi nếu bạn có bất kỳ câu hỏi hay cơ hội hợp tác nào!",
+        "required": "(*Bắt buộc)"
+
 
 
     },
     "toast": {
             "success": "Tin nhắn đã được gửi thành công! Vui lòng kiểm tra hộp thư đến, thư rác hoặc spam của bạn.",
             "error": "Gửi tin nhắn thất bại!",
-            "mes":"Đang gửi tin nhắn..."
+            "mes":"Đang gửi tin nhắn...",
+            "required": "Vui lòng nhập đầy đủ thông tin!"
           }
 }
