@@ -73,7 +73,7 @@ const Introduction = () => {
             
             <Row>   
                 <Col md={6} xs={12}
-                    className="d-none d-md-flex align-items-center justify-content-center mt-md-5 mt-3"
+                    className="d-flex align-items-center justify-content-center d-md-flex align-items-center justify-content-center mt-md-5 mt-3"
                 >
                     <AnimationLottie
                         width="50%"

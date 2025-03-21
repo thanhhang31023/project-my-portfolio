@@ -1,15 +1,16 @@
-import { Col, Row } from "react-bootstrap";
-import AnimationLottie from "@/components/share/animation-lottie";
+import { Col,Container, Row } from "react-bootstrap";
+//import AnimationLottie from "@/components/share/animation-lottie";
 import { useTranslation } from "react-i18next";
 
 import avatarImg1 from "assets/about.jpg";
-import { DEVELOPMENT_LOTTIE } from "assets/lottie/string/development";
-import { CONTACT_LOTTIE } from "assets/lottie/string/contact";
-import GlowCard from "components/share/glow-card";
-import { FaGraduationCap } from "react-icons/fa6";
+//import { DEVELOPMENT_LOTTIE } from "assets/lottie/string/development";
+//import { CONTACT_LOTTIE } from "assets/lottie/string/contact";
+//import GlowCard from "components/share/glow-card";
+//import { FaGraduationCap } from "react-icons/fa6";
 import Divider from "components/sections/divider";
-import { APP_DATA } from "helpers/data";
-import SocialMedia from "components/sections/social.media";
+//import { APP_DATA } from "helpers/data";
+//import SocialMedia from "components/sections/social.media";
+import Experience from "@/components/sections/experience";
 
 const About = () => {
     const { t } = useTranslation();
@@ -88,7 +89,15 @@ const About = () => {
                 </Col>
             </Row>
 
-            <Row>
+            <Divider />
+   <section>
+                <Container>
+                    <Experience />
+                </Container>
+            </section>
+
+            {/* <Row>
+                
                 <Col md={6} xs={12} className="d-none d-md-flex align-items-center justify-content-center mt-md-5 mt-3">
                     <AnimationLottie
                         width="50%"
@@ -124,10 +133,10 @@ const About = () => {
                         </div>
                     </div>
                 </Col>
-            </Row>
+            </Row> */}
 
             <Divider />
-            <Row>
+            {/* <Row>
                 <Col md={6} xs={12} className=" mt-md-5 mt-3">
                     <h3 className="mb-md-5 mb-2">FIND ME ON </h3>
                     <SocialMedia
@@ -147,7 +156,7 @@ const About = () => {
                     />
                     <h4 className="text-center">Contact me</h4>
                 </Col>
-            </Row>
+            </Row> */}
             <div className="mb-5"></div>
         </>
     );

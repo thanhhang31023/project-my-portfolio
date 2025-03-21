@@ -305,11 +305,13 @@ body {
     display: flex;
     flex-direction: column;
     gap: 1.5rem; // Tạo khoảng cách giữa các phần nội dung
+ 
 }
 
 .about-content {
     max-width: 100%; // Giới hạn chiều rộng để nội dung không quá dài
     margin: 0 auto; // Căn giữa nội dung
+    margin-bottom: 50px;
 }
 
 .about-image {

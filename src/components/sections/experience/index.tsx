@@ -21,6 +21,7 @@ const Experience = () => {
             <Col xs={12} className="my-3 my-md-5">
                 <div className="text-center">
                     <h3>{t("experience.title")}</h3>
+                    <p>{t("experience.title2")}</p>
                 </div>
             </Col>
             <Col md={6} xs={12} className="d-flex align-items-center justify-content-center">
@@ -52,6 +53,7 @@ const Experience = () => {
                                             <div className="info">
                                                 <p className="title">{experience.title[currentLanguage]}</p>
                                                 <p className="company">{experience.company[currentLanguage]}</p>
+                                                <p className="company">{experience.company2[currentLanguage]}</p>
                                             </div>
                                         </div>
                                     </div>

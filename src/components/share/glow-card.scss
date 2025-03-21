@@ -119,7 +119,7 @@
         justify-content: center;
 
         p {
-            color: var(--text-pink-100);
+            color: var(--text-yellow-500);
             margin: 0;
             font-weight: 600;
         }
@@ -152,7 +152,8 @@
                 text-transform: uppercase;
 
                 &.title {
-                    font-size: 1rem;
+                    font-size: 1.2rem;
+                    color: var(--text-green-500);
                 }
 
                 &.company {
