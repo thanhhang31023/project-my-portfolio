@@ -1,6 +1,8 @@
 import { Col, Row } from "react-bootstrap";
 import AnimationLottie from "@/components/share/animation-lottie";
-//import codingJSON from 'assets/lottie/coding.json';
+import { useTranslation } from "react-i18next";
+
+import avatarImg1 from "assets/about.jpg";
 import { DEVELOPMENT_LOTTIE } from "assets/lottie/string/development";
 import { CONTACT_LOTTIE } from "assets/lottie/string/contact";
 import GlowCard from "components/share/glow-card";
@@ -10,43 +12,84 @@ import { APP_DATA } from "helpers/data";
 import SocialMedia from "components/sections/social.media";
 
 const About = () => {
+    const { t } = useTranslation();
     return (
         <>
-            <Row>
-                <Col md={6} xs={12}>
-                    <h3 className="text-center mb-md-5 mb-2">Know Who <span className="brand-red">I'M</span> </h3>
-                    <div>
-                        <div>
-                            <p> Hi Everyone, I am HANG.</p>
+            {/* Ảnh đại diện ở trên */}
+            <Row className="d-flex justify-content-center text-center">
+                <Col xs={12} md={6}>
+                    <img src={avatarImg1} className="about-image" alt="avatar" />
+                </Col>
+            </Row>
 
-                           
-                        </div>
-                    </div>
-                    <div>
-                        <p>Apart from coding, some other activities that I love to do!
+            {/* Nội dung giới thiệu nằm dưới ảnh */}
+            <Row className="about-content">
+                <Col xs={12}>
+                    <h3 className="text-center mb-4">
+                        {" "}
+                        <span className="brand-red"></span>
+                    </h3>
 
-                        </p>
-                        <ul>
-                            <li>Learning</li>
-                           
-                        </ul>
-                    </div>
-                    <div>
-                        <p className="text-center brand-red">"Comming soon"</p>
-                     
-                    </div>
-                </Col >
-                {/* <Col md={6} xs={12} className="d-flex align-items-center justify-content-center">
-                    <AnimationLottie
-                        width="80%"
-                       // animationPath={codingJSON} />
-                </Col> */}
+                    <p>
+                        {t("about.p1")} <strong>{t("about.p2")}</strong>{t("about.li55")}  {t("about.p3")}{" "}
+                        <strong>{t("about.p4")}</strong>
+                        {t("about.p44")}
+                    </p>
+                    <p>{t("about.p5")}</p>
+
+                    <h5>💡 {t("about.h1")}</h5>
+                    <ul>
+                        <li>
+                            {t("about.li1")} <strong>{t("about.li2")}</strong>
+                            {t("about.li222")}
+                        </li>
+                        <li>
+                            {t("about.li3")} <strong>{t("about.li4")}</strong> {t("about.li5")}
+                        </li>
+                    </ul>
+
+                    <h5>🚀 {t("about.h2")}</h5>
+                    <ul>
+                        <li>
+                            {t("about.li6")}
+                            <strong>{t("about.li7")}</strong> {t("about.li8")} <strong>{t("about.li9")}</strong>{t("about.li99")}
+                        </li>
+                        <li>
+                            {t("about.li10")} <strong>5 {t("about.li11")}</strong> {t("about.li12")}
+                        </li>
+                        <li>
+                            {t("about.li13")}
+                            <strong> UI/UX</strong>{t("about.li55")} {t("about.li15")}
+                        </li>
+                    </ul>
+
+                    <h5>🎯 {t("about.h3")}</h5>
+                    <ul>
+                        <li>
+                            🔹 <strong>{t("about.li16")}</strong>: {t("about.li17")}<strong>{t("about.li18")}</strong>{t("about.li55")}{" "}
+                            {t("about.li19")}
+                            <strong> {t("about.li20")} </strong>
+                            {t("about.li21")}
+                        </li>
+                        <li>
+                            🔹 <strong>{t("about.li22")}</strong>: {t("about.li23")} <strong>{t("about.li24")}</strong>{t("about.li55")}                            {t("about.li25")}
+                        </li>
+                        <li>
+                            🔹 <strong>{t("about.li26")}</strong>: {t("about.li27")} <strong>{t("about.li28")}</strong>{t("about.li55")}{" "}
+                            {t("about.li29")}
+                            <strong>{t("about.li30")} </strong>{t("about.li31")}
+                            <strong> {t("about.li32")}</strong> {t("about.li322")}{t("about.li55")}{t("about.li33")} 
+                        </li>
+                    </ul>
+
+                    <p className="text-center brand-red journey-quote">
+                        <strong>"{t("about.quote")}!"</strong>
+                    </p>
+                </Col>
             </Row>
 
             <Row>
-                <Col md={6} xs={12}
-                    className="d-none d-md-flex align-items-center justify-content-center mt-md-5 mt-3"
-                >
+                <Col md={6} xs={12} className="d-none d-md-flex align-items-center justify-content-center mt-md-5 mt-3">
                     <AnimationLottie
                         width="50%"
                         //animation with rp => convert sang text
@@ -56,7 +99,9 @@ const About = () => {
                 </Col>
                 <Col md={6} xs={12} className="mt-md-5 mt-3">
                     <div className="d-flex flex-column align-items-center gap-3">
-                        <div><h4 className="text-center brand-red">Education</h4></div>
+                        <div>
+                            <h4 className="text-center brand-red">Education</h4>
+                        </div>
                         <div>
                             <GlowCard identifier={`experience-5`}>
                                 <div className="p-3 relative">
@@ -86,13 +131,13 @@ const About = () => {
                 <Col md={6} xs={12} className=" mt-md-5 mt-3">
                     <h3 className="mb-md-5 mb-2">FIND ME ON </h3>
                     <SocialMedia
-                    github={APP_DATA.GITHUB_URL}
-                    email={APP_DATA.EMAIL}
-                    phone={APP_DATA.PHONE}
-                    line={APP_DATA.LINE_URL}
-                    facebook={APP_DATA.FACEBOOK_URL}
-                />
-                </Col >
+                        github={APP_DATA.GITHUB_URL}
+                        email={APP_DATA.EMAIL}
+                        phone={APP_DATA.PHONE}
+                        line={APP_DATA.LINE_URL}
+                        facebook={APP_DATA.FACEBOOK_URL}
+                    />
+                </Col>
                 <Col md={6} xs={12} className="d-flex flex-column align-items-center justify-content-center">
                     <AnimationLottie
                         width="50%"
@@ -105,7 +150,7 @@ const About = () => {
             </Row>
             <div className="mb-5"></div>
         </>
-    )
-}
+    );
+};
 
 export default About;

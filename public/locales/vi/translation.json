@@ -71,5 +71,63 @@
           },
           "appFooter": {
             "slogan":"Thiết kế giao diện, nâng tầm trải nghiệm – Code là nghệ thuật, giao diện là linh hồn!"
+},
+"about": {
+    "p1":"Xin chào! Mình là",
+    "p2":"HẰNG",
+    "p3":"một người yêu thích lập trình và đang trên hành trình trở thành",
+   
+    "p4":"Frontend Developer.",
+    "p44":"",
+    "p5":"Trong lĩnh vực lập trình, mình bị thu hút nhất bởi Frontend vì đây là nơi công nghệ gặp gỡ sáng tạo.",
+    "h1":"Vì sao mình chọn Frontend?",
+    "h2":"Hành trình của mình",
+"h3":"Mục tiêu trong 10 năm tới",
+
+"quote":"Hành trình chỉ mới bắt đầu, nhưng với sự kiên trì và nỗ lực, mình tin rằng sẽ đạt được mục tiêu",
+
+"li1":"Mình yêu thích sự sáng tạo và muốn tạo ra những giao diện",
+"li2":"đẹp, trực quan, dễ sử dụng.",
+"li222":"",
+"li3":"Đối với mình,",
+"li4":"code không chỉ là kỹ thuật mà còn là nghệ thuật - ",
+"li5":"nơi mà mỗi chi tiết nhỏ trên giao diện đều ảnh hưởng đến trải nghiệm người dùng.",
+"li6":"Từ tháng 1/2025, mình tập trung ",
+"li7":"học Frontend",
+"li8":"một cách bài bản với mục tiêu",
+"li9":"ứng tuyển công việc đầu tiên vào tháng 7/2025.",
+"li99":"",
+"li10":"Để đạt được điều đó, mình đang xây dựng",
+"li11":"dự án thực tế",
+"li12": "để rèn luyện kỹ năng và hoàn thiện portfolio cá nhân.",
+    "li13": "Ngoài lập trình, mình cũng quan tâm đến",
+    "li14": "UI/UX",
+    "li15": "vì mình tin rằng một giao diện tốt không chỉ đẹp mà còn phải dễ sử dụng.",
+    "li55":",",
+
+ 
+   
+    "li16": "5 năm đầu (2025 - 2030)",
+    "li17": "Trở thành một",
+    "li18": " Frontend Developer chuyên nghiệp",
+    "li19": "có thể xây dựng các ứng dụng web hiện đại và tối ưu trải nghiệm người dùng. Đồng thời, học song song",
+    "li20": " Backend Development",
+    "li21": "để mở rộng kiến thức và kỹ năng.",
+    
+    "li22": "5 năm tiếp theo (2030 - 2035)",
+    "li23": "Phát triển thành một",
+    "li24": "Backend Developer chuyên nghiệp",
+    "li25": "nắm vững hệ thống máy chủ, cơ sở dữ liệu và các API để xây dựng hệ thống hoàn chỉnh.",
+    
+    "li26": "Mục tiêu cuối cùng",
+    "li27": "Trở thành một",
+    "li28": " Fullstack Developer",
+    "li29": "có thể làm chủ cả",
+    "li30": " Frontend",
+    "li31": "và",
+    "li32": "Backend",
+    "li322":"",
+    "li33": " xây dựng và phát triển những sản phẩm web hoàn chỉnh từ giao diện đến hệ thống phía sau."
+
 }
 }

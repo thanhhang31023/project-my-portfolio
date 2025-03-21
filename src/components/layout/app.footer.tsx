@@ -8,7 +8,7 @@ const AppFooter = () => {
             {t("appFooter.slogan")}
             </p>
             <p className="text-gray-400 text-sm mt-2">
-                Copyright © {new Date().getFullYear()} Hang dev front end.
+                Copyright © {new Date().getFullYear()} Hang dev front end
             </p>
         </div>
     );
