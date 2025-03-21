@@ -68,5 +68,8 @@
             "error": "Gửi tin nhắn thất bại!",
             "mes":"Đang gửi tin nhắn...",
             "required": "Vui lòng nhập đầy đủ thông tin!"
-          }
+          },
+          "appFooter": {
+            "slogan":"Thiết kế giao diện, nâng tầm trải nghiệm – Code là nghệ thuật, giao diện là linh hồn!"
+}
 }
