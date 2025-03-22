@@ -23,9 +23,10 @@ const Project = () => {
             >
                 {PROJECTS?.map(item => {
                     return (
-                        <Col md={4} className="project-card" key={item.id}>
+                        <Col xs={12} sm={6} md={4} className="project-card mb-4" key={item.id}>
+
                             <ProjectCard
-                                imgPath={item.imgPath}
+                                 images={item. images}
                                 title={item.title}
                                 description={item.description}
                                 githubLink={item.githubLink}

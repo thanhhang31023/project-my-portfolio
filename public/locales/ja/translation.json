@@ -44,6 +44,17 @@
     "title3": " などのオンライン学習プラットフォームで習得したフロントエンドの知識を活かし、",
     "title4": "以下のプロジェクトを制作しました。"
 },
+"projects": {
+  "todo": {
+    "title": "To-do アプリ",
+    "description": "日常のタスクを効率的に管理するアプリです。"
+  }},
+  "projectModal": {
+  "techTitle": "使用した技術",
+  "close": "閉じる",
+  "detail":"✨詳細を見る"
+}
+,
 
     "experience": {
         "title": "職歴",

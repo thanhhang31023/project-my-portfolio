@@ -53,6 +53,44 @@
         "title3":",...Tôi đã áp dụng vào thực tế và thực hiện các dự án dưới đây.",
         "title4": ""
     },
+
+
+
+    "projects": {
+"portfolio": {
+    "title": "Portfolio cá nhân - (React+Typescript)",
+    "description": "Trang web giới thiệu bản thân và dự án của bạn một cách chuyên nghiệp."
+},
+  "todo": {
+    "title": "Ứng dụng To-do - (React+Typescript)",
+    "description": "Ứng dụng quản lý công việc hàng ngày của bạn một cách hiệu quả."
+  },
+  "library": {
+    "title": "Thư viện sách - (Javascript)",
+    "description": "Trang web giới thiệu các cuốn sách hay và phổ biến."
+  },
+  "todo2": {
+    "title": "Ứng dụng To-do - (Javascript)",
+    "description": "Ứng dụng quản lý công việc hàng ngày của bạn một cách hiệu quả."
+  },
+  "mart": {
+    "title": "Trang web thương mại - (HTML+SaSS+Javascript)",
+    "description": "Trang web giới thiệu và bán các sản phẩm điện tử."
+  },
+  "landing": {
+    "title": "Trang landing page - (HTML+CSS)",
+    "description": "Trang web giới thiệu sản phẩm hoặc dịch vụ của bạn."
+  }
+},
+"projectModal": {
+  "techTitle": "Công nghệ sử dụng",
+  "close": "Đóng",
+  "detail":"✨Chi tiết dự án"
+}
+,
+
+
+
     "contact": {
         "title": "LIÊN HỆ",
         

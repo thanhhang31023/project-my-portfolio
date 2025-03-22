@@ -95,15 +95,15 @@ function AppHeader() {
                                 }, 100);
                             }}
                         >
-                            {t("appHeader.home")}
+                            🏠{t("appHeader.home")}
                         </NavLink>
 
                         <NavLink className="nav-link" to="/project" onClick={() => window.scrollTo(0, 0)}>
-                            {t("appHeader.project")}
+                        📂{t("appHeader.project")}
                         </NavLink>
 
                         <NavLink className="nav-link" to="/about" onClick={() => window.scrollTo(0, 0)}>
-                            {t("appHeader.about")}
+                            💁‍♀️{t("appHeader.about")}
                         </NavLink>
 
                         {/* Liên hệ - Chỉ sáng khi đã cuộn xuống phần Contact */}
@@ -112,7 +112,7 @@ function AppHeader() {
                             to="/#contact"
                             onClick={scrollToContact}
                         >
-                            {t("appHeader.contact")}
+                            📬{t("appHeader.contact")}
                         </NavLink>
                     </Nav>
 

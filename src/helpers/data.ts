@@ -1,9 +1,9 @@
-import nestImg from 'assets/project/nestjs.png';
-import nextjsImg from 'assets/project/nextjs.png';
-import reactNativeImg from 'assets/project/react-native.png';
-import reactUltimateImg from 'assets/project/react-ultimate.png';
-import springMvcImg from 'assets/project/spring-mvc.png';
-import springRestImg from 'assets/project/spring-rest.png';
+// import nestImg from 'assets/project/nestjs.png';
+// import nextjsImg from 'assets/project/nextjs.png';
+// import reactNativeImg from 'assets/project/react-native.png';
+// import reactUltimateImg from 'assets/project/react-ultimate.png';
+// import springMvcImg from 'assets/project/spring-mvc.png';
+// import springRestImg from 'assets/project/spring-rest.png';
 
 export const APP_DATA = {
     GITHUB_URL: "https://github.com/thanhhang31023?tab=repositories",
@@ -76,49 +76,73 @@ export const EXPERIENCES = [
 export const PROJECTS = [
     {
         id: 1,
-        imgPath: reactNativeImg,
-        title: "Comming soon",
-        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        images: [
+            "/projects/spring-rest.png",
+            "/projects/nestjs.png",
+            "/projects/spring-mvc.png"
+          ],
+        title: "projects.portfolio.title",
+        description: "projects.portfolio.description",
         githubLink: "https://github.com/thanhhang31023?tab=repositories",
         demoLink: "https://github.com/thanhhang31023?tab=repositories"
     },
     {
         id: 2,
-        imgPath: springRestImg,
-        title: "Comming soon",
-        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        images: [
+            "/projects/spring-rest.png",
+            "/projects/nestjs.png",
+            "/projects/spring-mvc.png"
+          ],
+        title: "projects.todo.title",
+        description: "projects.todo.description",
         githubLink: "https://github.com/thanhhang31023?tab=repositories",
         demoLink: "https://github.com/thanhhang31023?tab=repositories"
     },
     {
         id: 3,
-        imgPath: springMvcImg,
-        title: "Comming soon",
-        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        images: [
+            "/projects/spring-rest.png",
+            "/projects/nestjs.png",
+            "/projects/spring-mvc.png"
+          ],
+        title: "projects.library.title",
+        description: "projects.library.description",
         githubLink: "https://github.com/thanhhang31023?tab=repositories",
         demoLink: "https://github.com/thanhhang31023?tab=repositories"
     },
     {
         id: 4,
-        imgPath: nextjsImg,
-        title: "Comming soon",
-        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        images: [
+            "/projects/spring-rest.png",
+            "/projects/nestjs.png",
+            "/projects/spring-mvc.png"
+          ],
+        title: "projects.todo2.title",
+        description: "projects.todo2.description",
         githubLink: "https://github.com/thanhhang31023?tab=repositories",
         demoLink: "https://github.com/thanhhang31023?tab=repositories"
     },
     {
         id: 5,
-        imgPath: nestImg,
-        title: "Comming soon",
-        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        images: [
+            "/projects/spring-rest.png",
+            "/projects/nestjs.png",
+            "/projects/spring-mvc.png"
+          ],
+        title: "projects.mart.title",
+        description: "projects.mart.description",
         githubLink: "https://github.com/thanhhang31023?tab=repositories",
         demoLink: "https://github.com/thanhhang31023?tab=repositories"
     },
     {
         id: 6,
-        imgPath: reactUltimateImg,
-        title: "Comming soon",
-        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        images: [
+            "/projects/spring-rest.png",
+            "/projects/nestjs.png",
+            "/projects/spring-mvc.png"
+          ],
+        title: "projects.landing.title",
+        description: "projects.landing.description",
         githubLink: "https://github.com/thanhhang31023?tab=repositories",
         demoLink: "https://github.com/thanhhang31023?tab=repositories"
     }
