@@ -32,6 +32,8 @@ $spacers: (
 }
 
 a {
+    text-decoration: none;
+  
     &.highlight {
         color: var(--brand-social);
     }
@@ -109,16 +111,104 @@ body {
     }
 }
 
+.nav-text:not(.theme) {
+    position: relative;
+
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    padding-bottom:15px;
+//display:block; /* Giữ cho chỉ chiếm không gian của chữ */
+    transition: color 0.3s ease-in-out;
+}
+.nav-text:not(.theme)::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -3px; /* Điều chỉnh vị trí gạch chân */
+    width: 0%; /* Ban đầu không có gạch chân */
+    height: 2px;
+    background: #7884db; /* Màu vàng */
+    transform: translateX(-50%); /* Căn giữa gạch chân */
+    transition: width 0.3s ease-in-out;
+}
+
+.nav-text:not(.theme):hover::after{
+    width: 100%;
+}
+
+
+.nav-link {
+    display: inline-block!important;
+}
+
 // /* Ngăn sáng lên khi đang ở trang đó */
 .nav-link.disable-active {
     color: inherit !important; /* Giữ nguyên màu mặc định */
     font-weight: normal !important;
 }
 
+///* Hiệu ứng underline khi hover */
+.nav-link::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -3px; /* Điều chỉnh vị trí gạch chân */
+    width: 0%; /* Bắt đầu với độ rộng bằng 0 */
+    height: 2px;
+    background: #7884db;
+    transform: translateX(-50%); /* Căn giữa gạch chân với chữ */
+    transition: width 0.3s ease-in-out;
+}
+
+.nav-link:hover::after {
+    width: auto; /* Khi hover, gạch chân mở rộng ra đúng kích thước chữ */
+}
+
+
 /* Chỉ sáng lên khi hover */
 .nav-link:hover {
     color: #ff69b4 !important; /* Màu khi hover */
 }
+
+/* Định dạng chung cho link navbar */
+.nav-link {
+    position: relative;
+  
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 15px;
+    display: inline-block; /* Giữ cho chỉ chiếm không gian của chữ */
+    transition: color 0.3s ease-in-out;
+}
+
+/* Hiệu ứng underline chỉ xuất hiện dưới chữ */
+.nav-link::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -3px; /* Điều chỉnh vị trí gạch chân */
+    width: 0%; /* Ban đầu không có gạch chân */
+    height: 2px;
+    background: #7884db; /* Màu vàng */
+    transform: translateX(-50%); /* Căn giữa gạch chân */
+    transition: width 0.3s ease-in-out;
+}
+
+/* Hover vào sẽ hiển thị gạch chân */
+.nav-link:hover::after {
+    width: 100%; /* Mở rộng gạch chân ra đúng kích thước chữ */
+}
+
+/* Khi active, giữ gạch chân */
+.nav-link.active::after {
+    width: 100%;
+}
+
+/* Khi active, đổi màu chữ */
+ 
+
 
 .divider {
     height: 1px;
@@ -359,4 +449,55 @@ body {
     font-size: 1.25rem;
     font-weight: bold;
     color: #82bfe5; // Màu nhấn cho tiêu đề
+}
+
+
+.project-description {
+    max-width: 800px;
+    margin: auto;
+    font-size: 1.15rem;
+    line-height: 1.8;
+    color: #c0c0c0;
+    text-align: center;
+}
+
+/* CSS cho các liên kết */
+.project-link {
+    color: #4da6ff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out, text-decoration 0.3s ease-in-out;
+    position: relative;
+}
+
+.project-link:hover {
+    color: #ffcc00;
+}
+
+// .project-link::after {
+//     content: '';
+//     position: absolute;
+//     left: 0;
+//     bottom: -2px;
+//     width: 100%;
+//     height: 2px;
+//     background: #ffcc00;
+//     transform: scaleX(0);
+//     transition: transform 0.3s ease-in-out;
+// }
+
+// .project-link:hover::after {
+//     transform: scaleX(1);
+// }
+.project-header {
+    margin-bottom: 20px;
+}
+
+.project-header h3 {
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
 }

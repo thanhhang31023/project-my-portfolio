@@ -11,7 +11,7 @@ import viFlag from "assets/svg/language/vi.svg";
 import jaFlag from "assets/svg/language/ja.svg";
 type ThemeContextType = "light" | "dark";
 import { useNavigate, useLocation } from "react-router-dom";
-//import { start } from "repl";
+
 
 function AppHeader() {
     const { theme, setTheme } = useCurrentApp();
@@ -124,12 +124,12 @@ function AppHeader() {
     {theme === "light" ? (
         <>
             <MdOutlineLightMode style={{ fontSize: 20 }} />
-            <span className="nav-text">{t("appHeader.darkMode")}</span>
+            <span className="nav-text theme">{t("appHeader.darkMode")}</span>
         </>
     ) : (
         <>
             <MdNightlight style={{ fontSize: 20 }} />
-            <span className="nav-text">{t("appHeader.lightMode")}</span>
+            <span className="nav-text theme">{t("appHeader.lightMode")}</span>
         </>
     )}
 </div>
@@ -137,13 +137,13 @@ function AppHeader() {
 
                         <NavDropdown
                             title={
-                                <div className="d-flex align-items-center gap-2">
+                                <div className=" nav-text d-flex align-items-center gap-2">
                                     <img
                                         style={{ height: 20, width: 20 }}
                                         src={i18n.resolvedLanguage === "ja" ? jaFlag : viFlag}
                                         alt="lang"
                                     />
-                                    <span className="nav-text">{t("appHeader.language")}</span>
+                                    <span className="nav-text theme">{t("appHeader.language")}</span>
                                 </div>
                             }
                         >

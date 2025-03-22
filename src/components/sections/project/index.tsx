@@ -9,8 +9,13 @@ const Project = () => {
         <>
             <Row>
                 <Col xs={12}>
-                    <h3 className="text-center">{t("project.title")}My Recent <span className="brand-red">{t("project.title2")}</span> </h3>
-                    <h6 className="text-center mb-md-5 mb-2">{t("project.title3")}Here are a few projects I've worked on recently.</h6>
+                    <h3 className="text-center project-header ">{t("project.title")}</h3>
+                    <h6 className="text-center project-description mb-md-5 mb-2">{t("project.title2")}  &nbsp;
+                        <a className="project-link" href="https://www.udemy.com" target="_blank" rel="noopener noreferrer">Udemy</a>, &nbsp;
+                        <a className="project-link" href="https://fullstack.edu.vn/" target="_blank" rel="noopener noreferrer">F8-Fullstack</a>, &nbsp;
+                        <a className="project-link" href="https://hoidanit.vn/" target="_blank" rel="noopener noreferrer">Hỏi Dân IT</a>, &nbsp;
+                        <a className="project-link" href="https://edu.duthanhduoc.com/" target="_blank" rel="noopener noreferrer">Dư Thanh Dược</a>
+                        {t("project.title3")}{t("project.title4")}</h6>
                 </Col>
             </Row>
             <Row

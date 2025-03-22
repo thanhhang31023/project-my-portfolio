@@ -37,7 +37,8 @@
         "heading5": "Tôi luôn sẵn sàng học hỏi và thử thách bản thân để tạo ra các giao diện",
         "edu": "Học vấn",
         "job": "Khoa Công nghệ thông tin",
-        "school": "Trường cao đẳng kinh tế công nghệ Hà Nội"
+        "school": "Trường cao đẳng kinh tế công nghệ Hà Nội",
+        "school1":"(Hệ trực tuyến)"
     },
     "experience": {
         "title": "Kinh nghiệm làm việc",
@@ -47,7 +48,10 @@
         "title": "Kỹ năng"
     },
     "project": {
-        "title": "Dự án"
+        "title": "Những dự án gần đây của tôi",
+        "title2":"Từ những kiến thức Front End học được qua các kênh trực tuyến như",
+        "title3":",...Tôi đã áp dụng vào thực tế và thực hiện các dự án dưới đây.",
+        "title4": ""
     },
     "contact": {
         "title": "LIÊN HỆ",

@@ -99,6 +99,7 @@ const Introduction = () => {
                                             <div className="info">
                                                 <p className="title">{t("introSection.job")}</p>
                                                 <p className="company">{t("introSection.school")}</p>
+                                                <p className="company">{t("introSection.school1")}</p>
                                             </div>
                                         </div>
                                     </div>
