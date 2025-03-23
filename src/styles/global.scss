@@ -506,3 +506,13 @@ body {
     transform: scale(1.05);
     transition: 0.3s ease;
   }
+  .custom-link {
+    text-decoration: none;
+    color: var(--bs-primary); // hoặc bạn dùng màu cụ thể như #0d6efd
+    transition: color 0.3s;
+  }
+  
+  .custom-link:hover {
+    color: #66ccff;
+  }
+  

@@ -5,19 +5,18 @@
         "project": "Dự án",
         "contact": "Liên hệ",
         "about": "Chi tiết bản thân",
-        "darkMode" : "Chế độ tối",
-        "lightMode" : "Chế độ sáng",
+        "darkMode": "Chế độ tối",
+        "lightMode": "Chế độ sáng",
         "language": "Ngôn ngữ",
         "language1": "Tiếng Nhật",
         "language2": "Tiếng Việt"
-        
     },
     "heroSection": {
         "greeting": "Xin chào!",
         "im": "Tôi là",
-       
-        "after":"",
-        
+
+        "after": "",
+
         "job1": "Lập trình viên Frontend",
         "job2": "Tương lai lập trình viên Fullstack ",
         "job3": "Luôn học hỏi",
@@ -38,63 +37,89 @@
         "edu": "Học vấn",
         "job": "Khoa Công nghệ thông tin",
         "school": "Trường cao đẳng kinh tế công nghệ Hà Nội",
-        "school1":"(Hệ trực tuyến)"
+        "school1": "(Hệ trực tuyến)"
     },
     "experience": {
         "title": "Kinh nghiệm làm việc",
-        "title2":"💡 Tận dụng kinh nghiệm làm việc trước đây, tôi hướng đến việc phát triển dựa trên tư duy logic và tinh thần làm việc nhóm."
+        "title2": "💡 Tận dụng kinh nghiệm làm việc trước đây, tôi hướng đến việc phát triển dựa trên tư duy logic và tinh thần làm việc nhóm."
     },
     "skill": {
         "title": "Kỹ năng"
     },
     "project": {
         "title": "Những dự án gần đây của tôi",
-        "title2":"Từ những kiến thức Front End học được qua các kênh trực tuyến như",
-        "title3":",...Tôi đã áp dụng vào thực tế và thực hiện các dự án dưới đây.",
-        "title4": ""
-    },
+        "title2": "Từ những kiến thức Front End học được qua các kênh trực tuyến như",
+        "title3": ",...Tôi đã áp dụng vào thực tế và thực hiện các dự án dưới đây.",
+        "title4": "",
 
+        "portfolio": {
+            "title": "Portfolio cá nhân - (React＋Typescript)",
+            "description": "Website giới thiệu bản thân, kỹ năng và dự án, hỗ trợ chế độ sáng/tối, đa ngôn ngữ, gửi email qua EmailJS, trình chiếu ảnh và responsive trên mọi thiết bị."
+        },
+        "todo": {
+            "title": "Ứng dụng To-do - (React+Typescript)",
+            "description": "Ứng dụng quản lý công việc hàng ngày của bạn một cách hiệu quả."
+        },
+        "library": {
+            "title": "Thư viện sách - (Javascript)",
+            "description": "Trang web giới thiệu các cuốn sách hay và phổ biến."
+        },
+        "todo2": {
+            "title": "Ứng dụng To-do - (Javascript)",
+            "description": "Ứng dụng quản lý công việc hàng ngày của bạn một cách hiệu quả."
+        },
+        "mart": {
+            "title": "Trang web thương mại - (HTML+SaSS+Javascript)",
+            "description": "Trang web giới thiệu và bán các sản phẩm điện tử."
+        },
+        "landing": {
+            "title": "Trang landing page - (HTML+CSS)",
+            "description": "Trang web giới thiệu sản phẩm hoặc dịch vụ của bạn."
+        },
+    
+   
 
+        "modal": {
+            "demo": "Demo",
+            "demoLink": "Link demo dự án",
+            "sourceCode": "Link source code:",
+            "detailTitle": "Mô tả chi tiết",
+            "detailDescription": "Website portfolio cá nhân giới thiệu bản thân, kỹ năng và dự án.<br/>Một số tính năng chính:<br/>🔹 Giao diện đa trang<br/>🔹 Đa ngôn ngữ: Nhật – Việt<br/>🔹 Gửi email bằng EmailJS<br/>🔹 Responsive trên mọi thiết bị<br/>🔹 Hỗ trợ sáng/tối<br/>🔹 Tối ưu SEO<br/>🔹 Slide ảnh dự án<br/>🔹 Giao diện đẹp với React-Bootstrap",
 
-    "projects": {
-"portfolio": {
-    "title": "Portfolio cá nhân - (React+Typescript)",
-    "description": "Trang web giới thiệu bản thân và dự án của bạn một cách chuyên nghiệp."
-},
-  "todo": {
-    "title": "Ứng dụng To-do - (React+Typescript)",
-    "description": "Ứng dụng quản lý công việc hàng ngày của bạn một cách hiệu quả."
-  },
-  "library": {
-    "title": "Thư viện sách - (Javascript)",
-    "description": "Trang web giới thiệu các cuốn sách hay và phổ biến."
-  },
-  "todo2": {
-    "title": "Ứng dụng To-do - (Javascript)",
-    "description": "Ứng dụng quản lý công việc hàng ngày của bạn một cách hiệu quả."
-  },
-  "mart": {
-    "title": "Trang web thương mại - (HTML+SaSS+Javascript)",
-    "description": "Trang web giới thiệu và bán các sản phẩm điện tử."
-  },
-  "landing": {
-    "title": "Trang landing page - (HTML+CSS)",
-    "description": "Trang web giới thiệu sản phẩm hoặc dịch vụ của bạn."
-  }
-},
-"projectModal": {
-  "techTitle": "Công nghệ sử dụng",
-  "close": "Đóng",
-  "detail":"✨Chi tiết dự án"
-}
-,
+            "inspirationTitle": "Cảm hứng phát triển",
+            "inspirationDescription1": "Dự án xây dựng để ứng tuyển vị trí <strong>Frontend Developer</strong>, lấy cảm hứng từ portfolio như <a class='custom-link' href='https://www.hoidanit.xyz/'>Hỏi Dân IT</a>, <a class='custom-link' href='https://soumyajit.vercel.app/'>Soumyajit</a> và <a class='custom-link' href='https://abusaid.netlify.app/'>Abusaid</a>.",
+            "inspirationDescription2": "Đây là cơ hội để tôi thực hành và nâng cao kỹ năng <strong>React & Typescript</strong>.",
+            "technologiesTitle": "Công nghệ sử dụng",
+            "inspiration": "Đây là cơ hội để tôi thực hành và nâng cao kỹ năng <strong>React & Typescript</strong>.",
 
-
+            "tech": {
+                "core": "🚀 Công nghệ chính",
+                "ui": "🎨 Giao diện & UI",
+                "intl": "🌍 Quốc tế hóa & SEO",
+                "utils": "✉️ Tương tác & Tiện ích"
+            },
+            "whyTech": "Lý do lựa chọn công nghệ",
+            "why": {
+                "1": "<strong>React + Typescript</strong>: Phổ biến, mạnh mẽ, dễ mở rộng.",
+                "2": "<strong>Vite</strong>: Build cực nhanh, tối ưu hiệu suất.",
+                "3": "<strong>Sass, Tailwind CSS, React-Bootstrap</strong>: UI linh hoạt, dễ tùy chỉnh.",
+                "4": "<strong>i18next</strong>: Đa ngôn ngữ, phù hợp người dùng toàn cầu.",
+                "5": "<strong>EmailJS</strong>: Gửi email không cần backend.",
+                "6": "<strong>React Toastify</strong>: Thông báo nhanh, tiện lợi.",
+                "7": "<strong>React Router DOM</strong>: Điều hướng mượt mà.",
+                "8": "<strong>Lottie-react</strong>: Hiệu ứng sinh động.",
+                "9": "<strong>SEO meta tags</strong>: Cải thiện hiển thị tìm kiếm."
+            }
+        }},
+    
+    "projectModal": {
+        "techTitle": "Công nghệ sử dụng",
+        "close": "Đóng",
+        "detail": "✨Chi tiết dự án"},
 
     "contact": {
         "title": "LIÊN HỆ",
-        
-        
+
         "name": "Họ và tên:",
         "mail": "Email:",
         "mes": "Tin nhắn:",
@@ -102,75 +127,69 @@
         "title2": "Liên hệ với tôi",
         "title3": "Hãy liên hệ với tôi nếu bạn có bất kỳ câu hỏi hay cơ hội hợp tác nào!",
         "required": "(*Bắt buộc)"
-
-
-
     },
     "toast": {
-            "success": "Tin nhắn đã được gửi thành công! Vui lòng kiểm tra hộp thư đến, thư rác hoặc spam của bạn.",
-            "error": "Gửi tin nhắn thất bại!",
-            "mes":"Đang gửi tin nhắn...",
-            "required": "Vui lòng nhập đầy đủ thông tin!"
-          },
-          "appFooter": {
-            "slogan":"Thiết kế giao diện, nâng tầm trải nghiệm – Code là nghệ thuật, giao diện là linh hồn!"
-},
-"about": {
-    "p1":"Xin chào! Mình là",
-    "p2":"HẰNG",
-    "p3":"một người yêu thích lập trình và đang trên hành trình trở thành",
-   
-    "p4":"Frontend Developer.",
-    "p44":"",
-    "p5":"Trong lĩnh vực lập trình, mình bị thu hút nhất bởi Frontend vì đây là nơi công nghệ gặp gỡ sáng tạo.",
-    "h1":"Vì sao mình chọn Frontend?",
-    "h2":"Hành trình của mình",
-"h3":"Mục tiêu trong 10 năm tới",
+        "success": "Tin nhắn đã được gửi thành công! Vui lòng kiểm tra hộp thư đến, thư rác hoặc spam của bạn.",
+        "error": "Gửi tin nhắn thất bại!",
+        "mes": "Đang gửi tin nhắn...",
+        "required": "Vui lòng nhập đầy đủ thông tin!"
+    },
+    "appFooter": {
+        "slogan": "Thiết kế giao diện, nâng tầm trải nghiệm – Code là nghệ thuật, giao diện là linh hồn!"
+    },
+    "about": {
+        "p1": "Xin chào! Mình là",
+        "p2": "HẰNG",
+        "p3": "một người yêu thích lập trình và đang trên hành trình trở thành",
 
-"quote":"Hành trình chỉ mới bắt đầu, nhưng với sự kiên trì và nỗ lực, mình tin rằng sẽ đạt được mục tiêu",
+        "p4": "Frontend Developer.",
+        "p44": "",
+        "p5": "Trong lĩnh vực lập trình, mình bị thu hút nhất bởi Frontend vì đây là nơi công nghệ gặp gỡ sáng tạo.",
+        "h1": "Vì sao mình chọn Frontend?",
+        "h2": "Hành trình của mình",
+        "h3": "Mục tiêu trong 10 năm tới",
 
-"li1":"Mình yêu thích sự sáng tạo và muốn tạo ra những giao diện",
-"li2":"đẹp, trực quan, dễ sử dụng.",
-"li222":"",
-"li3":"Đối với mình,",
-"li4":"code không chỉ là kỹ thuật mà còn là nghệ thuật - ",
-"li5":"nơi mà mỗi chi tiết nhỏ trên giao diện đều ảnh hưởng đến trải nghiệm người dùng.",
-"li6":"Từ tháng 1/2025, mình tập trung ",
-"li7":"học Frontend",
-"li8":"một cách bài bản với mục tiêu",
-"li9":"ứng tuyển công việc đầu tiên vào tháng 7/2025.",
-"li99":"",
-"li10":"Để đạt được điều đó, mình đang xây dựng",
-"li11":"dự án thực tế",
-"li12": "để rèn luyện kỹ năng và hoàn thiện portfolio cá nhân.",
-    "li13": "Ngoài lập trình, mình cũng quan tâm đến",
-    "li14": "UI/UX",
-    "li15": "vì mình tin rằng một giao diện tốt không chỉ đẹp mà còn phải dễ sử dụng.",
-    "li55":",",
+        "quote": "Hành trình chỉ mới bắt đầu, nhưng với sự kiên trì và nỗ lực, mình tin rằng sẽ đạt được mục tiêu",
 
- 
-   
-    "li16": "5 năm đầu (2025 - 2030)",
-    "li17": "Trở thành một",
-    "li18": " Frontend Developer chuyên nghiệp",
-    "li19": "có thể xây dựng các ứng dụng web hiện đại và tối ưu trải nghiệm người dùng. Đồng thời, học song song",
-    "li20": " Backend Development",
-    "li21": "để mở rộng kiến thức và kỹ năng.",
-    
-    "li22": "5 năm tiếp theo (2030 - 2035)",
-    "li23": "Phát triển thành một",
-    "li24": "Backend Developer chuyên nghiệp",
-    "li25": "nắm vững hệ thống máy chủ, cơ sở dữ liệu và các API để xây dựng hệ thống hoàn chỉnh.",
-    
-    "li26": "Mục tiêu cuối cùng",
-    "li27": "Trở thành một",
-    "li28": " Fullstack Developer",
-    "li29": "có thể làm chủ cả",
-    "li30": " Frontend",
-    "li31": "và",
-    "li32": "Backend",
-    "li322":"",
-    "li33": " xây dựng và phát triển những sản phẩm web hoàn chỉnh từ giao diện đến hệ thống phía sau."
+        "li1": "Mình yêu thích sự sáng tạo và muốn tạo ra những giao diện",
+        "li2": "đẹp, trực quan, dễ sử dụng.",
+        "li222": "",
+        "li3": "Đối với mình,",
+        "li4": "code không chỉ là kỹ thuật mà còn là nghệ thuật - ",
+        "li5": "nơi mà mỗi chi tiết nhỏ trên giao diện đều ảnh hưởng đến trải nghiệm người dùng.",
+        "li6": "Từ tháng 1/2025, mình tập trung ",
+        "li7": "học Frontend",
+        "li8": "một cách bài bản với mục tiêu",
+        "li9": "ứng tuyển công việc đầu tiên vào tháng 7/2025.",
+        "li99": "",
+        "li10": "Để đạt được điều đó, mình đang xây dựng",
+        "li11": "dự án thực tế",
+        "li12": "để rèn luyện kỹ năng và hoàn thiện portfolio cá nhân.",
+        "li13": "Ngoài lập trình, mình cũng quan tâm đến",
+        "li14": "UI/UX",
+        "li15": "vì mình tin rằng một giao diện tốt không chỉ đẹp mà còn phải dễ sử dụng.",
+        "li55": ",",
 
-}
+        "li16": "5 năm đầu (2025 - 2030)",
+        "li17": "Trở thành một",
+        "li18": " Frontend Developer chuyên nghiệp",
+        "li19": "có thể xây dựng các ứng dụng web hiện đại và tối ưu trải nghiệm người dùng. Đồng thời, học song song",
+        "li20": " Backend Development",
+        "li21": "để mở rộng kiến thức và kỹ năng.",
+
+        "li22": "5 năm tiếp theo (2030 - 2035)",
+        "li23": "Phát triển thành một",
+        "li24": "Backend Developer chuyên nghiệp",
+        "li25": "nắm vững hệ thống máy chủ, cơ sở dữ liệu và các API để xây dựng hệ thống hoàn chỉnh.",
+
+        "li26": "Mục tiêu cuối cùng",
+        "li27": "Trở thành một",
+        "li28": " Fullstack Developer",
+        "li29": "có thể làm chủ cả",
+        "li30": " Frontend",
+        "li31": "và",
+        "li32": "Backend",
+        "li322": "",
+        "li33": " xây dựng và phát triển những sản phẩm web hoàn chỉnh từ giao diện đến hệ thống phía sau."
+    }
 }

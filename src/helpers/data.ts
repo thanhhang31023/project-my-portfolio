@@ -77,19 +77,26 @@ export const PROJECTS = [
     {
         id: 1,
         images: [
-            "/projects/spring-rest.png",
-            "/projects/nestjs.png",
-            "/projects/spring-mvc.png"
+            "/projects/react-native.png",
+            "/projects/po2.png",
+            "/projects/po3.png",
+            "/projects/po4.png",
+            "/projects/po5.png",
+            "/projects/po1.png",
+            "/projects/po6.png"
           ],
-        title: "projects.portfolio.title",
-        description: "projects.portfolio.description",
+        title: "project.portfolio.title",
+        description: "project.portfolio.description",
         githubLink: "https://github.com/thanhhang31023?tab=repositories",
         demoLink: "https://github.com/thanhhang31023?tab=repositories"
     },
     {
         id: 2,
         images: [
-            "/projects/spring-rest.png",
+            "/projects/po.png",
+            "/projects/nestjs.png",
+            "/projects/spring-mvc.png",
+           
             "/projects/nestjs.png",
             "/projects/spring-mvc.png"
           ],

@@ -5,8 +5,8 @@
         "project": "プロジェクト",
         "contact": "コンタクト",
         "about": "自己詳細",
-        "darkMode" : "ダークモード",
-        "lightMode" : "ライトモード",
+        "darkMode": "ダークモード",
+        "lightMode": "ライトモード",
         "language": "言語",
         "language1": "日本語",
         "language2": "ベトナム語"
@@ -36,53 +36,103 @@
         "edu": "学歴",
         "job": "情報技術学部",
         "school": " (通信制)  ハノイ  工業経済短期大学",
-        "school1":""
+        "school1": ""
     },
     "project": {
-        "title2":"",
-    "title": "最近取り組んだプロジェクト",
-    "title3": " などのオンライン学習プラットフォームで習得したフロントエンドの知識を活かし、",
-    "title4": "以下のプロジェクトを制作しました。"
-},
-"projects": {
-  "todo": {
-    "title": "To-do アプリ",
-    "description": "日常のタスクを効率的に管理するアプリです。"
-  }},
-  "projectModal": {
-  "techTitle": "使用した技術",
-  "close": "閉じる",
-  "detail":"✨詳細を見る"
-}
-,
+        "title2": "",
+        "title": "最近取り組んだプロジェクト",
+        "title3": " などのオンライン学習プラットフォームで習得したフロントエンドの知識を活かし、",
+        "title4": "以下のプロジェクトを制作しました。",
 
+        "portfolio": {
+            "title": "個人ポートフォリオ - (React＋Typescript)",
+            "description": "自己紹介、スキル、プロジェクトを紹介するウェブサイト。ライト/ダークモード、言語切替、スライドショー、EmailJS送信、全デバイス対応のレスポンシブデザインに対応。"
+        },
+        "todo": {
+            "title": "Ứng dụng To-do - (React+Typescript)",
+            "description": "Ứng dụng quản lý công việc hàng ngày của bạn một cách hiệu quả."
+        },
+        "library": {
+            "title": "Thư viện sách - (Javascript)",
+            "description": "Trang web giới thiệu các cuốn sách hay và phổ biến."
+        },
+        "todo2": {
+            "title": "Ứng dụng To-do - (Javascript)",
+            "description": "Ứng dụng quản lý công việc hàng ngày của bạn một cách hiệu quả."
+        },
+        "mart": {
+            "title": "Trang web thương mại - (HTML+SaSS+Javascript)",
+            "description": "Trang web giới thiệu và bán các sản phẩm điện tử."
+        },
+        "landing": {
+            "title": "Trang landing page - (HTML+CSS)",
+            "description": "Trang web giới thiệu sản phẩm hoặc dịch vụ của bạn."
+        },
+
+        "modal": {
+ 
+  "demoLink": "完成品のURL",
+  "sourceCode": "ソースコードのURL:",
+  "detailTitle": "詳細",
+  "detailDescription": "このポートフォリオサイトでは、自己紹介、スキル、プロジェクトを紹介しています。<br/>主な機能：<br/>🔹 マルチページ構成<br/>🔹 日本語・ベトナム語の多言語対応<br/>🔹 EmailJSでメール送信<br/>🔹 全デバイスに対応したレスポンシブデザイン<br/>🔹 ライト / ダークモード切替<br/>🔹 SEO最適化<br/>🔹 プロジェクト画像のスライド表示<br/>🔹 React-Bootstrapを活用した美しいUI",
+
+  "inspirationTitle": "開発のきっかけ",
+  "inspirationDescription1": "このプロジェクトは、<strong>フロントエンド開発職</strong>への応募を目的に構築され、<a class='custom-link' href='https://www.hoidanit.xyz/'>Hỏi Dân IT</a>、<a class='custom-link' href='https://soumyajit.vercel.app/'>Soumyajit</a>、<a class='custom-link' href='https://abusaid.netlify.app/'>Abusaid</a> などの有名なポートフォリオからインスピレーションを得ました。",
+  "inspirationDescription2": "このプロジェクトは<strong>React & Typescript</strong>の実践とスキルアップの機会でもあります。",
+  "technologiesTitle": "使用技術",
+  "inspiration": "このプロジェクトは、<strong>React と Typescript</strong>の実践とスキルアップの良い機会にもなりました。",
+
+  "tech": {
+    "core": "🚀 基本技術",
+    "ui": "🎨 UIとデザイン",
+    "intl": "🌍 国際化とSEO",
+    "utils": "✉️ インタラクションとユーティリティ"
+  },
+  "whyTech": "技術選定の理由",
+  "why": {
+    "1": "<strong>React + Typescript</strong>：一般的で強力、拡張性が高い。",
+    "2": "<strong>Vite</strong>：ビルドが非常に速く、パフォーマンスに優れる。",
+    "3": "<strong>Sass、Tailwind CSS、React-Bootstrap</strong>：柔軟でカスタマイズ可能なUI。",
+    "4": "<strong>i18next</strong>：多言語対応、グローバルユーザーに最適。",
+    "5": "<strong>EmailJS</strong>：バックエンド不要でメール送信可能。",
+    "6": "<strong>React Toastify</strong>：便利で高速な通知表示。",
+    "7": "<strong>React Router DOM</strong>：スムーズなページ遷移。",
+    "8": "<strong>Lottie-react</strong>：魅力的なアニメーションを実現。",
+    "9": "<strong>SEO meta tags</strong>：検索エンジンでの表示最適化。"
+  }
+}
+
+    },
+    "projectModal": {
+        "techTitle": "使用した技術",
+        "close": "閉じる",
+        "detail": "✨詳細を見る"
+    },
     "experience": {
         "title": "職歴",
-        "title2":"💡 過去の業務経験を活かし、論理的思考力やチームワークを重視した開発を目指しています。"
-    
+        "title2": "💡 過去の業務経験を活かし、論理的思考力やチームワークを重視した開発を目指しています。"
     },
     "skill": {
         "title": "スキル"
     },
     "contact": {
-    "title": "お問い合わせ",
+        "title": "お問い合わせ",
 
-    "name": "氏名:",
-    "mail": "メールアドレス:",
-    "mes": "メッセージ:",
-    "send": "メッセージを送信",
-   "title2": "お問い合わせください",
- 
-    "title3": "ご質問や協力の機会がありましたら、お気軽にご連絡ください！",
-    "required": "(*必須)"
+        "name": "氏名:",
+        "mail": "メールアドレス:",
+        "mes": "メッセージ:",
+        "send": "メッセージを送信",
+        "title2": "お問い合わせください",
 
-},
-"toast": {
-  "success": "メッセージが正常に送信されました！受信トレイ、迷惑メール、またはスパムフォルダを確認してください。",
-  "error": "メッセージの送信に失敗しました！",
-  "mes": "メッセージを送信中...",
-  "required": "必要な情報を入力してください！"
-},
+        "title3": "ご質問や協力の機会がありましたら、お気軽にご連絡ください！",
+        "required": "(*必須)"
+    },
+    "toast": {
+        "success": "メッセージが正常に送信されました！受信トレイ、迷惑メール、またはスパムフォルダを確認してください。",
+        "error": "メッセージの送信に失敗しました！",
+        "mes": "メッセージを送信中...",
+        "required": "必要な情報を入力してください！"
+    },
 
     "appFooter": {
         "slogan": "魅力的なUIをデザインし、より優れたユーザー体験を創り出す – コードは芸術、インターフェースはその魂。"
@@ -92,47 +142,47 @@
         "p2": "ハン",
         "p3": "です。プログラミングが大好きで、",
         "p4": "フロントエンド開発者",
-        "p44":" を目指して学習を進めています。",
+        "p44": " を目指して学習を進めています。",
         "p5": "プログラミングの分野では、フロントエンドに特に魅力を感じていますす。なぜなら、技術と創造性が出会う場所だからです。",
-        
+
         "h1": "なぜフロントエンドを選んだのか？",
         "h2": "私の学習の旅",
         "h3": "今後10年間の目標",
-  
+
         "quote": "この旅は始まったばかりですが、努力と粘り強さがあれば、目標を達成できると信じています",
-  
+
         "li1": "私は創造的な作業が好きで、",
         "li2": "美しく直感的で使いやすい",
-        "li222":"インターフェースを作りたいと思っています。",
+        "li222": "インターフェースを作りたいと思っています。",
         "li3": "私にとって、",
         "li4": "コードは単なる技術ではなく芸術です。",
         "li5": "インターフェースの細かい要素一つ一つがユーザーの体験に影響を与えます。",
-        
+
         "li6": "2025年1月から、私は",
         "li7": "フロントエンド開発の学習",
         "li8": "に集中し、",
         "li9": "2025年7月までに最初の仕事に応募すること",
-        "li99":"を目標としています。",
+        "li99": "を目標としています。",
         "li10": "そのために、",
         "li11": "つの実際のプロジェクト",
         "li12": "を作成し、スキルを向上させ、ポートフォリオを完成させています。",
         "li13": "プログラミング以外にも、私は",
         "li14": "UI/UX",
         "li15": "にも関心があります。なぜなら、良いインターフェースは美しいだけでなく、使いやすさも重要だと信じているからです。",
-        "li55":"",
-  
+        "li55": "",
+
         "li16": "最初の5年間 (2025年 - 2030年)",
         "li17": "",
         "li18": "プロなフロントエンド開発者",
         "li19": "なること。最新のウェブサイト、アプリを開発し、ユーザーの体験を最適化する。同時に、",
         "li20": "バックエンド開発",
         "li21": "も学び、知識とスキルを広げる。",
-        
+
         "li22": "次の5年間 (2030年 - 2035年)",
         "li23": "",
         "li24": "プロなバックエンド開発者",
         "li25": "へ成長すること。サーバーシステム、データベース、APIの仕組みを深く理解し、一貫したシステムを開発できるようになる。",
-        
+
         "li26": "最終目標",
         "li27": "",
         "li28": "フルスタック開発者",
@@ -140,7 +190,7 @@
         "li30": "フロントエンド",
         "li31": "と",
         "li32": "バックエンド",
-        "li322":"の両方をマスターし、",
+        "li322": "の両方をマスターし、",
         "li33": "インターフェースからバックエンドシステムまで完全なウェブサイト、アプリケーションを開発できるようになること。"
     }
 }
