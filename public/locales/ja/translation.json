@@ -46,12 +46,67 @@
 
         "portfolio": {
             "title": "個人ポートフォリオ - (React＋Typescript)",
-            "description": "自己紹介、スキル、プロジェクトを紹介するウェブサイト。ライト/ダークモード、言語切替、スライドショー、EmailJS送信、全デバイス対応のレスポンシブデザインに対応。"
+            "description": "自己紹介、スキル、プロジェクトを紹介するウェブサイト。ライト/ダークモード、言語切替、スライドショー、EmailJS送信、全デバイス対応のレスポンシブデザインに対応。",
+            "modal": {
+ 
+                "demoLink": "完成品のURL",
+                "sourceCode": "ソースコードのURL:",
+                "detailTitle": "詳細",
+                "detailDescription": "このポートフォリオサイトでは、自己紹介、スキル、プロジェクトを紹介しています。<br/>主な機能：<br/>🔹 マルチページ構成<br/>🔹 日本語・ベトナム語の多言語対応<br/>🔹 EmailJSでメール送信<br/>🔹 全デバイスに対応したレスポンシブデザイン<br/>🔹 ライト / ダークモード切替<br/>🔹 SEO最適化<br/>🔹 プロジェクト画像のスライド表示<br/>🔹 React-Bootstrapを活用した美しいUI",
+              
+                "inspirationTitle": "開発のきっかけ",
+                "inspirationDescription1": "このプロジェクトは、<strong>フロントエンド開発職</strong>への応募を目的に構築され、<a class='custom-link' href='https://www.hoidanit.xyz/'>Hỏi Dân IT</a>、<a class='custom-link' href='https://soumyajit.vercel.app/'>Soumyajit</a>、<a class='custom-link' href='https://abusaid.netlify.app/'>Abusaid</a> などのポートフォリオからインスピレーションを得ました。",
+                "inspirationDescription2": "このプロジェクトは<strong>React & Typescript</strong>の実践とスキルアップの機会でもあります。",
+                "technologiesTitle": "使用技術",
+                "inspiration": "このプロジェクトは、<strong>React と Typescript</strong>の実践とスキルアップの良い機会にもなりました。",
+              
+                "tech": {
+                  "core": "🚀 基本技術",
+                  "ui": "🎨 UIとデザイン",
+                  "intl": "🌍 国際化とSEO",
+                  "utils": "✉️ インタラクションとユーティリティ"
+                },
+                "whyTech": "技術選定の理由",
+                "why": {
+                  "1": "<strong>React + Typescript</strong>：一般的で強力、拡張性が高い。",
+                  "2": "<strong>Vite</strong>：ビルドが非常に速く、パフォーマンスに優れる。",
+                  "3": "<strong>Sass、Tailwind CSS、React-Bootstrap</strong>：柔軟でカスタマイズ可能なUI。",
+                  "4": "<strong>Lottie-react</strong>：魅力的なアニメーションを実現。",
+                  "5": "<strong>i18next</strong>：多言語対応、グローバルユーザーに最適。",
+                  "6": "<strong>SEO meta tags</strong>：検索エンジンでの表示最適化。",
+                  "7": "<strong>EmailJS</strong>：バックエンド不要でメール送信可能。",
+                  "8": "<strong>React Toastify</strong>：便利で高速な通知表示。",
+                  "9": "<strong>React Router DOM</strong>：スムーズなページ遷移。"
+                }
+              }
         },
-        "todo": {
-            "title": "Ứng dụng To-do - (React+Typescript)",
-            "description": "Ứng dụng quản lý công việc hàng ngày của bạn một cách hiệu quả."
-        },
+       "todo": {
+  "title": "Todoアプリ（React＋TypeScript）",
+  "description": "毎日のタスクを直感的に管理できるTo-doアプリ。追加・編集・削除、完了マーク、ドラッグ＆ドロップで並び替え、データはLocalStorageに保存。レスポンシブで快適に操作可能。",
+  "modal": {
+  "detailDescription": "日々のタスク管理に便利な軽量のTo-doアプリです。<br/>主な機能：<br/>🔹 タスクの追加（重複・空白チェックあり）<br/>🔹 タスクの編集<br/>🔹 タスクの削除（削除前に確認）<br/>🔹 完了・未完了の切り替え<br/>🔹 Local Storageでの保存<br/>🔹 ドラッグ＆ドロップによる並び替え<br/>🔹 全てのデバイスで快適に利用可能",
+  "inspirationDescription1": "ReactとTypeScriptの学習中に、state・props・hookの操作練習を目的として作成したプロジェクトです。",
+  "inspirationDescription2": "イベント処理やデータ管理スキルを向上させるための良い機会にもなりました。",
+  "why": {
+  "1": "<strong>React + TypeScript</strong>：ロジックを明確に管理しやすく、拡張も容易。",
+  "2": "<strong>React Hooks</strong>：UIの状態を簡潔に扱える。",
+  "3": "<strong>SCSS（CSS Modules）</strong>：スタイルを分離し、クラスの競合を防ぐ。",
+  "4": "<strong>Google Fonts</strong>：見やすくモダンなデザインに。",
+  "5": "<strong>LocalStorage</strong>：バックエンド不要でデータ保存。",
+  "6": "<strong>@hello-pangea/dnd</strong>：直感的な並び替えを実現。",
+  "7": "<strong>Prettier</strong>：コード整形を自動化し、統一感を維持。",
+  "8": "<strong>ESLint</strong>：エラーを早期に検出し、品質を保つ。"
+},
+  "tech": {
+  "core": "🚀 基本技術",
+    "ui": "🎨 UIとデザイン",
+    "intl": "📦 ライブラリ & ユーティリティ",
+    "utils": "🧹 コード品質ツール"
+  }
+}
+
+},
+
         "library": {
             "title": "Thư viện sách - (Javascript)",
             "description": "Trang web giới thiệu các cuốn sách hay và phổ biến."

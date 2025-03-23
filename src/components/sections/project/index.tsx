@@ -31,6 +31,8 @@ const Project = () => {
                                 description={item.description}
                                 githubLink={item.githubLink}
                                 demoLink={item.demoLink}
+                                techs={item.techs}
+                                namePro={item.namePro}
                             />
                         </Col>
                     )

@@ -12,6 +12,11 @@ interface IProps {
     description: string;
     githubLink: string;
     demoLink: string;
+    techs: {
+      group: string;
+      items: string[];
+    }[];
+    namePro: string; // ✅ thêm dòng này
 }
 
 function ProjectCard(props: IProps) {
@@ -29,35 +34,20 @@ function ProjectCard(props: IProps) {
 
                     {/* Nút căn giữa */}
                     <div className="d-flex justify-content-center gap-2 mt-3 flex-wrap">
-  <Button
-    variant="primary"
-    href={props.githubLink}
-    target="_blank"
-    className="px-3"
-  >
-    <BsGithub className="me-1" />
-    GitHub
-  </Button>
+                        <Button variant="primary" href={props.githubLink} target="_blank" className="px-3">
+                            <BsGithub className="me-1" />
+                            GitHub
+                        </Button>
 
-  <Button
-    variant="primary"
-    href={props.demoLink}
-    target="_blank"
-    className="px-3"
-  >
-    {/* <CgWebsite className="me-1" /> */}
-    🌐Demo
-  </Button>
+                        <Button variant="primary" href={props.demoLink} target="_blank" className="px-3">
+                            {/* <CgWebsite className="me-1" /> */}
+                            🌐Demo
+                        </Button>
 
-  <Button
-    variant="primary"
-    onClick={() => setModalShow(true)}
-    className="px-3"
-  >
-    {t("projectModal.detail") ?? "Chi tiết"}
-  </Button>
-</div>
-
+                        <Button variant="primary" onClick={() => setModalShow(true)} className="px-3">
+                            {t("projectModal.detail") ?? "Chi tiết"}
+                        </Button>
+                    </div>
                 </Card.Body>
             </Card>
 
@@ -70,7 +60,8 @@ function ProjectCard(props: IProps) {
                     images: props.images,
                     githubLink: props.githubLink,
                     demoLink: props.demoLink,
-                    techs: ["React", "Typescript", "i18next"], // → bạn có thể truyền props.techs nếu có
+                    techs: props.techs, // hoặc props.techs nếu có
+                    namePro: props.namePro, // ✅ thêm dòng này để truyền `key` cho translation
                 }}
             />
         </>

@@ -51,34 +51,68 @@
         "title2": "Từ những kiến thức Front End học được qua các kênh trực tuyến như",
         "title3": ",...Tôi đã áp dụng vào thực tế và thực hiện các dự án dưới đây.",
         "title4": "",
+        "todo": {
+            "title": "Todo App - (React+Typescript)",
+            "description": "Ứng dụng quản lý công việc hằng ngày, hỗ trợ thêm/sửa/xoá, đánh dấu hoàn thành, kéo thả sắp xếp, lưu dữ liệu bằng LocalStorage và hiển thị tốt trên mọi thiết bị.",
 
+            "modal": {
+                "detailDescription": "Ứng dụng to-do nhỏ gọn cho quản lý công việc hàng ngày.<br/>Một số tính năng chính:<br/>🔹 Thêm nhiệm vụ (kiểm tra trùng lặp, kí tự trống)<br/>🔹 Chỉnh sửa nhiệm vụ<br/>🔹 Xoá nhiệm vụ (có xác nhận trước khi xoá)<br/>🔹Đánh dấu đã/chưa hoàn thành<br/>🔹 Lưu trữ bằng Local Storage<br/>🔹 Kéo & thả  sắp xếp thứ tự <br/>🔹 Hiển thị tốt trên mọi thiết bị ",
+                "inspirationDescription1": "Dự án được thực hiện trong quá trình học React & TypeScript nhằm rèn luyện thao tác với state, props và hook.",
+                "inspirationDescription2": "Đây cũng là cơ hội để nâng cao kỹ năng xử lý sự kiện và quản lý dữ liệu hiệu quả.",
+                "why": {
+                    "1": "<strong>React + TypeScript</strong>: Quản lý logic rõ ràng, dễ mở rộng.",
+                    "2": "<strong>React Hooks</strong>: Quản lý trạng thái UI hiệu quả.",
+                    "3": "<strong>SCSS (CSS Modules)</strong>: Tách biệt style, tránh trùng class.",
+                    "4": "<strong>Google Fonts</strong>: Giao diện hiện đại, dễ đọc.",
+                    "5": "<strong>LocalStorage</strong>: Lưu dữ liệu người dùng không cần backend.",
+                    "6": "<strong>@hello-pangea/dnd</strong>: Kéo thả sắp xếp trực quan.",
+                    "7": "<strong>Prettier</strong>: Giữ code sạch, đồng nhất.",
+                    "8": "<strong>ESLint</strong>: Phát hiện lỗi sớm, chuẩn hóa code."
+                },
+                "tech": {
+                    "core": "🚀 Công nghệ chính",
+                    "ui": "🎨 Giao diện & UI",
+                    "intl": "📦 Thư viện & Tiện ích",
+                    "utils": "🧹 Chất lượng mã nguồn"
+                }
+            }
+        },
         "portfolio": {
             "title": "Portfolio cá nhân - (React＋Typescript)",
-            "description": "Website giới thiệu bản thân, kỹ năng và dự án, hỗ trợ chế độ sáng/tối, đa ngôn ngữ, gửi email qua EmailJS, trình chiếu ảnh và responsive trên mọi thiết bị."
-        },
-        "todo": {
-            "title": "Ứng dụng To-do - (React+Typescript)",
-            "description": "Ứng dụng quản lý công việc hàng ngày của bạn một cách hiệu quả."
-        },
-        "library": {
-            "title": "Thư viện sách - (Javascript)",
-            "description": "Trang web giới thiệu các cuốn sách hay và phổ biến."
-        },
-        "todo2": {
-            "title": "Ứng dụng To-do - (Javascript)",
-            "description": "Ứng dụng quản lý công việc hàng ngày của bạn một cách hiệu quả."
-        },
-        "mart": {
-            "title": "Trang web thương mại - (HTML+SaSS+Javascript)",
-            "description": "Trang web giới thiệu và bán các sản phẩm điện tử."
-        },
-        "landing": {
-            "title": "Trang landing page - (HTML+CSS)",
-            "description": "Trang web giới thiệu sản phẩm hoặc dịch vụ của bạn."
-        },
-    
-   
+            "description": "Website giới thiệu bản thân, kỹ năng và dự án, hỗ trợ chế độ sáng/tối, đa ngôn ngữ, gửi email qua EmailJS, trình chiếu ảnh và responsive trên mọi thiết bị.",
+            "modal": {
+                "demo": "Demo",
+                "demoLink": "Link demo dự án",
+                "sourceCode": "Link source code:",
+                "detailTitle": "Mô tả chi tiết",
+                "detailDescription": "Website portfolio cá nhân giới thiệu bản thân, kỹ năng và dự án.<br/>Một số tính năng chính:<br/>🔹 Giao diện đa trang<br/>🔹 Đa ngôn ngữ: Nhật – Việt<br/>🔹 Gửi email bằng EmailJS<br/>🔹 Responsive trên mọi thiết bị<br/>🔹 Hỗ trợ sáng/tối<br/>🔹 Tối ưu SEO<br/>🔹 Slide ảnh dự án<br/>🔹 Giao diện đẹp với React-Bootstrap",
 
+                "inspirationTitle": "Cảm hứng phát triển",
+                "inspirationDescription1": "Dự án xây dựng để ứng tuyển vị trí <strong>Frontend Developer</strong>, lấy cảm hứng từ portfolio như <a class='custom-link' href='https://www.hoidanit.xyz/'>Hỏi Dân IT</a>, <a class='custom-link' href='https://soumyajit.vercel.app/'>Soumyajit</a> và <a class='custom-link' href='https://abusaid.netlify.app/'>Abusaid</a>.",
+                "inspirationDescription2": "Đây là cơ hội để tôi thực hành và nâng cao kỹ năng <strong>React & Typescript</strong>.",
+                "technologiesTitle": "Công nghệ sử dụng",
+                "inspiration": "Đây là cơ hội để tôi thực hành và nâng cao kỹ năng <strong>React & Typescript</strong>.",
+
+                "tech": {
+                    "core": "🚀 Công nghệ chính",
+                    "ui": "🎨 Giao diện & UI",
+                    "intl": "🌍 Quốc tế hóa & SEO",
+                    "utils": "✉️ Tương tác & Tiện ích"
+                },
+                "whyTech": "Lý do lựa chọn công nghệ",
+                "why": {
+                    "1": "<strong>React + Typescript</strong>: Phổ biến, mạnh mẽ, dễ mở rộng.",
+                    "2": "<strong>Vite</strong>: Build cực nhanh, tối ưu hiệu suất.",
+                    "3": "<strong>Sass, Tailwind CSS, React-Bootstrap</strong>: UI linh hoạt, dễ tùy chỉnh.",
+                    "4": "<strong>Lottie-react</strong>: Hiệu ứng sinh động.",
+                    "5": "<strong>i18next</strong>: Đa ngôn ngữ, phù hợp người dùng toàn cầu.",
+                    "6": "<strong>SEO meta tags</strong>: Cải thiện hiển thị tìm kiếm.",
+                    "7": "<strong>EmailJS</strong>: Gửi email không cần backend.",
+                    "8": "<strong>React Toastify</strong>: Thông báo nhanh, tiện lợi.",
+                    "9": "<strong>React Router DOM</strong>: Điều hướng mượt mà."
+                }
+            }
+        },
         "modal": {
             "demo": "Demo",
             "demoLink": "Link demo dự án",
@@ -110,12 +144,14 @@
                 "8": "<strong>Lottie-react</strong>: Hiệu ứng sinh động.",
                 "9": "<strong>SEO meta tags</strong>: Cải thiện hiển thị tìm kiếm."
             }
-        }},
-    
+        }
+    },
+
     "projectModal": {
         "techTitle": "Công nghệ sử dụng",
         "close": "Đóng",
-        "detail": "✨Chi tiết dự án"},
+        "detail": "✨Chi tiết dự án"
+    },
 
     "contact": {
         "title": "LIÊN HỆ",
