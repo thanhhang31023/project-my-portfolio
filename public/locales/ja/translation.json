@@ -169,8 +169,38 @@
             }
         },
         "todo2": {
-            "title": "Ứng dụng To-do - (Javascript)",
-            "description": "Ứng dụng quản lý công việc hàng ngày của bạn một cách hiệu quả."
+            "title": "モーダル機能の自作UIライブラリ - (Javascript)",
+            "description": "約2KBの軽量ライブラリ。純粋なJavaScriptで構築され、外部ライブラリに依存せず、よく使うモーダルを素早く作成でき、すべての主要ブラウザでスムーズに動作します。",
+
+            "modal": {
+                
+               
+    "detailDescription": "Popzyは、純粋なJavaScriptで構築された軽量モーダルライブラリで、一般的なモーダルを素早く実装でき、主要なブラウザで安定して動作します。<br/>主な機能：<br/>🔹 外部ライブラリに依存しない<br/>🔹 CSSでカスタマイズ可能 / CSSトランジション対応<br/>🔹 シンプルなAPI：open()、close()、setContent()、addFooterButton()...<br/>🔹 基本・ボタン付き・長文・YouTube埋め込み・複数モーダルなどに対応<br/>🔹 スクロールロックやoverlay・ボタン・Escapeキーでの閉じる操作に対応<br/>🔹 どんなプロジェクトにも簡単に導入可能"
+,
+       
+              
+               "inspirationDescription1": "シンプルで軽量、依存のないモーダルライブラリを自作したいという思いからこのプロジェクトを始めました。",
+"inspirationDescription2": "コンポーネント設計力を鍛え、ユーザー体験の最適化や<strong>純粋なJavaScript</strong>によるモーダルの仕組みを深く理解するために取り組みました。"
+,
+ 
+    
+                "tech": {
+                    "core": "🚀 基本技術",
+                    "ui": "💻 開発ツール"
+                                   },
+              
+                "why": {
+                 "1": "<strong>JavaScript (ES6+)</strong>: ライブラリなしでモーダルのロジックを構築。",
+"2": "<strong>HTML5</strong>: 明確な構造で、統合が簡単。",
+"3": "<strong>CSS</strong>: UIやアニメーションのカスタマイズが容易。",
+"4": "<strong>Terser</strong>: JSファイルを圧縮してライブラリを軽量化。",
+"5": "<strong>CSSO</strong>: CSSを最適化し、読み込み速度を向上。"
+
+
+
+
+                }
+            }
         },
         "mart": {
             "title": "Trang web thương mại - (HTML+SaSS+Javascript)",

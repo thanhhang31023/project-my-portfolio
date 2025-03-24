@@ -81,7 +81,7 @@ export const PROJECTS = [
             "/projects/po1.png",
            
             "/projects/po6.png",
-            "/projects/po2.png",
+          
             "/projects/po3.png",
             "/projects/po4.png",
             "/projects/po5.png",
@@ -115,7 +115,14 @@ export const PROJECTS = [
             },
     {
         id: 2,
-        images: ["/projects/todo2.png", "/projects/spring-rest.png", "/projects/todo3.png", "/projects/todo4.png"],
+        images: [
+            "/projects/to.png",
+            "/projects/to3.png",
+            "/projects/to1.png",
+            "/projects/to2.png",
+            
+          
+       ],
         title: "project.todo.title",
         description: "project.todo.description",
         githubLink: "https://github.com/thanhhang31023?tab=repositories",
@@ -181,7 +188,15 @@ export const PROJECTS = [
     },
     {
         id: 4,
-        images: ["/projects/spring-rest.png", "/projects/nestjs.png", "/projects/spring-mvc.png"],
+        images: [
+            "/projects/mo.png",
+            "/projects/mo1.png",
+            "/projects/mo2.png",
+            "/projects/mo3.png",
+            "/projects/mo4.png",
+            "/projects/mo5.png",
+         
+                        ],
         title: "project.todo2.title",
         description: "project.todo2.description",
         githubLink: "https://github.com/thanhhang31023?tab=repositories",
@@ -190,19 +205,19 @@ export const PROJECTS = [
         techs: [
             {
               group: "core", // dùng làm key dịch
-              items: ["React", "TypeScript", "React Hooks"]
+              items: ["JavaScript (ES6+)", "HTML5", "CSS"]
             },
             {
               group: "ui",
-              items: ["SCSS (CSS Modules)", "Google Fonts"]
+              items: ["Terser", "CSSO"]
             },
             {
                 group: "intl",
-                items: ["SCSS (CSS Modules)", "Google Fonts"]
+                items: []
               },
             {
               group: "utils",
-              items: ["LocalStorage", "@hello-pangea/dnd"]
+              items: []
             }
           ],
         

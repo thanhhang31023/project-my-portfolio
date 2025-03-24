@@ -180,6 +180,38 @@
                 }
             }
         },
+        "todo2": {
+            "title": "Thư viện UI modal tự thiết kế - (Javascript)",
+            "description": "Thư viện nhẹ (~2KB), thuần JavaScript, không phụ thuộc thư viện ngoài, hỗ trợ tạo nhanh các modal phổ biến, chạy mượt trên mọi trình duyệt.",
+            "modal": {
+                "demo": "Demo",
+                "demoLink": "Link demo dự án",
+                "sourceCode": "Link source code:",
+                "detailTitle": "Mô tả chi tiết",
+               
+     "detailDescription": "Popzy là thư viện modal nhẹ  được xây dựng bằng JavaScript thuần, giúp ứng dụng tạo nhanh các loại modal phổ biến trên mọi trình duyệt hiện đại.<br/>Một số tính năng chính:<br/>🔹 Không phụ thuộc thư viện ngoài<br/>🔹 Tùy biến bằng CSS / hỗ trợ CSS transition<br/>🔹 API đơn giản: open(), close(), setContent(), addFooterButton()...<br/>🔹 Hỗ trợ các loại modal: cơ bản, có nút, nội dung dài, nhúng YouTube, nhiều modal cùng lúc<br/>🔹 Tùy chọn scroll lock, đóng modal bằng overlay, nút, phím Escape<br/>🔹 Dễ tích hợp vào mọi dự án"
+
+,
+                "inspirationTitle": "Cảm hứng phát triển",
+                "inspirationDescription1": "Dự án ra đời từ nhu cầu tự tay xây dựng một thư viện modal đơn giản, nhẹ, dễ dùng và không phụ thuộc thư viện ngoài.",
+"inspirationDescription2": "Tôi muốn rèn kỹ năng tư duy component, tối ưu trải nghiệm người dùng và hiểu rõ cách hoạt động của modal bằng <strong>JavaScript thuần</strong>."
+ , "technologiesTitle": "Công nghệ sử dụng",
+              
+                "tech": {
+                    "core": "🚀 Công nghệ chính",
+                    "ui": "💻 Công cụ Dev"
+                                    },
+                "whyTech": "Lý do lựa chọn công nghệ",
+                "why": {
+                  "1": "<strong>JavaScript (ES6+)</strong>: Xây toàn bộ logic modal, không cần thư viện ngoài.",
+"2": "<strong>HTML5</strong>: Cấu trúc rõ ràng, dễ tích hợp.",
+"3": "<strong>CSS</strong>: Tùy biến giao diện, hiệu ứng.",
+"4": "<strong>Terser</strong>: Nén file JS giúp giảm dung lượng thư viện.",
+"5": "<strong>CSSO</strong>: Tối ưu file CSS để tải nhanh hơn."
+
+                }
+            }
+        },
         "modal": {
             "demo": "Demo",
             "demoLink": "Link demo dự án",
