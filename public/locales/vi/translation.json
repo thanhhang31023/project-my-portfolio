@@ -243,6 +243,32 @@
                 "8": "<strong>Lottie-react</strong>: Hiệu ứng sinh động.",
                 "9": "<strong>SEO meta tags</strong>: Cải thiện hiển thị tìm kiếm."
             }
+        },
+
+        "mart": {
+            "title": "Todo App - (Javascript)",
+            "description": "Ứng dụng quản lý công việc hằng ngày, hỗ trợ thêm/sửa/xoá/lọc, đánh dấu hoàn thành, kéo thả sắp xếp, lưu dữ liệu bằng LocalStorage và hiển thị tốt trên mọi thiết bị.",
+
+            "modal": {
+                "detailDescription": "Ứng dụng to-do nhỏ gọn cho quản lý công việc hàng ngày.<br/>Một số tính năng chính:<br/>🔹 Thêm nhiệm vụ (kiểm tra trùng lặp, kí tự trống)<br/>🔹 Chỉnh sửa nhiệm vụ<br/>🔹 Xoá nhiệm vụ (có xác nhận trước khi xoá)<br/>🔹Đánh dấu đã/chưa hoàn thành<br/>🔹 Lưu trữ bằng Local Storage<br/>🔹 Kéo & thả  sắp xếp thứ tự <br/>🔹Lọc theo trạng thái.<br/>🔹 Giao diện hiện đại, hiệu ứng mượt, responsive",
+                "inspirationDescription1": "Dự án được thực hiện nhằm rèn luyện kỹ năng <strong>JavaScript thuần</strong> qua một ứng dụng quản lý công việc đơn giản.",
+"inspirationDescription2": "Tôi muốn tự xây toàn bộ logic thao tác và lưu dữ liệu bằng LocalStorage mà không dùng framework."
+,
+"why": {
+                    "1": "<strong>HTML5</strong>: Xây dựng cấu trúc.",
+"2": "<strong>CSS3</strong>: Thiết kế giao diện.",
+"3": "<strong>JavaScript (ES6+)</strong>: Xử lý logic thêm, sửa, xóa, lọc, lưu dữ liệu.",
+"4": "<strong>LocalStorage</strong>: Lưu dữ liệu trên trình duyệt.",
+"5": "<strong>SortableJS</strong>: Kéo thả sắp xếp thứ tự."
+
+                },
+                "tech": {
+                    "core": "🚀 Công nghệ chính",
+            
+                    "intl": "📦 Thư viện & Tiện ích"
+               
+                }
+            }
         }
 
     },

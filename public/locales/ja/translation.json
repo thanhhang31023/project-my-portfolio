@@ -202,9 +202,29 @@
                 }
             }
         },
+       
         "mart": {
-            "title": "Trang web thương mại - (HTML+SaSS+Javascript)",
-            "description": "Trang web giới thiệu và bán các sản phẩm điện tử."
+            "title": "Todoアプリ - (Javascript)",
+            "description": "毎日のタスクを直感的に管理できるTo-doアプリ。追加・編集・削除、フィルター、完了マーク、ドラッグ＆ドロップで並び替え、データはLocalStorageに保存。レスポンシブで快適に操作可能。",
+            "modal": {
+                "detailDescription": "日々のタスク管理に便利な軽量のTo-doアプリです。<br/>主な機能：<br/>🔹 タスクの追加（重複・空白チェックあり）<br/>🔹 タスクの編集<br/>🔹 タスクの削除（削除前に確認）<br/>🔹 完了・未完了の切り替え<br/>🔹 Local Storageでの保存<br/>🔹 ドラッグ＆ドロップによる並び替え<br/>🔹ステータスでフィルター<br/>🔹 モダンなUI、スムーズなアニメーション、レスポンシブ対応",
+               "inspirationDescription1": "タスク管理アプリを通じて<strong>純粋なJavaScript</strong>のスキルを鍛えるために作成しました。",
+"inspirationDescription2": "フレームワークなしで操作ロジックやLocalStorageでのデータ保存を自分で実装しました。"
+,
+"why": {
+                    "1": "<strong>HTML5</strong>: 構造を構築。",
+"2": "<strong>CSS3</strong>: UIをデザイン。",
+"3": "<strong>JavaScript (ES6+)</strong>: タスクの追加・編集・削除・フィルター・保存などのロジックを処理。",
+"4": "<strong>LocalStorage</strong>: ブラウザにデータを保存。",
+"5": "<strong>SortableJS</strong>: タスクの順番をドラッグ＆ドロップで変更。"
+
+                },
+                "tech": {
+                    "core": "🚀 基本技術",
+                  
+                    "utils": "📦 ライブラリ & ユーティリティ"
+                }
+            }
         },
         "landing": {
             "title": "Trang landing page - (HTML+CSS)",

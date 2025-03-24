@@ -224,7 +224,14 @@ export const PROJECTS = [
     },
     {
         id: 5,
-        images: ["/projects/ja3.png", "/projects/nestjs.png", "/projects/spring-mvc.png"],
+        images: [
+            "/projects/do.png", 
+            "/projects/do1.png", 
+            "/projects/do2.png", 
+            "/projects/do3.png", 
+            "/projects/do4.png", 
+           
+        ],
         title: "project.mart.title",
         description: "project.mart.description",
         githubLink: "https://github.com/thanhhang31023?tab=repositories",
@@ -233,19 +240,19 @@ export const PROJECTS = [
         techs: [
             {
               group: "core", // dùng làm key dịch
-              items: ["React", "TypeScript", "React Hooks"]
+              items: ["JavaScript(ES6+)", "HTML5", "CSS3"]
             },
             {
               group: "ui",
-              items: ["SCSS (CSS Modules)", "Google Fonts"]
+              items: []
             },
             {
                 group: "intl",
-                items: ["SCSS (CSS Modules)", "Google Fonts"]
+                items: []
               },
             {
               group: "utils",
-              items: ["LocalStorage", "@hello-pangea/dnd"]
+              items: ["LocalStorage", "SortableJS"]
             }
           ],
         
