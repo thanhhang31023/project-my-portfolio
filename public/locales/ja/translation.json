@@ -28,7 +28,7 @@
         "and": "そして",
         "and1": "洗練され、滑らかで直感的なインターフェース",
         "and2": "高いパフォーマンスなUIを構築します。",
-        "heading1": "🔥 私は、ウェブプラットフォーム上で最適なユーザーエクスペリエンスを提供することに情熱を持つエンジニアです。",
+        "heading1": "🔥 私は、ウェブプラットフォーム上で最適なユーザー体験を目指して学習を続けているフロントエンド志望者です。",
         "heading2": "私は独学で学び、以下の技術を習得しました:",
         "heading3": "🎯 私の目標は、",
         "heading4": "プロフェッショナルなフロントエンド開発者になることです。",
@@ -227,8 +227,31 @@
             }
         },
         "landing": {
-            "title": "Trang landing page - (HTML+CSS)",
-            "description": "Trang web giới thiệu sản phẩm hoặc dịch vụ của bạn."
+            "title": "ランディングページ - (HTML+CSS)",
+            "description": "Figmaデザインからコーディングされた静的ランディングページです。HTMLとCSSのみで構築され、構造が明確で、見た目が美しく、SEOにも配慮されています。"
+           ,
+            "modal": {
+               "detailDescription": "ペットケアサービスを紹介するランディングページで、FigmaのデザインをもとにHTMLとCSSのみでコーディングされています。<br/>主な機能：<br/>🔹 Figmaデザインからの正確な再現<br/>🔹 読みやすく整理されたHTML・CSS構造<br/>🔹 モダンで調和の取れた配色のUIデザイン<br/>🔹 SEO最適化（メタタグ、sitemap、robots.txt対応）<br/>🔹 lazy loading による画像表示パフォーマンスの向上"
+
+,
+ "inspirationDescription1": "このプロジェクトは、Figmaデザインをもとに<strong>HTMLとCSS</strong>のみでランディングページを構築する練習として制作しました。",
+"inspirationDescription2": "レイアウト調整、レスポンシブ対応、そして読みやすく拡張しやすいコード構造を意識して取り組みました。"
+,
+"why": {
+                  "1": "<strong>HTML</strong>: セマンティックな構造で分かりやすいマークアップ。",
+"2": "<strong>CSS</strong>: 保守しやすいスタイル設計。",
+"3": "<strong>Google Fonts</strong>: 読みやすく美しいデザイン。",
+"4": "<strong>SEO Meta Tags</strong>: 検索結果での表示を最適化。"
+
+
+                },
+                "tech": {
+                    "core": "🚀 基本技術"
+            
+                   
+               
+                }
+            }
         },
 
         "modal": {

@@ -29,7 +29,7 @@
         "and": "và",
         "and1": "tinh tế, mượt mà",
         "and2": "hiệu suất cao.",
-        "heading1": "🔥 Tôi là một lập trình viên đam mê xây dựng trải nghiệm người dùng hoàn hảo trên nền tảng web.",
+        "heading1": "🔥 Tôi là người đang theo đuổi lĩnh vực Frontend, không ngừng học hỏi để mang đến trải nghiệm người dùng tốt nhất trên nền tảng web.",
         "heading2": "Tôi đã tự học để nắm được các kiến thức về",
         "heading3": "🎯 Mục tiêu của tôi là trở thành một ",
         "heading4": "Frontend Developer chuyên nghiệp.",
@@ -244,7 +244,29 @@
                 "9": "<strong>SEO meta tags</strong>: Cải thiện hiển thị tìm kiếm."
             }
         },
+        "landing": {
+            "title": "Trang landing page - (HTML+CSS)",
+            "description": "Lucy Pet Care là landing page tĩnh, chuyển từ thiết kế Figma. Dự án tập trung vào HTML & CSS thuần với cấu trúc rõ ràng, giao diện đẹp và thân thiện SEO.",
 
+            "modal": {
+                "detailDescription": "Trang landing page giới thiệu dịch vụ chăm sóc thú cưng, được code hoàn toàn bằng HTML, CSS thuần từ bản thiết kế Figma.<br/>Một số tính năng chính:<br/>🔹Chuyển đổi chính xác từ thiết kế Figma<br/>🔹 Cấu trúc HTML & CSS sạch, dễ đọc<br/>🔹 Giao diện hiện đại, màu sắc hài hòa<br/>🔹 Tối ưu SEO (thẻ meta, sitemap, robots.txt)<br/>🔹Tối ưu hiệu suất hiển thị ảnh (lazy loading)"
+,
+                "inspirationDescription1": "Dự án được xây dựng để luyện tập dựng landing page từ thiết kế Figma bằng <strong>HTML & CSS thuần</strong>.",
+                "inspirationDescription2": "Tôi muốn cải thiện kỹ năng căn chỉnh giao diện, responsive và tổ chức code rõ ràng, dễ mở rộng.",
+                "why": {
+                    "1": "<strong>HTML</strong>: Cấu trúc semantic rõ ràng.",
+                    "2": "<strong>CSS</strong>: Thiết kế giao diện, dễ bảo trì.",
+                    "3": "<strong>Google Fonts</strong>: Giao diện đẹp, dễ đọc.",
+                    "4": "<strong>SEO Meta Tags</strong>: Cải thiện hiển thị tìm kiếm."
+              
+                },
+                "tech": {
+                    "core": "🚀 Công nghệ chính"
+
+                  
+                }
+            }
+        },
         "mart": {
             "title": "Todo App - (Javascript)",
             "description": "Ứng dụng quản lý công việc hằng ngày, hỗ trợ thêm/sửa/xoá/lọc, đánh dấu hoàn thành, kéo thả sắp xếp, lưu dữ liệu bằng LocalStorage và hiển thị tốt trên mọi thiết bị.",

@@ -90,8 +90,8 @@ export const PROJECTS = [
         ],
         title: "project.portfolio.title",
         description: "project.portfolio.description",
-        githubLink: "https://github.com/thanhhang31023?tab=repositories",
-        demoLink: "https://github.com/thanhhang31023?tab=repositories",
+        githubLink: "https://github.com/thanhhang31023/project-my-portfolio",
+        demoLink: "https://hang-front-end-portfolio.vercel.app/",
         namePro: "portfolio",
         techs: [
             {
@@ -125,8 +125,8 @@ export const PROJECTS = [
        ],
         title: "project.todo.title",
         description: "project.todo.description",
-        githubLink: "https://github.com/thanhhang31023?tab=repositories",
-        demoLink: "https://github.com/thanhhang31023?tab=repositories",
+        githubLink: "https://github.com/thanhhang31023/todo-app-typescript",
+        demoLink: "https://todo-app-typescript-lake.vercel.app/",
         namePro: "todo",
         techs: [
             {
@@ -163,8 +163,8 @@ export const PROJECTS = [
             ],
         title: "project.library.title",
         description: "project.library.description",
-        githubLink: "https://github.com/thanhhang31023?tab=repositories",
-        demoLink: "https://github.com/thanhhang31023?tab=repositories",
+        githubLink: "https://github.com/thanhhang31023/project-grocery-mart",
+        demoLink: "https://thanhhang31023.github.io/project-grocery-mart/",
         namePro: "library",
         techs: [
             {
@@ -199,8 +199,8 @@ export const PROJECTS = [
                         ],
         title: "project.todo2.title",
         description: "project.todo2.description",
-        githubLink: "https://github.com/thanhhang31023?tab=repositories",
-        demoLink: "https://github.com/thanhhang31023?tab=repositories",
+        githubLink: "https://github.com/thanhhang31023/popzy",
+        demoLink: "https://thanhhang31023.github.io/popzy/",
         namePro: "todo2",
         techs: [
             {
@@ -234,8 +234,8 @@ export const PROJECTS = [
         ],
         title: "project.mart.title",
         description: "project.mart.description",
-        githubLink: "https://github.com/thanhhang31023?tab=repositories",
-        demoLink: "https://github.com/thanhhang31023?tab=repositories",
+        githubLink: "https://github.com/thanhhang31023/todo-app-javascript",
+        demoLink: "https://thanhhang31023.github.io/todo-app-javascript/",
         namePro: "mart",
         techs: [
             {
@@ -259,28 +259,35 @@ export const PROJECTS = [
     },
     {
         id: 6,
-        images: ["/projects/pet3.png", "/projects/nestjs.png", "/projects/spring-mvc.png"],
+        images: [
+            "/projects/pett.png", 
+            "/projects/pett5.png",
+            "/projects/pett2.png",
+            "/projects/pett3.png",
+            "/projects/pett4.png",
+            "/projects/pett6.png",
+        ],
         title: "project.landing.title",
         description: "project.landing.description",
-        githubLink: "https://github.com/thanhhang31023?tab=repositories",
-        demoLink: "https://github.com/thanhhang31023?tab=repositories",
+        githubLink: "https://github.com/thanhhang31023/lucy-pet-care-landing-page",
+        demoLink: "https://thanhhang31023.github.io/lucy-pet-care-landing-page/",
         namePro: "landing",
         techs: [
             {
               group: "core", // dùng làm key dịch
-              items: ["React", "TypeScript", "React Hooks"]
+              items: ["HTML", "CSS", "Google Fonts", "SEO meta tags"]
             },
             {
               group: "ui",
-              items: ["SCSS (CSS Modules)", "Google Fonts"]
+              items: [ ]
             },
             {
                 group: "intl",
-                items: ["SCSS (CSS Modules)", "Google Fonts"]
+                items: []
               },
             {
               group: "utils",
-              items: ["LocalStorage", "@hello-pangea/dnd"]
+              items: []
             }
           ],
         
