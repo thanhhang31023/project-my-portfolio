@@ -78,13 +78,15 @@ export const PROJECTS = [
     {
         id: 1,
         images: [
-            "/projects/react-native.png",
+            "/projects/po1.png",
+           
+            "/projects/po6.png",
             "/projects/po2.png",
             "/projects/po3.png",
             "/projects/po4.png",
             "/projects/po5.png",
-            "/projects/po1.png",
-            "/projects/po6.png",
+            "/projects/po7.png",
+         
         ],
         title: "project.portfolio.title",
         description: "project.portfolio.description",
@@ -142,7 +144,16 @@ export const PROJECTS = [
     },
     {
         id: 3,
-        images: ["/projects/spring-rest.png", "/projects/nestjs.png", "/projects/spring-mvc.png"],
+        images: [
+            "/projects/mat.png",
+            "/projects/mat1.png",
+            "/projects/mat2.png",
+            "/projects/mat3.png",
+            "/projects/mat4.png",
+            "/projects/mat5.png",
+            "/projects/mat6.png",
+       
+            ],
         title: "project.library.title",
         description: "project.library.description",
         githubLink: "https://github.com/thanhhang31023?tab=repositories",
@@ -151,19 +162,19 @@ export const PROJECTS = [
         techs: [
             {
               group: "core", // dùng làm key dịch
-              items: ["React", "TypeScript", "React Hooks"]
+              items: ["HTML5", "SCSS", " JavaScript (ES6+)"]
             },
             {
               group: "ui",
-              items: ["SCSS (CSS Modules)", "Google Fonts"]
+              items: ["Custom Grid SCSS", "Google Fonts"]
             },
             {
                 group: "intl",
-                items: ["SCSS (CSS Modules)", "Google Fonts"]
+                items: ["Meta · Canonical tag"]
               },
             {
               group: "utils",
-              items: ["LocalStorage", "@hello-pangea/dnd"]
+              items: ["LocalStorage"]
             }
           ],
         
@@ -198,7 +209,7 @@ export const PROJECTS = [
     },
     {
         id: 5,
-        images: ["/projects/spring-rest.png", "/projects/nestjs.png", "/projects/spring-mvc.png"],
+        images: ["/projects/ja3.png", "/projects/nestjs.png", "/projects/spring-mvc.png"],
         title: "project.mart.title",
         description: "project.mart.description",
         githubLink: "https://github.com/thanhhang31023?tab=repositories",
@@ -226,7 +237,7 @@ export const PROJECTS = [
     },
     {
         id: 6,
-        images: ["/projects/spring-rest.png", "/projects/nestjs.png", "/projects/spring-mvc.png"],
+        images: ["/projects/pet3.png", "/projects/nestjs.png", "/projects/spring-mvc.png"],
         title: "project.landing.title",
         description: "project.landing.description",
         githubLink: "https://github.com/thanhhang31023?tab=repositories",

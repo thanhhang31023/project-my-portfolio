@@ -79,13 +79,13 @@
         },
         "portfolio": {
             "title": "Portfolio cá nhân - (React＋Typescript)",
-            "description": "Website giới thiệu bản thân, kỹ năng và dự án, hỗ trợ chế độ sáng/tối, đa ngôn ngữ, gửi email qua EmailJS, trình chiếu ảnh và responsive trên mọi thiết bị.",
+            "description": "Website giới thiệu bản thân, kỹ năng và dự án, hỗ trợ chế độ sáng/tối, đa ngôn ngữ, gửi email qua EmailJS, modal hiển thị chi tiết dự án và responsive trên mọi thiết bị.",
             "modal": {
                 "demo": "Demo",
                 "demoLink": "Link demo dự án",
                 "sourceCode": "Link source code:",
                 "detailTitle": "Mô tả chi tiết",
-                "detailDescription": "Website portfolio cá nhân giới thiệu bản thân, kỹ năng và dự án.<br/>Một số tính năng chính:<br/>🔹 Giao diện đa trang<br/>🔹 Đa ngôn ngữ: Nhật – Việt<br/>🔹 Gửi email bằng EmailJS<br/>🔹 Responsive trên mọi thiết bị<br/>🔹 Hỗ trợ sáng/tối<br/>🔹 Tối ưu SEO<br/>🔹 Slide ảnh dự án<br/>🔹 Giao diện đẹp với React-Bootstrap",
+                "detailDescription": "Website portfolio cá nhân giới thiệu bản thân, kỹ năng và dự án.<br/>Một số tính năng chính:<br/>🔹 Giao diện đa trang<br/>🔹 Đa ngôn ngữ: Nhật – Việt<br/>🔹 Gửi email bằng EmailJS<br/>🔹 Responsive trên mọi thiết bị<br/>🔹 Hỗ trợ sáng/tối<br/>🔹 Tối ưu SEO<br/>🔹 Hiển thị chi tiết dự án bằng modal, slide ảnh<br/>🔹 Giao diện đẹp với React-Bootstrap",
 
                 "inspirationTitle": "Cảm hứng phát triển",
                 "inspirationDescription1": "Dự án xây dựng để ứng tuyển vị trí <strong>Frontend Developer</strong>, lấy cảm hứng từ portfolio như <a class='custom-link' href='https://www.hoidanit.xyz/'>Hỏi Dân IT</a>, <a class='custom-link' href='https://soumyajit.vercel.app/'>Soumyajit</a> và <a class='custom-link' href='https://abusaid.netlify.app/'>Abusaid</a>.",
@@ -144,8 +144,78 @@
                 "8": "<strong>Lottie-react</strong>: Hiệu ứng sinh động.",
                 "9": "<strong>SEO meta tags</strong>: Cải thiện hiển thị tìm kiếm."
             }
+        },
+        "library": {
+            "title": "Website bán hàng - (HTML+Sass+Javascript)",
+            "description": "Website bán hàng gồm nhiều trang được xây dựng dựa trên thiết kế Figma, hỗ trợ responsive, chế độ sáng/tối, tối ưu SEO, hiệu suất tải trang và mega menu hiện đại.",
+            "modal": {
+                "demo": "Demo",
+                "demoLink": "Link demo dự án",
+                "sourceCode": "Link source code:",
+                "detailTitle": "Mô tả chi tiết",
+               
+     "detailDescription": "Grocery Mart là website thương mại điện tử mô phỏng giao diện thực tế của một trang bán hàng chuyên nghiệp.<br/>Một số tính năng chính:<br/>🔹 Giao diện đa trang: Trang chủ, sản phẩm, chi tiết, giỏ hàng, hồ sơ,...<br/>🔹 Chuyển từ thiết kế Figma<br/>🔹 Tương thích mọi thiết bị<br/>🔹 Hỗ trợ chế độ sáng / tối <br/>🔹 Tối ưu SEO<br/>🔹  Code sạch,  dễ mở rộng – không dùng framework",
+                "inspirationTitle": "Cảm hứng phát triển",
+                "inspirationDescription1": "Grocery Mart được thực hiện nhằm luyện tập tư duy thiết kế giao diện bán hàng chuyên nghiệp khi chưa sử dụng framework.",
+                "inspirationDescription2": "Dự án là bước đệm giúp tôi rèn kỹ năng <strong>HTML, CSS, JavaScript</strong> và nâng cao tư duy responsive, tối ưu code và SEO.",
+                "technologiesTitle": "Công nghệ sử dụng",
+                "inspiration": "Đây là cơ hội để tôi thực hành và nâng cao kỹ năng <strong>React & Typescript</strong>.",
+    
+                "tech": {
+                    "core": "🚀 Công nghệ chính",
+                    "ui": "🎨 Giao diện & UI",
+                    "intl": "🌍 SEO & Tối ưu",
+                    "utils": "💾 Tiện ích" 
+                },
+                "whyTech": "Lý do lựa chọn công nghệ",
+                "why": {
+                   "1": "<strong>HTML5</strong>: Semantic rõ ràng, hỗ trợ SEO.",
+"2": "<strong>SCSS</strong>: Quản lý style hiệu quả với biến, mixin.",
+"3": "<strong>JavaScript (ES6+)</strong>: Tạo tương tác linh hoạt toggle, tab, dropdown... ", 
+"4": "<strong>Custom Grid SCSS</strong>: Chủ động thiết kế layout, không cần framework.",
+"5": "<strong>Google Fonts</strong>: Tăng tính thẩm mỹ.",
+"6": "<strong>Meta + Canonical tag</strong>: Tối ưu SEO và tránh trùng nội dung.",
+"7": "<strong>LocalStorage</strong>: Lưu trạng thái theme và cache template HTML."
+
+                }
+            }
+        },
+        "modal": {
+            "demo": "Demo",
+            "demoLink": "Link demo dự án",
+            "sourceCode": "Link source code:",
+            "detailTitle": "Mô tả chi tiết",
+            "detailDescription": "Website portfolio cá nhân giới thiệu bản thân, kỹ năng và dự án.<br/>Một số tính năng chính:<br/>🔹 Giao diện đa trang<br/>🔹 Đa ngôn ngữ: Nhật – Việt<br/>🔹 Gửi email bằng EmailJS<br/>🔹 Responsive trên mọi thiết bị<br/>🔹 Hỗ trợ sáng/tối<br/>🔹 Tối ưu SEO<br/>🔹 Slide ảnh dự án<br/>🔹 Giao diện đẹp với React-Bootstrap",
+    
+            "inspirationTitle": "Cảm hứng phát triển",
+            "inspirationDescription1": "Dự án xây dựng để ứng tuyển vị trí <strong>Frontend Developer</strong>, lấy cảm hứng từ portfolio như <a class='custom-link' href='https://www.hoidanit.xyz/'>Hỏi Dân IT</a>, <a class='custom-link' href='https://soumyajit.vercel.app/'>Soumyajit</a> và <a class='custom-link' href='https://abusaid.netlify.app/'>Abusaid</a>.",
+            "inspirationDescription2": "Đây là cơ hội để tôi thực hành và nâng cao kỹ năng <strong>React & Typescript</strong>.",
+            "technologiesTitle": "Công nghệ sử dụng",
+            "inspiration": "Đây là cơ hội để tôi thực hành và nâng cao kỹ năng <strong>React & Typescript</strong>.",
+    
+            "tech": {
+                "core": "🚀 Công nghệ chính",
+                "ui": "🎨 Giao diện & UI",
+                "intl": "🌍 Quốc tế hóa & SEO",
+                "utils": "✉️ Tương tác & Tiện ích"
+            },
+            "whyTech": "Lý do lựa chọn công nghệ",
+            "why": {
+                "1": "<strong>React + Typescript</strong>: Phổ biến, mạnh mẽ, dễ mở rộng.",
+                "2": "<strong>Vite</strong>: Build cực nhanh, tối ưu hiệu suất.",
+                "3": "<strong>Sass, Tailwind CSS, React-Bootstrap</strong>: UI linh hoạt, dễ tùy chỉnh.",
+                "4": "<strong>i18next</strong>: Đa ngôn ngữ, phù hợp người dùng toàn cầu.",
+                "5": "<strong>EmailJS</strong>: Gửi email không cần backend.",
+                "6": "<strong>React Toastify</strong>: Thông báo nhanh, tiện lợi.",
+                "7": "<strong>React Router DOM</strong>: Điều hướng mượt mà.",
+                "8": "<strong>Lottie-react</strong>: Hiệu ứng sinh động.",
+                "9": "<strong>SEO meta tags</strong>: Cải thiện hiển thị tìm kiếm."
+            }
         }
+
     },
+    
+
 
     "projectModal": {
         "techTitle": "Công nghệ sử dụng",

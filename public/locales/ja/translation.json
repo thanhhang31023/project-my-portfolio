@@ -46,70 +46,127 @@
 
         "portfolio": {
             "title": "個人ポートフォリオ - (React＋Typescript)",
-            "description": "自己紹介、スキル、プロジェクトを紹介するウェブサイト。ライト/ダークモード、言語切替、スライドショー、EmailJS送信、全デバイス対応のレスポンシブデザインに対応。",
+            "description": "自己紹介、スキル、プロジェクトを紹介するウェブサイト。ライト/ダークモード、言語切替、モーダルで詳細表示、EmailJS送信、全デバイス対応のレスポンシブデザインに対応。",
             "modal": {
- 
                 "demoLink": "完成品のURL",
                 "sourceCode": "ソースコードのURL:",
                 "detailTitle": "詳細",
-                "detailDescription": "このポートフォリオサイトでは、自己紹介、スキル、プロジェクトを紹介しています。<br/>主な機能：<br/>🔹 マルチページ構成<br/>🔹 日本語・ベトナム語の多言語対応<br/>🔹 EmailJSでメール送信<br/>🔹 全デバイスに対応したレスポンシブデザイン<br/>🔹 ライト / ダークモード切替<br/>🔹 SEO最適化<br/>🔹 プロジェクト画像のスライド表示<br/>🔹 React-Bootstrapを活用した美しいUI",
-              
+                "detailDescription": "このポートフォリオサイトでは、自己紹介、スキル、プロジェクトを紹介しています。<br/>主な機能：<br/>🔹 マルチページ構成<br/>🔹 日本語・ベトナム語の多言語対応<br/>🔹 EmailJSでメール送信<br/>🔹 全デバイスに対応したレスポンシブデザイン<br/>🔹 ライト / ダークモード切替<br/>🔹 SEO最適化<br/>🔹 モーダル、画像のスライドでプロジェクト詳細を表示<br/>🔹 React-Bootstrapを活用した美しいUI",
+
                 "inspirationTitle": "開発のきっかけ",
                 "inspirationDescription1": "このプロジェクトは、<strong>フロントエンド開発職</strong>への応募を目的に構築され、<a class='custom-link' href='https://www.hoidanit.xyz/'>Hỏi Dân IT</a>、<a class='custom-link' href='https://soumyajit.vercel.app/'>Soumyajit</a>、<a class='custom-link' href='https://abusaid.netlify.app/'>Abusaid</a> などのポートフォリオからインスピレーションを得ました。",
                 "inspirationDescription2": "このプロジェクトは<strong>React & Typescript</strong>の実践とスキルアップの機会でもあります。",
                 "technologiesTitle": "使用技術",
                 "inspiration": "このプロジェクトは、<strong>React と Typescript</strong>の実践とスキルアップの良い機会にもなりました。",
-              
+
                 "tech": {
-                  "core": "🚀 基本技術",
-                  "ui": "🎨 UIとデザイン",
-                  "intl": "🌍 国際化とSEO",
-                  "utils": "✉️ インタラクションとユーティリティ"
+                    "core": "🚀 基本技術",
+                    "ui": "🎨 UIとデザイン",
+                    "intl": "🌍 国際化とSEO",
+                    "utils": "✉️ インタラクションとユーティリティ"
                 },
                 "whyTech": "技術選定の理由",
                 "why": {
-                  "1": "<strong>React + Typescript</strong>：一般的で強力、拡張性が高い。",
-                  "2": "<strong>Vite</strong>：ビルドが非常に速く、パフォーマンスに優れる。",
-                  "3": "<strong>Sass、Tailwind CSS、React-Bootstrap</strong>：柔軟でカスタマイズ可能なUI。",
-                  "4": "<strong>Lottie-react</strong>：魅力的なアニメーションを実現。",
-                  "5": "<strong>i18next</strong>：多言語対応、グローバルユーザーに最適。",
-                  "6": "<strong>SEO meta tags</strong>：検索エンジンでの表示最適化。",
-                  "7": "<strong>EmailJS</strong>：バックエンド不要でメール送信可能。",
-                  "8": "<strong>React Toastify</strong>：便利で高速な通知表示。",
-                  "9": "<strong>React Router DOM</strong>：スムーズなページ遷移。"
+                    "1": "<strong>React + Typescript</strong>：一般的で強力、拡張性が高い。",
+                    "2": "<strong>Vite</strong>：ビルドが非常に速く、パフォーマンスに優れる。",
+                    "3": "<strong>Sass、Tailwind CSS、React-Bootstrap</strong>：柔軟でカスタマイズ可能なUI。",
+                    "4": "<strong>Lottie-react</strong>：魅力的なアニメーションを実現。",
+                    "5": "<strong>i18next</strong>：多言語対応、グローバルユーザーに最適。",
+                    "6": "<strong>SEO meta tags</strong>：検索エンジンでの表示最適化。",
+                    "7": "<strong>EmailJS</strong>：バックエンド不要でメール送信可能。",
+                    "8": "<strong>React Toastify</strong>：便利で高速な通知表示。",
+                    "9": "<strong>React Router DOM</strong>：スムーズなページ遷移。"
                 }
-              }
+            }
         },
-       "todo": {
-  "title": "Todoアプリ（React＋TypeScript）",
-  "description": "毎日のタスクを直感的に管理できるTo-doアプリ。追加・編集・削除、完了マーク、ドラッグ＆ドロップで並び替え、データはLocalStorageに保存。レスポンシブで快適に操作可能。",
-  "modal": {
-  "detailDescription": "日々のタスク管理に便利な軽量のTo-doアプリです。<br/>主な機能：<br/>🔹 タスクの追加（重複・空白チェックあり）<br/>🔹 タスクの編集<br/>🔹 タスクの削除（削除前に確認）<br/>🔹 完了・未完了の切り替え<br/>🔹 Local Storageでの保存<br/>🔹 ドラッグ＆ドロップによる並び替え<br/>🔹 全てのデバイスで快適に利用可能",
-  "inspirationDescription1": "ReactとTypeScriptの学習中に、state・props・hookの操作練習を目的として作成したプロジェクトです。",
-  "inspirationDescription2": "イベント処理やデータ管理スキルを向上させるための良い機会にもなりました。",
-  "why": {
-  "1": "<strong>React + TypeScript</strong>：ロジックを明確に管理しやすく、拡張も容易。",
-  "2": "<strong>React Hooks</strong>：UIの状態を簡潔に扱える。",
-  "3": "<strong>SCSS（CSS Modules）</strong>：スタイルを分離し、クラスの競合を防ぐ。",
-  "4": "<strong>Google Fonts</strong>：見やすくモダンなデザインに。",
-  "5": "<strong>LocalStorage</strong>：バックエンド不要でデータ保存。",
-  "6": "<strong>@hello-pangea/dnd</strong>：直感的な並び替えを実現。",
-  "7": "<strong>Prettier</strong>：コード整形を自動化し、統一感を維持。",
-  "8": "<strong>ESLint</strong>：エラーを早期に検出し、品質を保つ。"
-},
-  "tech": {
-  "core": "🚀 基本技術",
-    "ui": "🎨 UIとデザイン",
-    "intl": "📦 ライブラリ & ユーティリティ",
-    "utils": "🧹 コード品質ツール"
-  }
-}
-
-},
+        "todo": {
+            "title": "Todoアプリ - (React＋Typescript)",
+            "description": "毎日のタスクを直感的に管理できるTo-doアプリ。追加・編集・削除、完了マーク、ドラッグ＆ドロップで並び替え、データはLocalStorageに保存。レスポンシブで快適に操作可能。",
+            "modal": {
+                "detailDescription": "日々のタスク管理に便利な軽量のTo-doアプリです。<br/>主な機能：<br/>🔹 タスクの追加（重複・空白チェックあり）<br/>🔹 タスクの編集<br/>🔹 タスクの削除（削除前に確認）<br/>🔹 完了・未完了の切り替え<br/>🔹 Local Storageでの保存<br/>🔹 ドラッグ＆ドロップによる並び替え<br/>🔹 全てのデバイスで快適に利用可能",
+                "inspirationDescription1": "ReactとTypeScriptの学習中に、state・props・hookの操作練習を目的として作成したプロジェクトです。",
+                "inspirationDescription2": "イベント処理やデータ管理スキルを向上させるための良い機会にもなりました。",
+                "why": {
+                    "1": "<strong>React + TypeScript</strong>：ロジックを明確に管理しやすく、拡張も容易。",
+                    "2": "<strong>React Hooks</strong>：UIの状態を簡潔に扱える。",
+                    "3": "<strong>SCSS（CSS Modules）</strong>：スタイルを分離し、クラスの競合を防ぐ。",
+                    "4": "<strong>Google Fonts</strong>：見やすくモダンなデザインに。",
+                    "5": "<strong>LocalStorage</strong>：バックエンド不要でデータ保存。",
+                    "6": "<strong>@hello-pangea/dnd</strong>：直感的な並び替えを実現。",
+                    "7": "<strong>Prettier</strong>：コード整形を自動化し、統一感を維持。",
+                    "8": "<strong>ESLint</strong>：エラーを早期に検出し、品質を保つ。"
+                },
+                "tech": {
+                    "core": "🚀 基本技術",
+                    "ui": "🎨 UIとデザイン",
+                    "intl": "📦 ライブラリ & ユーティリティ",
+                    "utils": "🧹 コード品質ツール"
+                }
+            }
+        },
 
         "library": {
-            "title": "Thư viện sách - (Javascript)",
-            "description": "Trang web giới thiệu các cuốn sách hay và phổ biến."
+            "title": "販売サイト - (HTML+Sass+Javascript)",
+            "description": "Figma デザインをもとにで構築した複数ページの販売サイト。レスポンシブ対応、ダーク/ライトモード、SEO最適化、高速表示、モダンなメガメニューをサポート。",
+            "modal": {
+                "detailDescription": "Grocery Mart は、実際のプロ仕様な販売サイトを模したECサイトです。<br/>主な機能：<br/>🔹 複数ページ構成：ホーム、商品一覧、詳細、カート、プロフィールなど<br/>🔹 Figmaデザインからのコーディング<br/>🔹 全デバイス対応のレスポンシブデザイン<br/>🔹 ダーク / ライトモード切替対応<br/>🔹 SEO最適化<br/>🔹 フレームワーク未使用、読みやすく拡張しやすいクリーンコード",
+
+                "inspirationTitle": "Cảm hứng phát triển",
+                "inspirationDescription1": "Grocery Mart は、フレームワークを使わずにプロフェッショナルな販売サイトのUI設計力を鍛えるために制作しました。",
+                "inspirationDescription2": "このプロジェクトは、<strong>HTML、CSS、JavaScript</strong>のスキルを磨き、レスポンシブ対応やコード最適化、SEOの理解を深める足がかりとなりました。",
+
+                "technologiesTitle": "Công nghệ sử dụng",
+                "inspiration": "Đây là cơ hội để tôi thực hành và nâng cao kỹ năng <strong>React & Typescript</strong>.",
+
+                "tech": {
+                    "core": "🚀 基本技術",
+                    "ui": "🎨 UIとデザイン",
+                    "intl": "🌍 SEOと最適化",
+                    "utils": "💾 ユーティリティ"
+                },
+                "whyTech": "Lý do lựa chọn công nghệ",
+                "why": {
+                    "1": "<strong>HTML5</strong>: セマンティックな構造でSEOに有利。",
+                    "2": "<strong>SCSS</strong>: 変数やmixinで効率的にスタイル管理。",
+                    "3": "<strong>JavaScript (ES6+)</strong>: toggle、タブ、ドロップダウンなど柔軟な操作を実現。",
+                    "4": "<strong>Custom Grid SCSS</strong>: フレームワーク不要でレイアウトを自由に設計。",
+                    "5": "<strong>Google Fonts</strong>: デザイン性の高いフォント表示。",
+                    "6": "<strong>Meta + Canonical tag</strong>: SEO最適化と重複コンテンツの回避。",
+                    "7": "<strong>LocalStorage</strong>: テーマ状態やHTMLテンプレートを保存。"
+                }
+            }
+        },
+        "modal": {
+            "demo": "Demo",
+            "demoLink": "Link demo dự án",
+            "sourceCode": "Link source code:",
+            "detailTitle": "Mô tả chi tiết",
+            "detailDescription": "Website portfolio cá nhân giới thiệu bản thân, kỹ năng và dự án.<br/>Một số tính năng chính:<br/>🔹 Giao diện đa trang<br/>🔹 Đa ngôn ngữ: Nhật – Việt<br/>🔹 Gửi email bằng EmailJS<br/>🔹 Responsive trên mọi thiết bị<br/>🔹 Hỗ trợ sáng/tối<br/>🔹 Tối ưu SEO<br/>🔹 Slide ảnh dự án<br/>🔹 Giao diện đẹp với React-Bootstrap",
+
+            "inspirationTitle": "Cảm hứng phát triển",
+            "inspirationDescription1": "Dự án xây dựng để ứng tuyển vị trí <strong>Frontend Developer</strong>, lấy cảm hứng từ portfolio như <a class='custom-link' href='https://www.hoidanit.xyz/'>Hỏi Dân IT</a>, <a class='custom-link' href='https://soumyajit.vercel.app/'>Soumyajit</a> và <a class='custom-link' href='https://abusaid.netlify.app/'>Abusaid</a>.",
+            "inspirationDescription2": "Đây là cơ hội để tôi thực hành và nâng cao kỹ năng <strong>React & Typescript</strong>.",
+            "technologiesTitle": "Công nghệ sử dụng",
+            "inspiration": "Đây là cơ hội để tôi thực hành và nâng cao kỹ năng <strong>React & Typescript</strong>.",
+
+            "tech": {
+                "core": "🚀 Công nghệ chính",
+                "ui": "🎨 Giao diện & UI",
+                "intl": "🌍 Quốc tế hóa & SEO",
+                "utils": "✉️ Tương tác & Tiện ích"
+            },
+            "whyTech": "Lý do lựa chọn công nghệ",
+            "why": {
+                "1": "<strong>React + Typescript</strong>: Phổ biến, mạnh mẽ, dễ mở rộng.",
+                "2": "<strong>Vite</strong>: Build cực nhanh, tối ưu hiệu suất.",
+                "3": "<strong>Sass, Tailwind CSS, React-Bootstrap</strong>: UI linh hoạt, dễ tùy chỉnh.",
+                "4": "<strong>i18next</strong>: Đa ngôn ngữ, phù hợp người dùng toàn cầu.",
+                "5": "<strong>EmailJS</strong>: Gửi email không cần backend.",
+                "6": "<strong>React Toastify</strong>: Thông báo nhanh, tiện lợi.",
+                "7": "<strong>React Router DOM</strong>: Điều hướng mượt mà.",
+                "8": "<strong>Lottie-react</strong>: Hiệu ứng sinh động.",
+                "9": "<strong>SEO meta tags</strong>: Cải thiện hiển thị tìm kiếm."
+            }
         },
         "todo2": {
             "title": "Ứng dụng To-do - (Javascript)",
@@ -125,38 +182,36 @@
         },
 
         "modal": {
- 
-  "demoLink": "完成品のURL",
-  "sourceCode": "ソースコードのURL:",
-  "detailTitle": "詳細",
-  "detailDescription": "このポートフォリオサイトでは、自己紹介、スキル、プロジェクトを紹介しています。<br/>主な機能：<br/>🔹 マルチページ構成<br/>🔹 日本語・ベトナム語の多言語対応<br/>🔹 EmailJSでメール送信<br/>🔹 全デバイスに対応したレスポンシブデザイン<br/>🔹 ライト / ダークモード切替<br/>🔹 SEO最適化<br/>🔹 プロジェクト画像のスライド表示<br/>🔹 React-Bootstrapを活用した美しいUI",
+            "demoLink": "完成品のURL",
+            "sourceCode": "ソースコードのURL:",
+            "detailTitle": "詳細",
+            "detailDescription": "このポートフォリオサイトでは、自己紹介、スキル、プロジェクトを紹介しています。<br/>主な機能：<br/>🔹 マルチページ構成<br/>🔹 日本語・ベトナム語の多言語対応<br/>🔹 EmailJSでメール送信<br/>🔹 全デバイスに対応したレスポンシブデザイン<br/>🔹 ライト / ダークモード切替<br/>🔹 SEO最適化<br/>🔹 プロジェクト画像のスライド表示<br/>🔹 React-Bootstrapを活用した美しいUI",
 
-  "inspirationTitle": "開発のきっかけ",
-  "inspirationDescription1": "このプロジェクトは、<strong>フロントエンド開発職</strong>への応募を目的に構築され、<a class='custom-link' href='https://www.hoidanit.xyz/'>Hỏi Dân IT</a>、<a class='custom-link' href='https://soumyajit.vercel.app/'>Soumyajit</a>、<a class='custom-link' href='https://abusaid.netlify.app/'>Abusaid</a> などの有名なポートフォリオからインスピレーションを得ました。",
-  "inspirationDescription2": "このプロジェクトは<strong>React & Typescript</strong>の実践とスキルアップの機会でもあります。",
-  "technologiesTitle": "使用技術",
-  "inspiration": "このプロジェクトは、<strong>React と Typescript</strong>の実践とスキルアップの良い機会にもなりました。",
+            "inspirationTitle": "開発のきっかけ",
+            "inspirationDescription1": "このプロジェクトは、<strong>フロントエンド開発職</strong>への応募を目的に構築され、<a class='custom-link' href='https://www.hoidanit.xyz/'>Hỏi Dân IT</a>、<a class='custom-link' href='https://soumyajit.vercel.app/'>Soumyajit</a>、<a class='custom-link' href='https://abusaid.netlify.app/'>Abusaid</a> などの有名なポートフォリオからインスピレーションを得ました。",
+            "inspirationDescription2": "このプロジェクトは<strong>React & Typescript</strong>の実践とスキルアップの機会でもあります。",
+            "technologiesTitle": "使用技術",
+            "inspiration": "このプロジェクトは、<strong>React と Typescript</strong>の実践とスキルアップの良い機会にもなりました。",
 
-  "tech": {
-    "core": "🚀 基本技術",
-    "ui": "🎨 UIとデザイン",
-    "intl": "🌍 国際化とSEO",
-    "utils": "✉️ インタラクションとユーティリティ"
-  },
-  "whyTech": "技術選定の理由",
-  "why": {
-    "1": "<strong>React + Typescript</strong>：一般的で強力、拡張性が高い。",
-    "2": "<strong>Vite</strong>：ビルドが非常に速く、パフォーマンスに優れる。",
-    "3": "<strong>Sass、Tailwind CSS、React-Bootstrap</strong>：柔軟でカスタマイズ可能なUI。",
-    "4": "<strong>i18next</strong>：多言語対応、グローバルユーザーに最適。",
-    "5": "<strong>EmailJS</strong>：バックエンド不要でメール送信可能。",
-    "6": "<strong>React Toastify</strong>：便利で高速な通知表示。",
-    "7": "<strong>React Router DOM</strong>：スムーズなページ遷移。",
-    "8": "<strong>Lottie-react</strong>：魅力的なアニメーションを実現。",
-    "9": "<strong>SEO meta tags</strong>：検索エンジンでの表示最適化。"
-  }
-}
-
+            "tech": {
+                "core": "🚀 基本技術",
+                "ui": "🎨 UIとデザイン",
+                "intl": "🌍 国際化とSEO",
+                "utils": "✉️ インタラクションとユーティリティ"
+            },
+            "whyTech": "技術選定の理由",
+            "why": {
+                "1": "<strong>React + Typescript</strong>：一般的で強力、拡張性が高い。",
+                "2": "<strong>Vite</strong>：ビルドが非常に速く、パフォーマンスに優れる。",
+                "3": "<strong>Sass、Tailwind CSS、React-Bootstrap</strong>：柔軟でカスタマイズ可能なUI。",
+                "4": "<strong>i18next</strong>：多言語対応、グローバルユーザーに最適。",
+                "5": "<strong>EmailJS</strong>：バックエンド不要でメール送信可能。",
+                "6": "<strong>React Toastify</strong>：便利で高速な通知表示。",
+                "7": "<strong>React Router DOM</strong>：スムーズなページ遷移。",
+                "8": "<strong>Lottie-react</strong>：魅力的なアニメーションを実現。",
+                "9": "<strong>SEO meta tags</strong>：検索エンジンでの表示最適化。"
+            }
+        }
     },
     "projectModal": {
         "techTitle": "使用した技術",

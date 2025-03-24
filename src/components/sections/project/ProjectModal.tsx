@@ -1,6 +1,7 @@
 import { Modal, Button, Carousel } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
 import { BsGithub } from "react-icons/bs";
+import Divider from "components/sections/divider";
 
 //import { CgWebsite } from "react-icons/cg";
 
@@ -78,41 +79,7 @@ function ProjectModal({ show, onHide, data }: Props) {
                     ))}
                 </Carousel>
 
-                {/* Demo + GitHub */}
-                <div className="d-flex flex-column flex-md-row align-items-start gap-4 mb-4">
-                    <div>
-                        <Button variant="primary" href={data.demoLink} target="_blank">
-                            🌐 Demo
-                        </Button>
-                        <div className="text-muted small mt-2">
-                            🔗 {t("project.modal.demoLink")}:{" "}
-                            <a
-                                href={data.demoLink}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="text-decoration-underline text-info"
-                            >
-                                {data.demoLink}
-                            </a>
-                        </div>
-                    </div>
-                    <div>
-                        <Button variant="primary" href={data.githubLink} target="_blank">
-                            <BsGithub className="me-1" /> GitHub
-                        </Button>
-                        <div className="text-muted small mt-2">
-                            💻 {t("project.modal.sourceCode")}{" "}
-                            <a
-                                href={data.githubLink}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="text-decoration-underline text-info"
-                            >
-                                {data.githubLink}
-                            </a>
-                        </div>
-                    </div>
-                </div>
+                
 
                 {/* Mô tả chi tiết */}
                 <h5 className="mt-3 mb-2 fw-bold">📝 {t("project.modal.detailTitle")}</h5>
@@ -167,6 +134,46 @@ function ProjectModal({ show, onHide, data }: Props) {
                         />
                     ))}
                 </ul>
+
+                <Divider />
+
+{/* Demo + GitHub */}
+<div className="d-flex flex-column flex-md-row align-items-start gap-4 mb-4" style={{ marginTop: "15px" }}>
+                    <div>
+                        <Button variant="primary" href={data.demoLink} target="_blank">
+                            🌐 Demo
+                        </Button>
+                        <div className="text-muted small mt-2">
+                            🔗 {t("project.modal.demoLink")}:{" "}
+                            <a
+                                href={data.demoLink}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-decoration-underline text-info"
+                            >
+                                {data.demoLink}
+                            </a>
+                        </div>
+                    </div>
+                    <div>
+                        <Button variant="primary" href={data.githubLink} target="_blank">
+                            <BsGithub className="me-1" /> GitHub
+                        </Button>
+                        <div className="text-muted small mt-2">
+                            💻 {t("project.modal.sourceCode")}{" "}
+                            <a
+                                href={data.githubLink}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-decoration-underline text-info"
+                            >
+                                {data.githubLink}
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
             </Modal.Body>
 
             <Modal.Footer>
@@ -184,6 +191,9 @@ function ProjectModal({ show, onHide, data }: Props) {
         >
           🌐Demo
         </Button> */}
+
+
+        
             </Modal.Footer>
         </Modal>
     );
