@@ -18,7 +18,7 @@ const HeroLeft = (props: IProps) => {
         if (newWindow) newWindow.opener = null;
     };
     const handleDownloadCV = () => {
-        openInNewTab("https://drive.google.com/");
+        openInNewTab("https://drive.google.com/file/d/1_pTKRPIsbq3c9rW1nFxrRZmwdiYDuB_P/view?usp=sharing");
     };
     return (
         <div className="hero-left">
@@ -42,7 +42,7 @@ const HeroLeft = (props: IProps) => {
                     wrapperClassName: "brand-green",
                 }}
             />
-        
+
             <div className="social-icons mt-md-6 mt-3 mb-md-5 mb-2">
                 <SocialMedia
                     github={APP_DATA.GITHUB_URL}
@@ -52,7 +52,7 @@ const HeroLeft = (props: IProps) => {
                     facebook={APP_DATA.FACEBOOK_URL}
                 />
             </div>
-           
+
             <div className="hero-buttons d-md-flex  gap-2">
                 <ResizeButton
                     onClick={props.scrollToSkillSection}
@@ -64,13 +64,13 @@ const HeroLeft = (props: IProps) => {
                         color: "var(--text-white)",
                     }}
                 />
-                <ResizeButton 
-                btnText={t("heroSection.cv")} btnIcons={<MdFileDownload />} onClick={handleDownloadCV} 
-                btnStyle={{
-                  
-                   
-                    color: "#fff",
-                }}
+                <ResizeButton
+                    btnText={t("heroSection.cv")}
+                    btnIcons={<MdFileDownload />}
+                    onClick={handleDownloadCV}
+                    btnStyle={{
+                        color: "#fff",
+                    }}
                 />
             </div>
         </div>
