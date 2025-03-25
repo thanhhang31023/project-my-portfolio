@@ -98,7 +98,7 @@ body {
     background-image: var(--resize-button);
     padding: 15px 25px;
     text-align: center;
-    color: white;
+    //color: var(--text-white);
     text-decoration: none;
     border: none;
     font-weight: 600;
@@ -402,6 +402,7 @@ body {
     max-width: 100%; // Giới hạn chiều rộng để nội dung không quá dài
     margin: 0 auto; // Căn giữa nội dung
     margin-bottom: 50px;
+    color: var(--text-white);
 }
 
 .about-image {
@@ -438,7 +439,7 @@ body {
     margin-bottom: 20px;
 }
 .journey-quote {
-    background: linear-gradient(to right, #96ff5e, #ff9a44);
+    background: var(--background-slogan);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bold;
@@ -457,7 +458,7 @@ body {
     margin: auto;
     font-size: 1.15rem;
     line-height: 1.8;
-    color: #c0c0c0;
+    color: var(--text-white);
     text-align: center;
 }
 
@@ -471,7 +472,7 @@ body {
 }
 
 .project-link:hover {
-    color: #ffcc00;
+    color: #66ccff;
 }
 
 // .project-link::after {
@@ -496,13 +497,13 @@ body {
 .project-header h3 {
     font-size: 2.2rem;
     font-weight: bold;
-    color: #ffffff;
+    color: var(--text-white);
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 .project-card-view .btn-primary:hover {
-    background-color: #41a313;
+    background-color: #339af0;
     transform: scale(1.05);
     transition: 0.3s ease;
   }

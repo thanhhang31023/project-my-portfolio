@@ -1,29 +1,30 @@
 // $grey-100: #eee;
 
 $light-theme: (
-       background-body: #f8f9fa,
+       background-body: #f7f9fc,
     background-body-tertiary : #f8f9fa,
 
-    scroll-track-background: "#fff",
+    scroll-track-background: "#f7f9f",
     scroll-thumb-background: "#ccc",
     scroll-thumb-hover: "#9e9e9e",
 
-    brand-name-100: black,
-    brand-name-200: black,
+    brand-name-100: #1a1a1a,
+    brand-name-200: #ec4899,
     brand-social:#4762f8,
-
-    border-hero-right: #eee,
+    border-hero-right: #bf95c3,
     background-hero-right: "linear-gradient(to right, #fff, #eee)",
     border-top-hero-right: "linear-gradient(to right, transparent, #fff, #fff, transparent)",
 
     text-red-500: #f96f73,
     text-yellow-500: #fa9348,
-    text-green-500: #b6f9d2,
+    text-green-500: #6adf9a,
     text-green-700: #56b10e,
     text-pink-100: #ec4899,
     text-pink-200: #bd21b8,
     text-blue-100: #1dd2ec,
-    text-white: #000,
+    text-white: #241929,
+
+    
 
     line-blue-500: #1a1443,
     resize-button: "linear-gradient(to right, #ec4899, #8b5cf6)",
@@ -32,7 +33,8 @@ $light-theme: (
     border-top-skill-card: "linear-gradient(to right, transparent, #fff, #fff, transparent)",
 
     background-contact:#f7f7e9,
-    background-text-input:#f3f3ca,
+    background-text-input:#f7f7db,
+    background-slogan: linear-gradient(to right, #43c100, #d59f2b),
     border-input: 1px solid #97978a,
 
 );
@@ -60,7 +62,9 @@ $dark-theme: (
     text-pink-100: #ec4899,
     text-pink-200: #bd21b8,
     text-blue-100: #1dd2ec,
-    text-white: #fff,
+    text-white: #d5cfd8,
+
+  
 
     line-blue-500: #1a1443,
     resize-button: "linear-gradient(to right, #ec4899, #8b5cf6)",
@@ -72,6 +76,7 @@ $dark-theme: (
     background-contact:#111827,
     background-text-input: #10172d,
     border-input: 1px solid #353a52,
+    background-slogan: linear-gradient(to right, #96ff5e, #ff9a44),
 
 );
 

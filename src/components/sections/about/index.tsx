@@ -12,6 +12,7 @@ import Divider from "components/sections/divider";
 //import SocialMedia from "components/sections/social.media";
 import Experience from "@/components/sections/experience";
 
+
 const About = () => {
     const { t } = useTranslation();
     return (
@@ -25,8 +26,9 @@ const About = () => {
 
             {/* Nội dung giới thiệu nằm dưới ảnh */}
             <Row className="about-content">
+                           
                 <Col xs={12}>
-                    <h3 className="text-center mb-4">
+                    <h3 className="text-center mb-4 ">
                         {" "}
                         <span className="brand-red"></span>
                     </h3>
@@ -92,6 +94,7 @@ const About = () => {
             <Divider />
    <section>
                 <Container>
+                    
                     <Experience />
                 </Container>
             </section>

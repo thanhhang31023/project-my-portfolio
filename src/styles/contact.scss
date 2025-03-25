@@ -6,13 +6,14 @@
     .contact-header {
       font-size: 24px;
       font-weight: bold;
+      color:var(--brand-name-200);
     
       margin-bottom: 10px; /* Giảm từ 20px xuống 10px */
   
       .line {
         width: 60px;
         height: 4px;
-        background: var(--brand-name-100);
+        background: rgb(130, 134, 123);
         margin: auto;
       }
     }
@@ -82,7 +83,7 @@
       .submit-btn {
         width: 100%;
         padding: 10px;
-        background: linear-gradient(90deg, #ff416c, #ff4b2b);
+       
         color: var(--text-white);
         font-weight: bold;
         border: none;

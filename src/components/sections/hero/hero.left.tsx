@@ -61,10 +61,17 @@ const HeroLeft = (props: IProps) => {
                     btnStyle={{
                         background: "unset",
                         border: "1px solid var(--border-hero-right)",
-                        color: "var(--text-white-1)",
+                        color: "var(--text-white)",
                     }}
                 />
-                <ResizeButton btnText={t("heroSection.cv")} btnIcons={<MdFileDownload />} onClick={handleDownloadCV} />
+                <ResizeButton 
+                btnText={t("heroSection.cv")} btnIcons={<MdFileDownload />} onClick={handleDownloadCV} 
+                btnStyle={{
+                  
+                   
+                    color: "#fff",
+                }}
+                />
             </div>
         </div>
     );

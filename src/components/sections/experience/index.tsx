@@ -20,7 +20,7 @@ const Experience = () => {
         <Row className="mb-5">
             <Col xs={12} className="my-3 my-md-5">
                 <div className="text-center">
-                    <h3>{t("experience.title")}</h3>
+                    <h3 className="brand-red">{t("experience.title")}</h3>
                     <p>{t("experience.title2")}</p>
                 </div>
             </Col>

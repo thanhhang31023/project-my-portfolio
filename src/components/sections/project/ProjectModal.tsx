@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 import { BsGithub } from "react-icons/bs";
 import Divider from "components/sections/divider";
 
+
 //import { CgWebsite } from "react-icons/cg";
 
 interface Props {
@@ -82,6 +83,7 @@ function ProjectModal({ show, onHide, data }: Props) {
                 
 
                 {/* Mô tả chi tiết */}
+             
                 <h5 className="mt-3 mb-2 fw-bold">📝 {t("project.modal.detailTitle")}</h5>
                 <p
                     className="mb-4"
