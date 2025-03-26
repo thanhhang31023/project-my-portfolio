@@ -24,6 +24,16 @@ if (
     localStorage.setItem('i18nextLng', 'ja');
   }
 
+  // Xử lý bật dark mode nếu chưa có theme
+const userTheme = localStorage.getItem('theme');
+const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+if (userTheme === 'dark' || (!userTheme && systemPrefersDark)) {
+  document.documentElement.classList.add('dark');
+} else {
+  document.documentElement.classList.remove('dark');
+}
+
 
 const router = createBrowserRouter([
     {
