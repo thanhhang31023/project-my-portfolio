@@ -11,15 +11,9 @@ const AppContext = createContext<IAppContext | null>(null);
 
 export const AppContextProvider = ({ children }: { children: React.ReactNode }) => {
     const [theme, setTheme] = useState<ThemeContextType>(() => {
-        const savedTheme = localStorage.getItem("theme") as ThemeContextType;
-    
-        if (savedTheme) return savedTheme;
-    
-        const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-        const defaultTheme: ThemeContextType = prefersDark ? "dark" : "light";
-    
-        localStorage.setItem("theme", defaultTheme);
-        return defaultTheme;
+        const initialTheme =
+        localStorage.getItem("theme") as ThemeContextType || "dark";
+    return initialTheme;
     });
     
 
