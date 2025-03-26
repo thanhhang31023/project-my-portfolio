@@ -10,30 +10,6 @@ import AboutPage from "pages/about";
 import { AppContextProvider } from "components/context/app.context";
 import "@/i18n";
 
-// ⚡ Thêm đoạn xử lý trước khi render
-if (
-    localStorage.getItem('theme') === 'dark' ||
-    (!localStorage.getItem('theme') && window.matchMedia('(prefers-color-scheme: dark)').matches)
-  ) {
-    document.documentElement.classList.add('dark');
-  } else {
-    document.documentElement.classList.remove('dark');
-  }
-  
-  if (!localStorage.getItem('i18nextLng')) {
-    localStorage.setItem('i18nextLng', 'ja');
-  }
-
-  // Xử lý bật dark mode nếu chưa có theme
-const userTheme = localStorage.getItem('theme');
-const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-
-if (userTheme === 'dark' || (!userTheme && systemPrefersDark)) {
-  document.documentElement.classList.add('dark');
-} else {
-  document.documentElement.classList.remove('dark');
-}
-
 
 const router = createBrowserRouter([
     {
