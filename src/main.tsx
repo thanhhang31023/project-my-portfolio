@@ -10,6 +10,21 @@ import AboutPage from "pages/about";
 import { AppContextProvider } from "components/context/app.context";
 import "@/i18n";
 
+// ⚡ Thêm đoạn xử lý trước khi render
+if (
+    localStorage.getItem('theme') === 'dark' ||
+    (!localStorage.getItem('theme') && window.matchMedia('(prefers-color-scheme: dark)').matches)
+  ) {
+    document.documentElement.classList.add('dark');
+  } else {
+    document.documentElement.classList.remove('dark');
+  }
+  
+  if (!localStorage.getItem('i18nextLng')) {
+    localStorage.setItem('i18nextLng', 'ja');
+  }
+
+
 const router = createBrowserRouter([
     {
         path: "/",
