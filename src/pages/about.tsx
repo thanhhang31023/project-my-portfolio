@@ -1,7 +1,7 @@
 import { Container } from "react-bootstrap";
 import About from "components/sections/about";
 import bg from "assets/section.svg";
-//import bg from "assets/top-bg.svg";
+
 
 const AboutPage = () => {
     return (
