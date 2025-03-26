@@ -39,44 +39,35 @@
         "school": "Trường cao đẳng kinh tế công nghệ Hà Nội",
         "school1": "(Hệ trực tuyến)"
     },
-    "experience": {
-        "title": "Kinh nghiệm làm việc",
-        "title2": "💡 Tận dụng kinh nghiệm làm việc trước đây, tôi hướng đến việc phát triển dựa trên tư duy logic và tinh thần làm việc nhóm."
-    },
+
     "skill": {
         "title": "Kỹ năng"
     },
+
+    "contact": {
+        "title": "LIÊN HỆ",
+
+        "name": "Họ và tên:",
+        "mail": "Email:",
+        "mes": "Tin nhắn:",
+        "send": "Gửi tin nhắn ",
+        "title2": "Liên hệ với tôi",
+        "title3": "Hãy liên hệ với tôi nếu bạn có bất kỳ câu hỏi hay cơ hội hợp tác nào!",
+        "required": "(*Bắt buộc)"
+    },
+    "toast": {
+        "success": "Tin nhắn đã được gửi thành công! Vui lòng kiểm tra hộp thư đến, thư rác hoặc spam của bạn.",
+        "error": "Gửi tin nhắn thất bại!",
+        "mes": "Đang gửi tin nhắn...",
+        "required": "Vui lòng nhập đầy đủ thông tin!"
+    },
+
     "project": {
         "title": "Những dự án gần đây của tôi",
         "title2": "Từ những kiến thức Front End học được qua các kênh trực tuyến như",
         "title3": ",...Tôi đã áp dụng vào thực tế và thực hiện các dự án dưới đây.",
         "title4": "",
-        "todo": {
-            "title": "Todo App - (React+Typescript)",
-            "description": "Ứng dụng quản lý công việc hằng ngày, hỗ trợ thêm/sửa/xoá, đánh dấu hoàn thành, kéo thả sắp xếp, lưu dữ liệu bằng LocalStorage và hiển thị tốt trên mọi thiết bị.",
 
-            "modal": {
-                "detailDescription": "Ứng dụng to-do nhỏ gọn cho quản lý công việc hàng ngày.<br/>Một số tính năng chính:<br/>🔹 Thêm nhiệm vụ (kiểm tra trùng lặp, kí tự trống)<br/>🔹 Chỉnh sửa nhiệm vụ<br/>🔹 Xoá nhiệm vụ (có xác nhận trước khi xoá)<br/>🔹Đánh dấu đã/chưa hoàn thành<br/>🔹 Lưu trữ bằng Local Storage<br/>🔹 Kéo & thả  sắp xếp thứ tự <br/>🔹 Hiển thị tốt trên mọi thiết bị ",
-                "inspirationDescription1": "Dự án được thực hiện trong quá trình học React & TypeScript nhằm rèn luyện thao tác với state, props và hook.",
-                "inspirationDescription2": "Đây cũng là cơ hội để nâng cao kỹ năng xử lý sự kiện và quản lý dữ liệu hiệu quả.",
-                "why": {
-                    "1": "<strong>React + TypeScript</strong>: Quản lý logic rõ ràng, dễ mở rộng.",
-                    "2": "<strong>React Hooks</strong>: Quản lý trạng thái UI hiệu quả.",
-                    "3": "<strong>SCSS (CSS Modules)</strong>: Tách biệt style, tránh trùng class.",
-                    "4": "<strong>Google Fonts</strong>: Giao diện hiện đại, dễ đọc.",
-                    "5": "<strong>LocalStorage</strong>: Lưu dữ liệu người dùng không cần backend.",
-                    "6": "<strong>@hello-pangea/dnd</strong>: Kéo thả sắp xếp trực quan.",
-                    "7": "<strong>Prettier</strong>: Giữ code sạch, đồng nhất.",
-                    "8": "<strong>ESLint</strong>: Phát hiện lỗi sớm, chuẩn hóa code."
-                },
-                "tech": {
-                    "core": "🚀 Công nghệ chính",
-                    "ui": "🎨 Giao diện & UI",
-                    "intl": "📦 Thư viện & Tiện ích",
-                    "utils": "🧹 Chất lượng mã nguồn"
-                }
-            }
-        },
         "portfolio": {
             "title": "Portfolio cá nhân - (React＋Typescript)",
             "description": "Website giới thiệu bản thân, kỹ năng và dự án, hỗ trợ chế độ sáng/tối, đa ngôn ngữ, gửi email qua EmailJS, modal hiển thị chi tiết dự án và responsive trên mọi thiết bị.",
@@ -113,38 +104,34 @@
                 }
             }
         },
-        "modal": {
-            "demo": "Demo",
-            "demoLink": "Link demo dự án",
-            "sourceCode": "Link source code:",
-            "detailTitle": "Mô tả chi tiết",
-            "detailDescription": "Website portfolio cá nhân giới thiệu bản thân, kỹ năng và dự án.<br/>Một số tính năng chính:<br/>🔹 Giao diện đa trang<br/>🔹 Đa ngôn ngữ: Nhật – Việt<br/>🔹 Gửi email bằng EmailJS<br/>🔹 Responsive trên mọi thiết bị<br/>🔹 Hỗ trợ sáng/tối<br/>🔹 Tối ưu SEO<br/>🔹 Slide ảnh dự án<br/>🔹 Giao diện đẹp với React-Bootstrap",
 
-            "inspirationTitle": "Cảm hứng phát triển",
-            "inspirationDescription1": "Dự án xây dựng để ứng tuyển vị trí <strong>Frontend Developer</strong>, lấy cảm hứng từ portfolio như <a class='custom-link' href='https://www.hoidanit.xyz/'>Hỏi Dân IT</a>, <a class='custom-link' href='https://soumyajit.vercel.app/'>Soumyajit</a> và <a class='custom-link' href='https://abusaid.netlify.app/'>Abusaid</a>.",
-            "inspirationDescription2": "Đây là cơ hội để tôi thực hành và nâng cao kỹ năng <strong>React & Typescript</strong>.",
-            "technologiesTitle": "Công nghệ sử dụng",
-            "inspiration": "Đây là cơ hội để tôi thực hành và nâng cao kỹ năng <strong>React & Typescript</strong>.",
+        "todo": {
+            "title": "Todo App - (React+Typescript)",
+            "description": "Ứng dụng quản lý công việc hằng ngày, hỗ trợ thêm/sửa/xoá, đánh dấu hoàn thành, kéo thả sắp xếp, lưu dữ liệu bằng LocalStorage và hiển thị tốt trên mọi thiết bị.",
 
-            "tech": {
-                "core": "🚀 Công nghệ chính",
-                "ui": "🎨 Giao diện & UI",
-                "intl": "🌍 Quốc tế hóa & SEO",
-                "utils": "✉️ Tương tác & Tiện ích"
-            },
-            "whyTech": "Lý do lựa chọn công nghệ",
-            "why": {
-                "1": "<strong>React + Typescript</strong>: Phổ biến, mạnh mẽ, dễ mở rộng.",
-                "2": "<strong>Vite</strong>: Build cực nhanh, tối ưu hiệu suất.",
-                "3": "<strong>Sass, Tailwind CSS, React-Bootstrap</strong>: UI linh hoạt, dễ tùy chỉnh.",
-                "4": "<strong>i18next</strong>: Đa ngôn ngữ, phù hợp người dùng toàn cầu.",
-                "5": "<strong>EmailJS</strong>: Gửi email không cần backend.",
-                "6": "<strong>React Toastify</strong>: Thông báo nhanh, tiện lợi.",
-                "7": "<strong>React Router DOM</strong>: Điều hướng mượt mà.",
-                "8": "<strong>Lottie-react</strong>: Hiệu ứng sinh động.",
-                "9": "<strong>SEO meta tags</strong>: Cải thiện hiển thị tìm kiếm."
+            "modal": {
+                "detailDescription": "Ứng dụng to-do nhỏ gọn cho quản lý công việc hàng ngày.<br/>Một số tính năng chính:<br/>🔹 Thêm nhiệm vụ (kiểm tra trùng lặp, kí tự trống)<br/>🔹 Chỉnh sửa nhiệm vụ<br/>🔹 Xoá nhiệm vụ (có xác nhận trước khi xoá)<br/>🔹Đánh dấu đã/chưa hoàn thành<br/>🔹 Lưu trữ bằng Local Storage<br/>🔹 Kéo & thả  sắp xếp thứ tự <br/>🔹 Hiển thị tốt trên mọi thiết bị ",
+                "inspirationDescription1": "Dự án được thực hiện trong quá trình học React & TypeScript nhằm rèn luyện thao tác với state, props và hook.",
+                "inspirationDescription2": "Đây cũng là cơ hội để nâng cao kỹ năng xử lý sự kiện và quản lý dữ liệu hiệu quả.",
+                "why": {
+                    "1": "<strong>React + TypeScript</strong>: Quản lý logic rõ ràng, dễ mở rộng.",
+                    "2": "<strong>React Hooks</strong>: Quản lý trạng thái UI hiệu quả.",
+                    "3": "<strong>SCSS (CSS Modules)</strong>: Tách biệt style, tránh trùng class.",
+                    "4": "<strong>Google Fonts</strong>: Giao diện hiện đại, dễ đọc.",
+                    "5": "<strong>LocalStorage</strong>: Lưu dữ liệu người dùng không cần backend.",
+                    "6": "<strong>@hello-pangea/dnd</strong>: Kéo thả sắp xếp trực quan.",
+                    "7": "<strong>Prettier</strong>: Giữ code sạch, đồng nhất.",
+                    "8": "<strong>ESLint</strong>: Phát hiện lỗi sớm, chuẩn hóa code."
+                },
+                "tech": {
+                    "core": "🚀 Công nghệ chính",
+                    "ui": "🎨 Giao diện & UI",
+                    "intl": "📦 Thư viện & Tiện ích",
+                    "utils": "🧹 Chất lượng mã nguồn"
+                }
             }
         },
+
         "library": {
             "title": "Website bán hàng - (HTML+Sass+Javascript)",
             "description": "Website bán hàng gồm nhiều trang được xây dựng dựa trên thiết kế Figma, hỗ trợ responsive, chế độ sáng/tối, tối ưu SEO, hiệu suất tải trang và mega menu hiện đại.",
@@ -153,30 +140,29 @@
                 "demoLink": "Link demo dự án",
                 "sourceCode": "Link source code:",
                 "detailTitle": "Mô tả chi tiết",
-               
-     "detailDescription": "Grocery Mart là website thương mại điện tử mô phỏng giao diện thực tế của một trang bán hàng chuyên nghiệp.<br/>Một số tính năng chính:<br/>🔹 Giao diện đa trang: Trang chủ, sản phẩm, chi tiết, giỏ hàng, hồ sơ,...<br/>🔹 Chuyển từ thiết kế Figma<br/>🔹 Tương thích mọi thiết bị<br/>🔹 Hỗ trợ chế độ sáng / tối <br/>🔹 Tối ưu SEO<br/>🔹  Code sạch,  dễ mở rộng – không dùng framework",
+
+                "detailDescription": "Grocery Mart là website thương mại điện tử mô phỏng giao diện thực tế của một trang bán hàng chuyên nghiệp.<br/>Một số tính năng chính:<br/>🔹 Giao diện đa trang: Trang chủ, sản phẩm, chi tiết, giỏ hàng, hồ sơ,...<br/>🔹 Chuyển từ thiết kế Figma<br/>🔹 Tương thích mọi thiết bị<br/>🔹 Hỗ trợ chế độ sáng / tối <br/>🔹 Tối ưu SEO<br/>🔹  Code sạch,  dễ mở rộng – không dùng framework",
                 "inspirationTitle": "Cảm hứng phát triển",
                 "inspirationDescription1": "Grocery Mart được thực hiện nhằm luyện tập tư duy thiết kế giao diện bán hàng chuyên nghiệp khi chưa sử dụng framework.",
                 "inspirationDescription2": "Dự án là bước đệm giúp tôi rèn kỹ năng <strong>HTML, CSS, JavaScript</strong> và nâng cao tư duy responsive, tối ưu code và SEO.",
                 "technologiesTitle": "Công nghệ sử dụng",
                 "inspiration": "Đây là cơ hội để tôi thực hành và nâng cao kỹ năng <strong>React & Typescript</strong>.",
-    
+
                 "tech": {
                     "core": "🚀 Công nghệ chính",
                     "ui": "🎨 Giao diện & UI",
                     "intl": "🌍 SEO & Tối ưu",
-                    "utils": "💾 Tiện ích" 
+                    "utils": "💾 Tiện ích"
                 },
                 "whyTech": "Lý do lựa chọn công nghệ",
                 "why": {
-                   "1": "<strong>HTML5</strong>: Semantic rõ ràng, hỗ trợ SEO.",
-"2": "<strong>SCSS</strong>: Quản lý style hiệu quả với biến, mixin.",
-"3": "<strong>JavaScript (ES6+)</strong>: Tạo tương tác linh hoạt toggle, tab, dropdown... ", 
-"4": "<strong>Custom Grid SCSS</strong>: Chủ động thiết kế layout, không cần framework.",
-"5": "<strong>Google Fonts</strong>: Tăng tính thẩm mỹ.",
-"6": "<strong>Meta + Canonical tag</strong>: Tối ưu SEO và tránh trùng nội dung.",
-"7": "<strong>LocalStorage</strong>: Lưu trạng thái theme và cache template HTML."
-
+                    "1": "<strong>HTML5</strong>: Semantic rõ ràng, hỗ trợ SEO.",
+                    "2": "<strong>SCSS</strong>: Quản lý style hiệu quả với biến, mixin.",
+                    "3": "<strong>JavaScript (ES6+)</strong>: Tạo tương tác linh hoạt toggle, tab, dropdown... ",
+                    "4": "<strong>Custom Grid SCSS</strong>: Chủ động thiết kế layout, không cần framework.",
+                    "5": "<strong>Google Fonts</strong>: Tăng tính thẩm mỹ.",
+                    "6": "<strong>Meta + Canonical tag</strong>: Tối ưu SEO và tránh trùng nội dung.",
+                    "7": "<strong>LocalStorage</strong>: Lưu trạng thái theme và cache template HTML."
                 }
             }
         },
@@ -188,27 +174,25 @@
                 "demoLink": "Link demo dự án",
                 "sourceCode": "Link source code:",
                 "detailTitle": "Mô tả chi tiết",
-               
-     "detailDescription": "Popzy là thư viện modal nhẹ  được xây dựng bằng JavaScript thuần, giúp ứng dụng tạo nhanh các loại modal phổ biến trên mọi trình duyệt hiện đại.<br/>Một số tính năng chính:<br/>🔹 Không phụ thuộc thư viện ngoài<br/>🔹 Tùy biến bằng CSS / hỗ trợ CSS transition<br/>🔹 API đơn giản: open(), close(), setContent(), addFooterButton()...<br/>🔹 Hỗ trợ các loại modal: cơ bản, có nút, nội dung dài, nhúng YouTube, nhiều modal cùng lúc<br/>🔹 Tùy chọn scroll lock, đóng modal bằng overlay, nút, phím Escape<br/>🔹 Dễ tích hợp vào mọi dự án"
 
-,
+                "detailDescription": "Popzy là thư viện modal nhẹ  được xây dựng bằng JavaScript thuần, giúp ứng dụng tạo nhanh các loại modal phổ biến trên mọi trình duyệt hiện đại.<br/>Một số tính năng chính:<br/>🔹 Không phụ thuộc thư viện ngoài<br/>🔹 Tùy biến bằng CSS / hỗ trợ CSS transition<br/>🔹 API đơn giản: open(), close(), setContent(), addFooterButton()...<br/>🔹 Hỗ trợ các loại modal: cơ bản, có nút, nội dung dài, nhúng YouTube, nhiều modal cùng lúc<br/>🔹 Tùy chọn scroll lock, đóng modal bằng overlay, nút, phím Escape<br/>🔹 Dễ tích hợp vào mọi dự án",
+
                 "inspirationTitle": "Cảm hứng phát triển",
                 "inspirationDescription1": "Dự án ra đời từ nhu cầu tự tay xây dựng một thư viện modal đơn giản, nhẹ, dễ dùng và không phụ thuộc thư viện ngoài.",
-"inspirationDescription2": "Tôi muốn rèn kỹ năng tư duy component, tối ưu trải nghiệm người dùng và hiểu rõ cách hoạt động của modal bằng <strong>JavaScript thuần</strong>."
- , "technologiesTitle": "Công nghệ sử dụng",
-              
+                "inspirationDescription2": "Tôi muốn rèn kỹ năng tư duy component, tối ưu trải nghiệm người dùng và hiểu rõ cách hoạt động của modal bằng <strong>JavaScript thuần</strong>.",
+                "technologiesTitle": "Công nghệ sử dụng",
+
                 "tech": {
                     "core": "🚀 Công nghệ chính",
                     "ui": "💻 Công cụ Dev"
-                                    },
+                },
                 "whyTech": "Lý do lựa chọn công nghệ",
                 "why": {
-                  "1": "<strong>JavaScript (ES6+)</strong>: Xây toàn bộ logic modal, không cần thư viện ngoài.",
-"2": "<strong>HTML5</strong>: Cấu trúc rõ ràng, dễ tích hợp.",
-"3": "<strong>CSS</strong>: Tùy biến giao diện, hiệu ứng.",
-"4": "<strong>Terser</strong>: Nén file JS giúp giảm dung lượng thư viện.",
-"5": "<strong>CSSO</strong>: Tối ưu file CSS để tải nhanh hơn."
-
+                    "1": "<strong>JavaScript (ES6+)</strong>: Xây toàn bộ logic modal, không cần thư viện ngoài.",
+                    "2": "<strong>HTML5</strong>: Cấu trúc rõ ràng, dễ tích hợp.",
+                    "3": "<strong>CSS</strong>: Tùy biến giao diện, hiệu ứng.",
+                    "4": "<strong>Terser</strong>: Nén file JS giúp giảm dung lượng thư viện.",
+                    "5": "<strong>CSSO</strong>: Tối ưu file CSS để tải nhanh hơn."
                 }
             }
         },
@@ -218,13 +202,13 @@
             "sourceCode": "Link source code:",
             "detailTitle": "Mô tả chi tiết",
             "detailDescription": "Website portfolio cá nhân giới thiệu bản thân, kỹ năng và dự án.<br/>Một số tính năng chính:<br/>🔹 Giao diện đa trang<br/>🔹 Đa ngôn ngữ: Nhật – Việt<br/>🔹 Gửi email bằng EmailJS<br/>🔹 Responsive trên mọi thiết bị<br/>🔹 Hỗ trợ sáng/tối<br/>🔹 Tối ưu SEO<br/>🔹 Slide ảnh dự án<br/>🔹 Giao diện đẹp với React-Bootstrap",
-    
+
             "inspirationTitle": "Cảm hứng phát triển",
             "inspirationDescription1": "Dự án xây dựng để ứng tuyển vị trí <strong>Frontend Developer</strong>, lấy cảm hứng từ portfolio như <a class='custom-link' href='https://www.hoidanit.xyz/'>Hỏi Dân IT</a>, <a class='custom-link' href='https://soumyajit.vercel.app/'>Soumyajit</a> và <a class='custom-link' href='https://abusaid.netlify.app/'>Abusaid</a>.",
             "inspirationDescription2": "Đây là cơ hội để tôi thực hành và nâng cao kỹ năng <strong>React & Typescript</strong>.",
             "technologiesTitle": "Công nghệ sử dụng",
             "inspiration": "Đây là cơ hội để tôi thực hành và nâng cao kỹ năng <strong>React & Typescript</strong>.",
-    
+
             "tech": {
                 "core": "🚀 Công nghệ chính",
                 "ui": "🎨 Giao diện & UI",
@@ -249,8 +233,7 @@
             "description": "Lucy Pet Care là landing page tĩnh, chuyển từ thiết kế Figma. Dự án tập trung vào HTML & CSS thuần với cấu trúc rõ ràng, giao diện đẹp và thân thiện SEO.",
 
             "modal": {
-                "detailDescription": "Trang landing page giới thiệu dịch vụ chăm sóc thú cưng, được code hoàn toàn bằng HTML, CSS thuần từ bản thiết kế Figma.<br/>Một số tính năng chính:<br/>🔹Chuyển đổi chính xác từ thiết kế Figma<br/>🔹 Cấu trúc HTML & CSS sạch, dễ đọc<br/>🔹 Giao diện hiện đại, màu sắc hài hòa<br/>🔹 Tối ưu SEO (thẻ meta, sitemap, robots.txt)<br/>🔹Tối ưu hiệu suất hiển thị ảnh (lazy loading)"
-,
+                "detailDescription": "Trang landing page giới thiệu dịch vụ chăm sóc thú cưng, được code hoàn toàn bằng HTML, CSS thuần từ bản thiết kế Figma.<br/>Một số tính năng chính:<br/>🔹Chuyển đổi chính xác từ thiết kế Figma<br/>🔹 Cấu trúc HTML & CSS sạch, dễ đọc<br/>🔹 Giao diện hiện đại, màu sắc hài hòa<br/>🔹 Tối ưu SEO (thẻ meta, sitemap, robots.txt)<br/>🔹Tối ưu hiệu suất hiển thị ảnh (lazy loading)",
                 "inspirationDescription1": "Dự án được xây dựng để luyện tập dựng landing page từ thiết kế Figma bằng <strong>HTML & CSS thuần</strong>.",
                 "inspirationDescription2": "Tôi muốn cải thiện kỹ năng căn chỉnh giao diện, responsive và tổ chức code rõ ràng, dễ mở rộng.",
                 "why": {
@@ -258,12 +241,9 @@
                     "2": "<strong>CSS</strong>: Thiết kế giao diện, dễ bảo trì.",
                     "3": "<strong>Google Fonts</strong>: Giao diện đẹp, dễ đọc.",
                     "4": "<strong>SEO Meta Tags</strong>: Cải thiện hiển thị tìm kiếm."
-              
                 },
                 "tech": {
                     "core": "🚀 Công nghệ chính"
-
-                  
                 }
             }
         },
@@ -274,28 +254,22 @@
             "modal": {
                 "detailDescription": "Ứng dụng to-do nhỏ gọn cho quản lý công việc hàng ngày.<br/>Một số tính năng chính:<br/>🔹 Thêm nhiệm vụ (kiểm tra trùng lặp, kí tự trống)<br/>🔹 Chỉnh sửa nhiệm vụ<br/>🔹 Xoá nhiệm vụ (có xác nhận trước khi xoá)<br/>🔹Đánh dấu đã/chưa hoàn thành<br/>🔹 Lưu trữ bằng Local Storage<br/>🔹 Kéo & thả  sắp xếp thứ tự <br/>🔹Lọc theo trạng thái.<br/>🔹 Giao diện hiện đại, hiệu ứng mượt, responsive",
                 "inspirationDescription1": "Dự án được thực hiện nhằm rèn luyện kỹ năng <strong>JavaScript thuần</strong> qua một ứng dụng quản lý công việc đơn giản.",
-"inspirationDescription2": "Tôi muốn tự xây toàn bộ logic thao tác và lưu dữ liệu bằng LocalStorage mà không dùng framework."
-,
-"why": {
+                "inspirationDescription2": "Tôi muốn tự xây toàn bộ logic thao tác và lưu dữ liệu bằng LocalStorage mà không dùng framework.",
+                "why": {
                     "1": "<strong>HTML5</strong>: Xây dựng cấu trúc.",
-"2": "<strong>CSS3</strong>: Thiết kế giao diện.",
-"3": "<strong>JavaScript (ES6+)</strong>: Xử lý logic thêm, sửa, xóa, lọc, lưu dữ liệu.",
-"4": "<strong>LocalStorage</strong>: Lưu dữ liệu trên trình duyệt.",
-"5": "<strong>SortableJS</strong>: Kéo thả sắp xếp thứ tự."
-
+                    "2": "<strong>CSS3</strong>: Thiết kế giao diện.",
+                    "3": "<strong>JavaScript (ES6+)</strong>: Xử lý logic thêm, sửa, xóa, lọc, lưu dữ liệu.",
+                    "4": "<strong>LocalStorage</strong>: Lưu dữ liệu trên trình duyệt.",
+                    "5": "<strong>SortableJS</strong>: Kéo thả sắp xếp thứ tự."
                 },
                 "tech": {
                     "core": "🚀 Công nghệ chính",
-            
+
                     "intl": "📦 Thư viện & Tiện ích"
-               
                 }
             }
         }
-
     },
-    
-
 
     "projectModal": {
         "techTitle": "Công nghệ sử dụng",
@@ -303,26 +277,6 @@
         "detail": "✨Chi tiết dự án"
     },
 
-    "contact": {
-        "title": "LIÊN HỆ",
-
-        "name": "Họ và tên:",
-        "mail": "Email:",
-        "mes": "Tin nhắn:",
-        "send": "Gửi tin nhắn ",
-        "title2": "Liên hệ với tôi",
-        "title3": "Hãy liên hệ với tôi nếu bạn có bất kỳ câu hỏi hay cơ hội hợp tác nào!",
-        "required": "(*Bắt buộc)"
-    },
-    "toast": {
-        "success": "Tin nhắn đã được gửi thành công! Vui lòng kiểm tra hộp thư đến, thư rác hoặc spam của bạn.",
-        "error": "Gửi tin nhắn thất bại!",
-        "mes": "Đang gửi tin nhắn...",
-        "required": "Vui lòng nhập đầy đủ thông tin!"
-    },
-    "appFooter": {
-        "slogan": "Thiết kế giao diện, nâng tầm trải nghiệm – Code là nghệ thuật, giao diện là linh hồn!"
-    },
     "about": {
         "p1": "Xin chào! Mình là",
         "p2": "HẰNG",
@@ -377,5 +331,13 @@
         "li32": "Backend",
         "li322": "",
         "li33": " xây dựng và phát triển những sản phẩm web hoàn chỉnh từ giao diện đến hệ thống phía sau."
+    },
+    "experience": {
+        "title": "Kinh nghiệm làm việc",
+        "title2": "💡 Tận dụng kinh nghiệm làm việc trước đây, tôi hướng đến việc phát triển dựa trên tư duy logic và tinh thần làm việc nhóm."
+    },
+
+    "appFooter": {
+        "slogan": "Thiết kế giao diện, nâng tầm trải nghiệm – Code là nghệ thuật, giao diện là linh hồn!"
     }
 }

@@ -136,120 +136,67 @@
                 }
             }
         },
-        "modal": {
-            "demo": "Demo",
-            "demoLink": "Link demo dự án",
-            "sourceCode": "Link source code:",
-            "detailTitle": "Mô tả chi tiết",
-            "detailDescription": "Website portfolio cá nhân giới thiệu bản thân, kỹ năng và dự án.<br/>Một số tính năng chính:<br/>🔹 Giao diện đa trang<br/>🔹 Đa ngôn ngữ: Nhật – Việt<br/>🔹 Gửi email bằng EmailJS<br/>🔹 Responsive trên mọi thiết bị<br/>🔹 Hỗ trợ sáng/tối<br/>🔹 Tối ưu SEO<br/>🔹 Slide ảnh dự án<br/>🔹 Giao diện đẹp với React-Bootstrap",
 
-            "inspirationTitle": "Cảm hứng phát triển",
-            "inspirationDescription1": "Dự án xây dựng để ứng tuyển vị trí <strong>Frontend Developer</strong>, lấy cảm hứng từ portfolio như <a class='custom-link' href='https://www.hoidanit.xyz/'>Hỏi Dân IT</a>, <a class='custom-link' href='https://soumyajit.vercel.app/'>Soumyajit</a> và <a class='custom-link' href='https://abusaid.netlify.app/'>Abusaid</a>.",
-            "inspirationDescription2": "Đây là cơ hội để tôi thực hành và nâng cao kỹ năng <strong>React & Typescript</strong>.",
-            "technologiesTitle": "Công nghệ sử dụng",
-            "inspiration": "Đây là cơ hội để tôi thực hành và nâng cao kỹ năng <strong>React & Typescript</strong>.",
-
-            "tech": {
-                "core": "🚀 Công nghệ chính",
-                "ui": "🎨 Giao diện & UI",
-                "intl": "🌍 Quốc tế hóa & SEO",
-                "utils": "✉️ Tương tác & Tiện ích"
-            },
-            "whyTech": "Lý do lựa chọn công nghệ",
-            "why": {
-                "1": "<strong>React + Typescript</strong>: Phổ biến, mạnh mẽ, dễ mở rộng.",
-                "2": "<strong>Vite</strong>: Build cực nhanh, tối ưu hiệu suất.",
-                "3": "<strong>Sass, Tailwind CSS, React-Bootstrap</strong>: UI linh hoạt, dễ tùy chỉnh.",
-                "4": "<strong>i18next</strong>: Đa ngôn ngữ, phù hợp người dùng toàn cầu.",
-                "5": "<strong>EmailJS</strong>: Gửi email không cần backend.",
-                "6": "<strong>React Toastify</strong>: Thông báo nhanh, tiện lợi.",
-                "7": "<strong>React Router DOM</strong>: Điều hướng mượt mà.",
-                "8": "<strong>Lottie-react</strong>: Hiệu ứng sinh động.",
-                "9": "<strong>SEO meta tags</strong>: Cải thiện hiển thị tìm kiếm."
-            }
-        },
         "todo2": {
             "title": "モーダル機能の自作UIライブラリ - (Javascript)",
             "description": "約2KBの軽量ライブラリ。純粋なJavaScriptで構築され、外部ライブラリに依存せず、よく使うモーダルを素早く作成でき、すべての主要ブラウザでスムーズに動作します。",
 
             "modal": {
-                
-               
-    "detailDescription": "Popzyは、純粋なJavaScriptで構築された軽量モーダルライブラリで、一般的なモーダルを素早く実装でき、主要なブラウザで安定して動作します。<br/>主な機能：<br/>🔹 外部ライブラリに依存しない<br/>🔹 CSSでカスタマイズ可能 / CSSトランジション対応<br/>🔹 シンプルなAPI：open()、close()、setContent()、addFooterButton()...<br/>🔹 基本・ボタン付き・長文・YouTube埋め込み・複数モーダルなどに対応<br/>🔹 スクロールロックやoverlay・ボタン・Escapeキーでの閉じる操作に対応<br/>🔹 どんなプロジェクトにも簡単に導入可能"
-,
-       
-              
-               "inspirationDescription1": "シンプルで軽量、依存のないモーダルライブラリを自作したいという思いからこのプロジェクトを始めました。",
-"inspirationDescription2": "コンポーネント設計力を鍛え、ユーザー体験の最適化や<strong>純粋なJavaScript</strong>によるモーダルの仕組みを深く理解するために取り組みました。"
-,
- 
-    
+                "detailDescription": "Popzyは、純粋なJavaScriptで構築された軽量モーダルライブラリで、一般的なモーダルを素早く実装でき、主要なブラウザで安定して動作します。<br/>主な機能：<br/>🔹 外部ライブラリに依存しない<br/>🔹 CSSでカスタマイズ可能 / CSSトランジション対応<br/>🔹 シンプルなAPI：open()、close()、setContent()、addFooterButton()...<br/>🔹 基本・ボタン付き・長文・YouTube埋め込み・複数モーダルなどに対応<br/>🔹 スクロールロックやoverlay・ボタン・Escapeキーでの閉じる操作に対応<br/>🔹 どんなプロジェクトにも簡単に導入可能",
+                "inspirationDescription1": "シンプルで軽量、依存のないモーダルライブラリを自作したいという思いからこのプロジェクトを始めました。",
+                "inspirationDescription2": "コンポーネント設計力を鍛え、ユーザー体験の最適化や<strong>純粋なJavaScript</strong>によるモーダルの仕組みを深く理解するために取り組みました。",
                 "tech": {
                     "core": "🚀 基本技術",
                     "ui": "💻 開発ツール"
-                                   },
-              
+                },
+
                 "why": {
-                 "1": "<strong>JavaScript (ES6+)</strong>: ライブラリなしでモーダルのロジックを構築。",
-"2": "<strong>HTML5</strong>: 明確な構造で、統合が簡単。",
-"3": "<strong>CSS</strong>: UIやアニメーションのカスタマイズが容易。",
-"4": "<strong>Terser</strong>: JSファイルを圧縮してライブラリを軽量化。",
-"5": "<strong>CSSO</strong>: CSSを最適化し、読み込み速度を向上。"
-
-
-
-
+                    "1": "<strong>JavaScript (ES6+)</strong>: ライブラリなしでモーダルのロジックを構築。",
+                    "2": "<strong>HTML5</strong>: 明確な構造で、統合が簡単。",
+                    "3": "<strong>CSS</strong>: UIやアニメーションのカスタマイズが容易。",
+                    "4": "<strong>Terser</strong>: JSファイルを圧縮してライブラリを軽量化。",
+                    "5": "<strong>CSSO</strong>: CSSを最適化し、読み込み速度を向上。"
                 }
             }
         },
-       
+
         "mart": {
             "title": "Todoアプリ - (Javascript)",
             "description": "毎日のタスクを直感的に管理できるTo-doアプリ。追加・編集・削除、フィルター、完了マーク、ドラッグ＆ドロップで並び替え、データはLocalStorageに保存。レスポンシブで快適に操作可能。",
             "modal": {
                 "detailDescription": "日々のタスク管理に便利な軽量のTo-doアプリです。<br/>主な機能：<br/>🔹 タスクの追加（重複・空白チェックあり）<br/>🔹 タスクの編集<br/>🔹 タスクの削除（削除前に確認）<br/>🔹 完了・未完了の切り替え<br/>🔹 Local Storageでの保存<br/>🔹 ドラッグ＆ドロップによる並び替え<br/>🔹ステータスでフィルター<br/>🔹 モダンなUI、スムーズなアニメーション、レスポンシブ対応",
-               "inspirationDescription1": "タスク管理アプリを通じて<strong>純粋なJavaScript</strong>のスキルを鍛えるために作成しました。",
-"inspirationDescription2": "フレームワークなしで操作ロジックやLocalStorageでのデータ保存を自分で実装しました。"
-,
-"why": {
+                "inspirationDescription1": "タスク管理アプリを通じて<strong>純粋なJavaScript</strong>のスキルを鍛えるために作成しました。",
+                "inspirationDescription2": "フレームワークなしで操作ロジックやLocalStorageでのデータ保存を自分で実装しました。",
+                "why": {
                     "1": "<strong>HTML5</strong>: 構造を構築。",
-"2": "<strong>CSS3</strong>: UIをデザイン。",
-"3": "<strong>JavaScript (ES6+)</strong>: タスクの追加・編集・削除・フィルター・保存などのロジックを処理。",
-"4": "<strong>LocalStorage</strong>: ブラウザにデータを保存。",
-"5": "<strong>SortableJS</strong>: タスクの順番をドラッグ＆ドロップで変更。"
-
+                    "2": "<strong>CSS3</strong>: UIをデザイン。",
+                    "3": "<strong>JavaScript (ES6+)</strong>: タスクの追加・編集・削除・フィルター・保存などのロジックを処理。",
+                    "4": "<strong>LocalStorage</strong>: ブラウザにデータを保存。",
+                    "5": "<strong>SortableJS</strong>: タスクの順番をドラッグ＆ドロップで変更。"
                 },
                 "tech": {
                     "core": "🚀 基本技術",
-                  
+
                     "utils": "📦 ライブラリ & ユーティリティ"
                 }
             }
         },
         "landing": {
             "title": "ランディングページ - (HTML+CSS)",
-            "description": "Figmaデザインからコーディングされた静的ランディングページです。HTMLとCSSのみで構築され、構造が明確で、見た目が美しく、SEOにも配慮されています。"
-           ,
+            "description": "Figmaデザインからコーディングされた静的ランディングページです。HTMLとCSSのみで構築され、構造が明確で、見た目が美しく、SEOにも配慮されています。",
             "modal": {
-               "detailDescription": "ペットケアサービスを紹介するランディングページで、FigmaのデザインをもとにHTMLとCSSのみでコーディングされています。<br/>主な機能：<br/>🔹 Figmaデザインからの正確な再現<br/>🔹 読みやすく整理されたHTML・CSS構造<br/>🔹 モダンで調和の取れた配色のUIデザイン<br/>🔹 SEO最適化（メタタグ、sitemap、robots.txt対応）<br/>🔹 lazy loading による画像表示パフォーマンスの向上"
+                "detailDescription": "ペットケアサービスを紹介するランディングページで、FigmaのデザインをもとにHTMLとCSSのみでコーディングされています。<br/>主な機能：<br/>🔹 Figmaデザインからの正確な再現<br/>🔹 読みやすく整理されたHTML・CSS構造<br/>🔹 モダンで調和の取れた配色のUIデザイン<br/>🔹 SEO最適化（メタタグ、sitemap、robots.txt対応）<br/>🔹 lazy loading による画像表示パフォーマンスの向上",
 
-,
- "inspirationDescription1": "このプロジェクトは、Figmaデザインをもとに<strong>HTMLとCSS</strong>のみでランディングページを構築する練習として制作しました。",
-"inspirationDescription2": "レイアウト調整、レスポンシブ対応、そして読みやすく拡張しやすいコード構造を意識して取り組みました。"
-,
-"why": {
-                  "1": "<strong>HTML</strong>: セマンティックな構造で分かりやすいマークアップ。",
-"2": "<strong>CSS</strong>: 保守しやすいスタイル設計。",
-"3": "<strong>Google Fonts</strong>: 読みやすく美しいデザイン。",
-"4": "<strong>SEO Meta Tags</strong>: 検索結果での表示を最適化。"
-
-
+                "inspirationDescription1": "このプロジェクトは、Figmaデザインをもとに<strong>HTMLとCSS</strong>のみでランディングページを構築する練習として制作しました。",
+                "inspirationDescription2": "レイアウト調整、レスポンシブ対応、そして読みやすく拡張しやすいコード構造を意識して取り組みました。",
+                "why": {
+                    "1": "<strong>HTML</strong>: セマンティックな構造で分かりやすいマークアップ。",
+                    "2": "<strong>CSS</strong>: 保守しやすいスタイル設計。",
+                    "3": "<strong>Google Fonts</strong>: 読みやすく美しいデザイン。",
+                    "4": "<strong>SEO Meta Tags</strong>: 検索結果での表示を最適化。"
                 },
                 "tech": {
                     "core": "🚀 基本技術"
-            
-                   
-               
                 }
             }
         },
@@ -291,35 +238,7 @@
         "close": "閉じる",
         "detail": "✨詳細を見る"
     },
-    "experience": {
-        "title": "職歴",
-        "title2": "💡 過去の業務経験を活かし、論理的思考力やチームワークを重視した開発を目指しています。"
-    },
-    "skill": {
-        "title": "スキル"
-    },
-    "contact": {
-        "title": "お問い合わせ",
 
-        "name": "氏名:",
-        "mail": "メールアドレス:",
-        "mes": "メッセージ:",
-        "send": "メッセージを送信",
-        "title2": "お問い合わせください",
-
-        "title3": "ご質問や協力の機会がありましたら、お気軽にご連絡ください！",
-        "required": "(*必須)"
-    },
-    "toast": {
-        "success": "メッセージが正常に送信されました！受信トレイ、迷惑メール、またはスパムフォルダを確認してください。",
-        "error": "メッセージの送信に失敗しました！",
-        "mes": "メッセージを送信中...",
-        "required": "必要な情報を入力してください！"
-    },
-
-    "appFooter": {
-        "slogan": "魅力的なUIをデザインし、より優れたユーザー体験を創り出す – コードは芸術、インターフェースはその魂。"
-    },
     "about": {
         "p1": "こんにちは！私は",
         "p2": "ハン",
@@ -375,5 +294,35 @@
         "li32": "バックエンド",
         "li322": "の両方をマスターし、",
         "li33": "インターフェースからバックエンドシステムまで完全なウェブサイト、アプリケーションを開発できるようになること。"
+    },
+
+    "experience": {
+        "title": "職歴",
+        "title2": "💡 過去の業務経験を活かし、論理的思考力やチームワークを重視した開発を目指しています。"
+    },
+    "skill": {
+        "title": "スキル"
+    },
+    "contact": {
+        "title": "お問い合わせ",
+
+        "name": "氏名:",
+        "mail": "メールアドレス:",
+        "mes": "メッセージ:",
+        "send": "メッセージを送信",
+        "title2": "お問い合わせください",
+
+        "title3": "ご質問や協力の機会がありましたら、お気軽にご連絡ください！",
+        "required": "(*必須)"
+    },
+    "toast": {
+        "success": "メッセージが正常に送信されました！受信トレイ、迷惑メール、またはスパムフォルダを確認してください。",
+        "error": "メッセージの送信に失敗しました！",
+        "mes": "メッセージを送信中...",
+        "required": "必要な情報を入力してください！"
+    },
+
+    "appFooter": {
+        "slogan": "魅力的なUIをデザインし、より優れたユーザー体験を創り出す – コードは芸術、インターフェースはその魂。"
     }
 }

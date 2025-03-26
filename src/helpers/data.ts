@@ -1,10 +1,3 @@
-// import nestImg from 'assets/project/nestjs.png';
-// import nextjsImg from 'assets/project/nextjs.png';
-// import reactNativeImg from 'assets/project/react-native.png';
-// import reactUltimateImg from 'assets/project/react-ultimate.png';
-// import springMvcImg from 'assets/project/spring-mvc.png';
-// import springRestImg from 'assets/project/spring-rest.png';
-
 export const APP_DATA = {
     GITHUB_URL: "https://github.com/thanhhang31023?tab=repositories",
     EMAIL: "mailto:thanhhang31023@gmail.com",
@@ -79,14 +72,13 @@ export const PROJECTS = [
         id: 1,
         images: [
             "/projects/po1.png",
-           
+
             "/projects/po6.png",
-          
+
             "/projects/po3.png",
             "/projects/po4.png",
             "/projects/po5.png",
             "/projects/po7.png",
-         
         ],
         title: "project.portfolio.title",
         description: "project.portfolio.description",
@@ -95,34 +87,26 @@ export const PROJECTS = [
         namePro: "portfolio",
         techs: [
             {
-              group: "core", // dùng làm key dịch
-              items: ["React", "Typescript", "Vite"]
+                group: "core", // dùng làm key dịch
+                items: ["React", "Typescript", "Vite"],
             },
             {
-              group: "ui",
-              items: ["Tailwind CSS", "Sass", "React-Bootstrap", "Lottie-react"]
+                group: "ui",
+                items: ["Tailwind CSS", "Sass", "React-Bootstrap", "Lottie-react"],
             },
             {
                 group: "intl",
-                items: ["i18next", "SEO meta tags"]
-              },
-            {
-              group: "utils",
-              items: ["EmailJS", "React Toastify", "React Router DOM"]
-            }
-          ],
-          
+                items: ["i18next", "SEO meta tags"],
             },
+            {
+                group: "utils",
+                items: ["EmailJS", "React Toastify", "React Router DOM"],
+            },
+        ],
+    },
     {
         id: 2,
-        images: [
-            "/projects/to.png",
-            "/projects/to3.png",
-            "/projects/to1.png",
-            "/projects/to2.png",
-            
-          
-       ],
+        images: ["/projects/to.png", "/projects/to3.png", "/projects/to1.png", "/projects/to2.png"],
         title: "project.todo.title",
         description: "project.todo.description",
         githubLink: "https://github.com/thanhhang31023/todo-app-typescript",
@@ -130,24 +114,22 @@ export const PROJECTS = [
         namePro: "todo",
         techs: [
             {
-              group: "core", // dùng làm key dịch
-              items: ["React", "TypeScript", "React Hooks"]
+                group: "core", // dùng làm key dịch
+                items: ["React", "TypeScript", "React Hooks"],
             },
             {
-              group: "ui",
-              items: ["SCSS (CSS Modules)", "Google Fonts"]
+                group: "ui",
+                items: ["SCSS (CSS Modules)", "Google Fonts"],
             },
             {
                 group: "intl",
-                items: ["LocalStorage", "@hello-pangea/dnd (Drag & Drop)"]
-              },
+                items: ["LocalStorage", "@hello-pangea/dnd (Drag & Drop)"],
+            },
             {
-              group: "utils",
-              items: ["Prettier", "ESLint"]
-            }
-          ],
-        
-          
+                group: "utils",
+                items: ["Prettier", "ESLint"],
+            },
+        ],
     },
     {
         id: 3,
@@ -159,8 +141,7 @@ export const PROJECTS = [
             "/projects/mat4.png",
             "/projects/mat5.png",
             "/projects/mat6.png",
-       
-            ],
+        ],
         title: "project.library.title",
         description: "project.library.description",
         githubLink: "https://github.com/thanhhang31023/project-grocery-mart",
@@ -168,23 +149,22 @@ export const PROJECTS = [
         namePro: "library",
         techs: [
             {
-              group: "core", // dùng làm key dịch
-              items: ["HTML5", "SCSS", " JavaScript (ES6+)"]
+                group: "core", // dùng làm key dịch
+                items: ["HTML5", "SCSS", " JavaScript (ES6+)"],
             },
             {
-              group: "ui",
-              items: ["Custom Grid SCSS", "Google Fonts"]
+                group: "ui",
+                items: ["Custom Grid SCSS", "Google Fonts"],
             },
             {
                 group: "intl",
-                items: ["Meta · Canonical tag"]
-              },
+                items: ["Meta · Canonical tag"],
+            },
             {
-              group: "utils",
-              items: ["LocalStorage"]
-            }
-          ],
-        
+                group: "utils",
+                items: ["LocalStorage"],
+            },
+        ],
     },
     {
         id: 4,
@@ -195,8 +175,7 @@ export const PROJECTS = [
             "/projects/mo3.png",
             "/projects/mo4.png",
             "/projects/mo5.png",
-         
-                        ],
+        ],
         title: "project.todo2.title",
         description: "project.todo2.description",
         githubLink: "https://github.com/thanhhang31023/popzy",
@@ -204,33 +183,31 @@ export const PROJECTS = [
         namePro: "todo2",
         techs: [
             {
-              group: "core", // dùng làm key dịch
-              items: ["JavaScript (ES6+)", "HTML5", "CSS"]
+                group: "core", // dùng làm key dịch
+                items: ["JavaScript (ES6+)", "HTML5", "CSS"],
             },
             {
-              group: "ui",
-              items: ["Terser", "CSSO"]
+                group: "ui",
+                items: ["Terser", "CSSO"],
             },
             {
                 group: "intl",
-                items: []
-              },
+                items: [],
+            },
             {
-              group: "utils",
-              items: []
-            }
-          ],
-        
+                group: "utils",
+                items: [],
+            },
+        ],
     },
     {
         id: 5,
         images: [
-            "/projects/do.png", 
-            "/projects/do1.png", 
-            "/projects/do2.png", 
-            "/projects/do3.png", 
-            "/projects/do4.png", 
-           
+            "/projects/do.png",
+            "/projects/do1.png",
+            "/projects/do2.png",
+            "/projects/do3.png",
+            "/projects/do4.png",
         ],
         title: "project.mart.title",
         description: "project.mart.description",
@@ -239,28 +216,27 @@ export const PROJECTS = [
         namePro: "mart",
         techs: [
             {
-              group: "core", // dùng làm key dịch
-              items: ["JavaScript(ES6+)", "HTML5", "CSS3"]
+                group: "core", // dùng làm key dịch
+                items: ["JavaScript(ES6+)", "HTML5", "CSS3"],
             },
             {
-              group: "ui",
-              items: []
+                group: "ui",
+                items: [],
             },
             {
                 group: "intl",
-                items: []
-              },
+                items: [],
+            },
             {
-              group: "utils",
-              items: ["LocalStorage", "SortableJS"]
-            }
-          ],
-        
+                group: "utils",
+                items: ["LocalStorage", "SortableJS"],
+            },
+        ],
     },
     {
         id: 6,
         images: [
-            "/projects/pett.png", 
+            "/projects/pett.png",
             "/projects/pett5.png",
             "/projects/pett2.png",
             "/projects/pett3.png",
@@ -274,23 +250,22 @@ export const PROJECTS = [
         namePro: "landing",
         techs: [
             {
-              group: "core", // dùng làm key dịch
-              items: ["HTML", "CSS", "Google Fonts", "SEO meta tags"]
+                group: "core", // dùng làm key dịch
+                items: ["HTML", "CSS", "Google Fonts", "SEO meta tags"],
             },
             {
-              group: "ui",
-              items: [ ]
+                group: "ui",
+                items: [],
             },
             {
                 group: "intl",
-                items: []
-              },
+                items: [],
+            },
             {
-              group: "utils",
-              items: []
-            }
-          ],
-        
+                group: "utils",
+                items: [],
+            },
+        ],
     },
 ];
 

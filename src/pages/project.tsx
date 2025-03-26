@@ -2,11 +2,9 @@ import { Container } from "react-bootstrap";
 import Project from "components/sections/project";
 import bg from "assets/section.svg";
 
-
 const ProjectPage = () => {
     return (
         <div className="project-screen">
-       
             <div
                 style={{
                     backgroundImage: `url(${bg})`,
@@ -24,7 +22,7 @@ const ProjectPage = () => {
                 </Container>
             </section>
         </div>
-    )
-}
+    );
+};
 
 export default ProjectPage;

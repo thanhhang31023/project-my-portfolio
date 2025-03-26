@@ -1,22 +1,14 @@
+import { useRef } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import HeroLeft from "components/sections/hero/hero.left";
 import HeroRight from "components/sections/hero/hero.right";
-//import { MdFileDownload } from "react-icons/md";
 import bg from "assets/section.svg";
 import Introduction from "components/sections/introduction";
-//import ResizeButton from "components/sections/resize.button";
-//import { useTranslation } from "react-i18next";
 import Divider from "components/sections/divider";
-//import Experience from "components/sections/experience";
 import Skill from "components/sections/skill";
-import { useRef } from "react";
-//import Project from "@/components/sections/project";
-//import Experience from "@/components/sections/experience";
 import ContactSection from "components/sections/ContactSection";
 
 const HomePage = () => {
-    // const { t } = useTranslation();
-
     const skillRef = useRef<HTMLElement>(null);
 
     const scrollToSkillSection = () => {
@@ -45,12 +37,6 @@ const HomePage = () => {
                         <Col md={6}>
                             <HeroRight />
                         </Col>
-                        {/* <Col xs={12} className="d-md-none d-flex mt-4 justify-content-center">
-                            <ResizeButton
-                                btnText={t("heroSection.cv")}
-                                btnIcons={<MdFileDownload />}
-                            />
-                        </Col> */}
                     </Row>
                 </Container>
             </section>
@@ -59,25 +45,20 @@ const HomePage = () => {
                     <Introduction />
                 </Container>
             </section>
-           
-               <Divider />
+
+            <Divider />
             <section ref={skillRef}>
                 <Container>
                     <Skill />
                 </Container>
             </section>
 
-            {/* <section>
-                <Container>
-                    <Experience />
-                </Container>
-            </section> */}
             <Divider />
             <div>
-            <section id="contact">
-                <ContactSection />
-            </section>
-    </div>
+                <section id="contact">
+                    <ContactSection />
+                </section>
+            </div>
         </div>
     );
 };

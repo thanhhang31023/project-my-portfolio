@@ -2,7 +2,6 @@ import { Container } from "react-bootstrap";
 import About from "components/sections/about";
 import bg from "assets/section.svg";
 
-
 const AboutPage = () => {
     return (
         <div className="about-screen">
@@ -23,7 +22,7 @@ const AboutPage = () => {
                 </Container>
             </section>
         </div>
-    )
-}
+    );
+};
 
 export default AboutPage;
