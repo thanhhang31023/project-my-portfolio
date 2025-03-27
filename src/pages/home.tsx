@@ -1,12 +1,45 @@
+import { Helmet } from "react-helmet-async";
+import { lazy, Suspense } from "react";
+
+import Fallbacks from "components/skeletons/fallbacks";
 import { useRef } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import HeroLeft from "components/sections/hero/hero.left";
 import HeroRight from "components/sections/hero/hero.right";
 import bg from "assets/section.svg";
-import Introduction from "components/sections/introduction";
+
 import Divider from "components/sections/divider";
-import Skill from "components/sections/skill";
-import ContactSection from "components/sections/ContactSection";
+
+<Helmet>
+    <title>ハン | フロントエンド開発者・ポートフォリオ</title>
+
+    <meta
+        name="description"
+        content="React, TypeScript, Javascript, HTML, CSS, Bootstrap を使ったフロントエンド開発者・グェン ティ タィン ハン のポートフォリオです。"
+    />
+    <meta
+        name="keywords"
+        content="ポートフォリオ, フロントエンド, React, TypeScript, Javascript, HTML, CSS, Bootstrap Web開発, Scss, Sass, SEO, 開発者, グェン ティ タィン ハン"
+    />
+
+    <meta name="author" content="グェン ティ タィン ハン" />
+    <meta property="og:title" content="ハン | フロントエンド開発者・ポートフォリオ" />
+
+    <meta
+        property="og:description"
+        content="React, TypeScript, Javascript, HTML, CSS, Bootstrap を使ったフロントエンド開発者・グェン ティ タィン ハン のポートフォリオです。このポートフォリオサイトでは、自己紹介、スキル、プロジェクトを紹介しています。"
+    />
+
+    <meta property="og:url" content="https://hang-frontend.jp/" />
+    <meta property="og:image" content="/demo-project.png" />
+    <meta property="og:type" content="website" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</Helmet>;
+
+const Skill = lazy(() => import("components/sections/skill"));
+const Introduction = lazy(() => import("components/sections/introduction"));
+const ContactSection = lazy(() => import("components/sections/ContactSection"));
 
 const HomePage = () => {
     const skillRef = useRef<HTMLElement>(null);
@@ -42,21 +75,27 @@ const HomePage = () => {
             </section>
             <section>
                 <Container>
-                    <Introduction />
+                <Suspense fallback={Fallbacks.Page}>
+                        <Introduction />
+                    </Suspense>
                 </Container>
             </section>
 
             <Divider />
             <section ref={skillRef}>
                 <Container>
-                    <Skill />
+                <Suspense fallback={Fallbacks.Page}>
+                        <Skill />
+                    </Suspense>
                 </Container>
             </section>
 
             <Divider />
             <div>
                 <section id="contact">
-                    <ContactSection />
+                <Suspense fallback={Fallbacks.Page}>
+                        <ContactSection />
+                    </Suspense>
                 </section>
             </div>
         </div>
