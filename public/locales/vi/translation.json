@@ -106,7 +106,7 @@
         },
 
         "todo": {
-            "title": "Todo App - (React+Typescript)",
+            "title": "Todo App - (React + Typescript)",
             "description": "Ứng dụng quản lý công việc hằng ngày, hỗ trợ thêm/sửa/xoá, đánh dấu hoàn thành, kéo thả sắp xếp, lưu dữ liệu bằng LocalStorage và hiển thị tốt trên mọi thiết bị.",
 
             "modal": {
@@ -229,7 +229,7 @@
             }
         },
         "landing": {
-            "title": "Trang landing page - (HTML+CSS)",
+            "title": "Trang landing page - (HTML + CSS)",
             "description": "Lucy Pet Care là landing page tĩnh, chuyển từ thiết kế Figma. Dự án tập trung vào HTML & CSS thuần với cấu trúc rõ ràng, giao diện đẹp và thân thiện SEO.",
 
             "modal": {
@@ -248,24 +248,31 @@
             }
         },
         "mart": {
-            "title": "Todo App - (Javascript)",
-            "description": "Ứng dụng quản lý công việc hằng ngày, hỗ trợ thêm/sửa/xoá/lọc, đánh dấu hoàn thành, kéo thả sắp xếp, lưu dữ liệu bằng LocalStorage và hiển thị tốt trên mọi thiết bị.",
+            "title": "Lofi web clone - (React + Redux)",
+            "description": "Website nghe nhạc Lofi thư giãn với giao diện ngày/đêm, hiệu ứng mưa, chọn mood nhạc và phát từ link YouTube tuỳ chọn. Hỗ trợ làm việc hiệu quả qua hẹn giờ Pomodoro và Todo list.",
 
             "modal": {
-                "detailDescription": "Ứng dụng to-do nhỏ gọn cho quản lý công việc hàng ngày.<br/>Một số tính năng chính:<br/>🔹 Thêm nhiệm vụ (kiểm tra trùng lặp, kí tự trống)<br/>🔹 Chỉnh sửa nhiệm vụ<br/>🔹 Xoá nhiệm vụ (có xác nhận trước khi xoá)<br/>🔹Đánh dấu đã/chưa hoàn thành<br/>🔹 Lưu trữ bằng Local Storage<br/>🔹 Kéo & thả  sắp xếp thứ tự <br/>🔹Lọc theo trạng thái.<br/>🔹 Giao diện hiện đại, hiệu ứng mượt, responsive",
-                "inspirationDescription1": "Dự án được thực hiện nhằm rèn luyện kỹ năng <strong>JavaScript thuần</strong> qua một ứng dụng quản lý công việc đơn giản.",
-                "inspirationDescription2": "Tôi muốn tự xây toàn bộ logic thao tác và lưu dữ liệu bằng LocalStorage mà không dùng framework.",
+               "detailDescription": "Ứng dụng web nghe nhạc Lofi thư giãn, hỗ trợ tuỳ biến không gian làm việc và tập trung hiệu quả.<br/>Một số tính năng chính:<br/>🔹 Giao diện ngày / đêm, hiệu ứng tiếng mưa<br/>🔹 Chọn mood nhạc (Chill / Jazz / Sleep)<br/>🔹 Phát nhạc từ link YouTube tuỳ chọn<br/>🔹 Hẹn giờ Pomodoro hỗ trợ tập trung<br/>🔹 To-do list: thêm / sửa / xoá nhiệm vụ<br/>🔹 Giao diện hiện đại, mượt và responsive"
+,
+"inspirationDescription1": "Dự án được thực hiện nhằm rèn luyện kỹ năng <strong>React và Redux</strong>.",
+                "inspirationDescription2": "Tôi cũng muốn tạo một website nghe nhạc thư giãn của riêng mình, hỗ trợ tập trung làm việc hiệu quả.",
                 "why": {
-                    "1": "<strong>HTML5</strong>: Xây dựng cấu trúc.",
-                    "2": "<strong>CSS3</strong>: Thiết kế giao diện.",
-                    "3": "<strong>JavaScript (ES6+)</strong>: Xử lý logic thêm, sửa, xóa, lọc, lưu dữ liệu.",
-                    "4": "<strong>LocalStorage</strong>: Lưu dữ liệu trên trình duyệt.",
-                    "5": "<strong>SortableJS</strong>: Kéo thả sắp xếp thứ tự."
-                },
+                    
+                        "1": "<strong>React</strong>: Xây dựng giao diện linh hoạt, dễ mở rộng.",
+                        "2": "<strong>Redux</strong>: Quản lý trạng thái ứng dụng hiệu quả.",
+                        "3": "<strong>Sass</strong>: Viết CSS có cấu trúc, dễ bảo trì.",
+                        "4": "<strong>UI Libraries</strong>: Tạo giao diện nhanh, đẹp (Bootstrap, MUI).",
+                        "5": "<strong>Media & Timer</strong>: Phát nhạc, video và hẹn giờ Pomodoro.",
+                        "6": "<strong>LocalStorage</strong>: Lưu dữ liệu người dùng trên trình duyệt.",
+                        "7": "<strong>react-draggable</strong>: Hỗ trợ kéo thả."
+                     
+                       },
                 "tech": {
                     "core": "🚀 Công nghệ chính",
+                    "ui":"🎨 Giao diện & UI",
+                    "intl":"🔊 Trình phát & Media",
 
-                    "intl": "📦 Thư viện & Tiện ích"
+                    "utils": "📦 Quản lý & Tiện ích"
                 }
             }
         }

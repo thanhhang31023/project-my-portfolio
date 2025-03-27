@@ -80,7 +80,7 @@
             }
         },
         "todo": {
-            "title": "Todoアプリ - (React＋Typescript)",
+            "title": "Todoアプリ - (React ＋ Typescript)",
             "description": "毎日のタスクを直感的に管理できるTo-doアプリ。追加・編集・削除、完了マーク、ドラッグ＆ドロップで並び替え、データはLocalStorageに保存。レスポンシブで快適に操作可能。",
             "modal": {
                 "detailDescription": "日々のタスク管理に便利な軽量のTo-doアプリです。<br/>主な機能：<br/>🔹 タスクの追加（重複・空白チェックあり）<br/>🔹 タスクの編集<br/>🔹 タスクの削除（削除前に確認）<br/>🔹 完了・未完了の切り替え<br/>🔹 Local Storageでの保存<br/>🔹 ドラッグ＆ドロップによる並び替え<br/>🔹 全てのデバイスで快適に利用可能",
@@ -161,28 +161,35 @@
         },
 
         "mart": {
-            "title": "Todoアプリ - (Javascript)",
-            "description": "毎日のタスクを直感的に管理できるTo-doアプリ。追加・編集・削除、フィルター、完了マーク、ドラッグ＆ドロップで並び替え、データはLocalStorageに保存。レスポンシブで快適に操作可能。",
+            "title": "Lofi 音楽サイト・クローン - (React + Redux)",
+            "description": "昼夜モード、雨音エフェクト、ムード選択、任意のYouTubeリンク再生に対応したローファイ音楽のリラックスWebアプリ。ポモドーロタイマーとToDoリストで作業効率をサポート。",
             "modal": {
-                "detailDescription": "日々のタスク管理に便利な軽量のTo-doアプリです。<br/>主な機能：<br/>🔹 タスクの追加（重複・空白チェックあり）<br/>🔹 タスクの編集<br/>🔹 タスクの削除（削除前に確認）<br/>🔹 完了・未完了の切り替え<br/>🔹 Local Storageでの保存<br/>🔹 ドラッグ＆ドロップによる並び替え<br/>🔹ステータスでフィルター<br/>🔹 モダンなUI、スムーズなアニメーション、レスポンシブ対応",
-                "inspirationDescription1": "タスク管理アプリを通じて<strong>純粋なJavaScript</strong>のスキルを鍛えるために作成しました。",
-                "inspirationDescription2": "フレームワークなしで操作ロジックやLocalStorageでのデータ保存を自分で実装しました。",
+               "detailDescription": "ローファイ音楽でリラックスできるWebアプリ。作業環境をカスタマイズし、集中力を高めることができます。<br/>主な機能：<br/>🔹 昼夜モード切替、雨音エフェクト<br/>🔹 ムード別選曲（Chill / Jazz / Sleep）<br/>🔹 任意のYouTubeリンクから音楽再生<br/>🔹 ポモドーロタイマーで集中サポート<br/>🔹 ToDoリスト：追加 / 編集 / 削除<br/>🔹 モダンでスムーズなUI、レスポンシブ対応"
+,
+ "inspirationDescription1": "<strong>ReactとRedux</strong>のスキル習得を目的に開発しました。",
+                "inspirationDescription2": "自分専用のリラックス音楽Webサイトを作り、作業に集中しやすい環境を整えたいと思いました。",
                 "why": {
-                    "1": "<strong>HTML5</strong>: 構造を構築。",
-                    "2": "<strong>CSS3</strong>: UIをデザイン。",
-                    "3": "<strong>JavaScript (ES6+)</strong>: タスクの追加・編集・削除・フィルター・保存などのロジックを処理。",
-                    "4": "<strong>LocalStorage</strong>: ブラウザにデータを保存。",
-                    "5": "<strong>SortableJS</strong>: タスクの順番をドラッグ＆ドロップで変更。"
-                },
+                   
+                        "1": "<strong>React</strong>: 柔軟で拡張しやすいUIを構築。",
+                        "2": "<strong>Redux</strong>: 効率的な状態管理を実現。",
+                        "3": "<strong>Sass</strong>: 構造的で保守しやすいCSSを記述。",
+                        "4": "<strong>UIライブラリ</strong>: 素早く美しいUIを実装（Bootstrap、MUI）。",
+                        "5": "<strong>メディア＆タイマー</strong>: 音楽・動画の再生やポモドーロタイマーに対応。",
+                        "6": "<strong>LocalStorage</strong>: ブラウザ上にユーザーデータを保存。",
+                        "7": "<strong>react-draggable</strong>: 直感的なドラッグ＆ドロップ操作に対応。"
+                     
+                       },
                 "tech": {
                     "core": "🚀 基本技術",
+                    "ui":"🎨 UIとデザイン",
+                    "intl":"🔊 メディア再生",
 
-                    "utils": "📦 ライブラリ & ユーティリティ"
+                    "utils": "📦 データ管理 & ユーティリティ"
                 }
             }
         },
         "landing": {
-            "title": "ランディングページ - (HTML+CSS)",
+            "title": "ランディングページ - (HTML + CSS)",
             "description": "Figmaデザインからコーディングされた静的ランディングページです。HTMLとCSSのみで構築され、構造が明確で、見た目が美しく、SEOにも配慮されています。",
             "modal": {
                 "detailDescription": "ペットケアサービスを紹介するランディングページで、FigmaのデザインをもとにHTMLとCSSのみでコーディングされています。<br/>主な機能：<br/>🔹 Figmaデザインからの正確な再現<br/>🔹 読みやすく整理されたHTML・CSS構造<br/>🔹 モダンで調和の取れた配色のUIデザイン<br/>🔹 SEO最適化（メタタグ、sitemap、robots.txt対応）<br/>🔹 lazy loading による画像表示パフォーマンスの向上",
@@ -275,14 +282,14 @@
 
         "li16": "最初の5年間 (2025年 - 2030年)",
         "li17": "",
-        "li18": "プロなフロントエンド開発者",
+        "li18": "プロのフロントエンド開発者",
         "li19": "なること。最新のウェブサイト、アプリを開発し、ユーザーの体験を最適化する。同時に、",
         "li20": "バックエンド開発",
         "li21": "も学び、知識とスキルを広げる。",
 
         "li22": "次の5年間 (2030年 - 2035年)",
         "li23": "",
-        "li24": "プロなバックエンド開発者",
+        "li24": "プロのバックエンド開発者",
         "li25": "へ成長すること。サーバーシステム、データベース、APIの仕組みを深く理解し、一貫したシステムを開発できるようになる。",
 
         "li26": "最終目標",

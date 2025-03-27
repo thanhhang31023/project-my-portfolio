@@ -35,7 +35,7 @@ export const EXPERIENCES = [
 
         company: {
             vi: "Làm nhân viên chính thức tại nhà hàng mì ramen, phụ trách phục vụ khách hàng và hỗ trợ chế biến món ăn.",
-            ja: "メンラーメン店の正社員として勤務し、接客・調理補助を担当しました。",
+            ja: "ラーメン店の正社員として勤務し、接客・調理補助を担当しました。",
         },
         company2: {
             vi: "✅Rèn luyện kỹ năng giao tiếp với khách hàng, học cách làm việc hiệu quả.",
@@ -104,8 +104,44 @@ export const PROJECTS = [
             },
         ],
     },
+
     {
-        id: 2,
+        id: 5,
+        images: [
+            "/projects/lo0.png",
+            "/projects/do1.png",
+            "/projects/do2.png",
+            "/projects/do3.png",
+            "/projects/do4.png",
+            "/projects/do.png",
+        ],
+        title: "project.mart.title",
+        description: "project.mart.description",
+        githubLink: "https://github.com/thanhhang31023/lofi-web-clone",
+        demoLink: "https://lofi-web-clone.vercel.app",
+        namePro: "mart",
+        techs: [
+            {
+                group: "core", // dùng làm key dịch
+                items: ["React", "Redux"],
+            },
+            {
+                group: "ui",
+                items: ["Sass","React-Bootstrap","Material UI"],
+            },
+            {
+                group: "intl",
+                items: ["React Audio Player","React Timer Hook"],
+            },
+            {
+                group: "utils",
+                items: ["LocalStorage", "react-draggable(drag & drop)"],
+            },
+        ],
+    },
+
+    {
+        id:2,
         images: ["/projects/to.png", "/projects/to3.png", "/projects/to1.png", "/projects/to2.png"],
         title: "project.todo.title",
         description: "project.todo.description",
@@ -200,39 +236,7 @@ export const PROJECTS = [
             },
         ],
     },
-    {
-        id: 5,
-        images: [
-            "/projects/do.png",
-            "/projects/do1.png",
-            "/projects/do2.png",
-            "/projects/do3.png",
-            "/projects/do4.png",
-        ],
-        title: "project.mart.title",
-        description: "project.mart.description",
-        githubLink: "https://github.com/thanhhang31023/todo-app-javascript",
-        demoLink: "https://thanhhang31023.github.io/todo-app-javascript/",
-        namePro: "mart",
-        techs: [
-            {
-                group: "core", // dùng làm key dịch
-                items: ["JavaScript(ES6+)", "HTML5", "CSS3"],
-            },
-            {
-                group: "ui",
-                items: [],
-            },
-            {
-                group: "intl",
-                items: [],
-            },
-            {
-                group: "utils",
-                items: ["LocalStorage", "SortableJS"],
-            },
-        ],
-    },
+   
     {
         id: 6,
         images: [
