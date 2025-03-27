@@ -59,7 +59,7 @@ const Introduction = () => {
                 </Col>
                 <Col md={3} className='d-md-block d-none'>
     <Tilt>
-        <img src={avatarImg} className="img-fluid avatar-image" alt="avatar" />
+        <img src={avatarImg} className="img-fluid avatar-image" alt="個人写真" />
     </Tilt>
 </Col>
 

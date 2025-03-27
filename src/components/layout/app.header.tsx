@@ -39,11 +39,7 @@ function AppHeader() {
         setTheme(mode);
     };
 
-    // const renderFlag = (language: string) => {
-    //     return <img style={{ height: 20, width: 20 }} src={language === "ja" ? jaFlag : viFlag} alt={language} />;
-    // };
-
-    const navigate = useNavigate();
+       const navigate = useNavigate();
     const location = useLocation();
 
     const scrollToContact = (e: React.MouseEvent) => {
@@ -141,7 +137,7 @@ function AppHeader() {
                                     <img
                                         style={{ height: 20, width: 20 }}
                                         src={i18n.resolvedLanguage === "ja" ? jaFlag : viFlag}
-                                        alt="lang"
+                                        alt="言語"
                                     />
                                     <span className="nav-text theme">{t("appHeader.language")}</span>
                                 </div>
@@ -160,7 +156,7 @@ function AppHeader() {
                                 className="dropdown-item d-flex gap-2 align-items-center"
                                 style={{ cursor: "pointer" }}
                             >
-                                <img style={{ height: 20, width: 20 }} src={viFlag} alt="Tiếng Việt" />
+                                <img style={{ height: 20, width: 20 }} src={viFlag} alt="ベトナム語" />
                                 <span>{t("appHeader.language2")}</span>
                             </div>
                         </NavDropdown>

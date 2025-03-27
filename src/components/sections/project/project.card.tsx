@@ -25,7 +25,7 @@ function ProjectCard(props: IProps) {
     return (
         <>
             <Card className="project-card-view">
-                <Card.Img variant="top" src={props.images?.[0]} alt="card-img" style={{ maxHeight: 215 }} />
+                <Card.Img variant="top" src={props.images?.[0]} alt="プロジェクトの写真" style={{ maxHeight: 215 }} />
 
                 <Card.Body className="d-flex flex-column justify-content-between" style={{ minHeight: 230 }}>
                     <Card.Title>{t(props.title)}</Card.Title>

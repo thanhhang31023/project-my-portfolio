@@ -20,7 +20,7 @@ const About = () => {
             {/* Ảnh đại diện ở trên */}
             <Row className="d-flex justify-content-center text-center">
                 <Col xs={12} md={6}>
-                    <img src={avatarImg1} className="about-image" alt="avatar" />
+                    <img src={avatarImg1} className="about-image" alt="個人写真" />
                 </Col>
             </Row>
 

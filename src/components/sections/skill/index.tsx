@@ -29,7 +29,7 @@ const Skill = () => {
                             <div className="skill-card">
                                 <img
                                     src={skillsImage(skill)}
-                                    alt={skill}
+                                    alt={"スキル"}
                                     width={40}
                                     height={40}
                                 />
