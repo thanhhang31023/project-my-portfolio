@@ -14,6 +14,10 @@ import Divider from "components/sections/divider";
 
     <title>ホーム | ハン | フロントエンド開発者・ポートフォリオ</title>
 
+
+    <link rel="preload" as="image" href="/assets/section.svg" />
+
+
     <meta
         name="description"
         content="React, TypeScript, Javascript, HTML, CSS を使ったフロントエンド開発者・グェン ティ タィン ハン のポートフォリオです。ライト/ダークモード、言語切替、モーダルによる詳細表示、EmailJSによるメール送信機能、レスポンシブ対応。ReactとTypeScriptで構築し、実践的なUI/UXを重視した作品です。"
@@ -51,17 +55,22 @@ const HomePage = () => {
 
     return (
         <div className="homepage-screen">
-            <div
-                style={{
-                    backgroundImage: `url(${bg})`,
-                    width: "100%",
-                    height: 500,
-                    position: "absolute",
-                    top: 0,
-                    backgroundRepeat: "no-repeat",
-                    zIndex: 0,
-                }}
-            ></div>
+            <img
+  src={bg}
+  alt="紹介背景画像"
+  style={{
+    position: "absolute",
+    top: 0,
+    left: 0,
+    width: "100%",
+    height: "500px",
+    zIndex: 0,
+    objectFit: "cover",
+    pointerEvents: "none", // không ảnh hưởng đến click/tương tác
+  }}
+  loading="eager" // ưu tiên tải sớm
+/>
+
             <section className="mt-md-7 mt-2">
                 <Container style={{ position: "relative" }}>
                     <Row>

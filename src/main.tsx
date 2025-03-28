@@ -37,6 +37,28 @@ const router = createBrowserRouter([
     },
 ]);
 
+// lazy load Google Tag Manager
+window.addEventListener(
+    "scroll",
+    () => {
+      const script = document.createElement("script")
+      script.src = "https://www.googletagmanager.com/gtag/js?id=G-YMHMKMGP9G"
+      script.defer = true
+      document.head.appendChild(script)
+  
+      window.dataLayer = window.dataLayer || []
+      function gtag(...args: unknown[]) {
+        window.dataLayer.push(args)
+      }
+  
+      gtag("js", new Date())
+      gtag("config", "G-YMHMKMGP9G")
+    },
+    { once: true }
+  )
+  
+
+
 createRoot(document.getElementById("root")!).render(
     <StrictMode>
         <AppContextProvider>

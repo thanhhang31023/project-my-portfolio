@@ -2,12 +2,14 @@ import { MdAlternateEmail } from "react-icons/md";
 import { IoMdCall } from "react-icons/io";
 import { CiLocationOn } from "react-icons/ci";
 import { Col, Row } from "react-bootstrap";
-import AnimationLottie from "@/components/share/animation-lottie";
+import { Suspense, lazy } from "react";
 import { CONTACT_LOTTIE } from "assets/lottie/string/contact";
 import ContactForm from "./ContactForm";
 import { APP_DATA } from "helpers/data";
 import SocialMedia from "components/sections/social.media";
 import { useTranslation } from 'react-i18next';
+
+const LazyLottie = lazy(() => import("@/components/share/animation-lottie"));
 
 const ContactSection = () => {
         const { t } = useTranslation();
@@ -25,10 +27,9 @@ const ContactSection = () => {
                 <div className="contact-info">
                 <Col md={6} xs={12} className="d-flex flex-column align-items-center justify-content-center">
                 <div className="lottie-container" onClick={() => window.location.href = "mailto:thanhhang31023@gmail.com"}>
-        <AnimationLottie
-          //min-width="40%"
-            animationPath={JSON.parse(CONTACT_LOTTIE)}
-        />
+                <Suspense fallback={null}>
+  <LazyLottie animationPath={JSON.parse(CONTACT_LOTTIE)} />
+</Suspense>
     </div>
                     {/* <AnimationLottie
                         width="50%"

@@ -3,11 +3,12 @@ import Tilt from "react-parallax-tilt";
 import avatarImg from "assets/avatar4.png";
 import './introduction.scss';
 import { useTranslation } from 'react-i18next';
-import AnimationLottie from "@/components/share/animation-lottie";
+
 import { DEVELOPMENT_LOTTIE } from "assets/lottie/string/development";
 import GlowCard from "components/share/glow-card";
 import { FaGraduationCap } from "react-icons/fa6";
-
+import { lazy, Suspense } from "react"
+const LazyLottie = lazy(() => import("@/components/share/animation-lottie"))
 
 const Introduction = () => {
     const { t, i18n } = useTranslation();
@@ -59,8 +60,8 @@ const Introduction = () => {
                 </Col>
                 <Col md={3} className='d-md-block d-none'>
     <Tilt>
-        <img src={avatarImg} className="img-fluid avatar-image" alt="個人写真" />
-    </Tilt>
+        <img src={avatarImg} className="img-fluid avatar-image" alt="個人写真" loading="lazy"/>
+    </Tilt> 
 </Col>
 
             </Row>
@@ -75,12 +76,14 @@ const Introduction = () => {
                 <Col md={6} xs={12}
                     className="d-flex align-items-center justify-content-center d-md-flex align-items-center justify-content-center mt-md-5 mt-3"
                 >
-                    <AnimationLottie
-                        width="50%"
-                        //animation with rp => convert sang text
-                        // https://github.com/airbnb/lottie-web/issues/2070
-                        animationPath={JSON.parse(DEVELOPMENT_LOTTIE)}
-                    />
+                  
+                   <Suspense fallback={null}>
+                   <LazyLottie
+                     width="50%"
+                     animationPath={JSON.parse(DEVELOPMENT_LOTTIE)}
+                   />
+                 </Suspense>
+                 
                 </Col>
                 <Col md={6} xs={12} className="mt-md-5 mt-3">
                     <div className="d-flex flex-column align-items-center gap-3">
