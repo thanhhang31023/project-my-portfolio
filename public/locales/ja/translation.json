@@ -54,7 +54,7 @@
                 "detailDescription": "このポートフォリオサイトでは、自己紹介、スキル、プロジェクトを紹介しています。<br/>主な機能：<br/>🔹 マルチページ構成<br/>🔹 日本語・ベトナム語の多言語対応<br/>🔹 EmailJSでメール送信<br/>🔹 全デバイスに対応したレスポンシブデザイン<br/>🔹 ライト / ダークモード切替<br/>🔹 SEO最適化<br/>🔹 モーダル、画像のスライドでプロジェクト詳細を表示<br/>🔹 React-Bootstrapを活用した美しいUI",
 
                 "inspirationTitle": "開発のきっかけ",
-                "inspirationDescription1": "このプロジェクトは、<strong>フロントエンド開発職</strong>への応募を目的に構築され、<a class='custom-link' href='https://www.hoidanit.xyz/'>Hỏi Dân IT</a>、<a class='custom-link' href='https://soumyajit.vercel.app/'>Soumyajit</a>、<a class='custom-link' href='https://abusaid.netlify.app/'>Abusaid</a> などのポートフォリオからインスピレーションを得ました。",
+                "inspirationDescription1": "このプロジェクトは、<strong>フロントエンド開発職</strong>への応募を目的に構築され、<a class='custom-link' href='https://soumyajit.vercel.app/'>Soumyajit</a>、<a class='custom-link' href='https://abusaid.netlify.app/'>Abusaid</a> などのポートフォリオからインスピレーションを得ました。",
                 "inspirationDescription2": "このプロジェクトは<strong>React & Typescript</strong>の実践とスキルアップの機会でもあります。",
                 "technologiesTitle": "使用技術",
                 "inspiration": "このプロジェクトは、<strong>React と Typescript</strong>の実践とスキルアップの良い機会にもなりました。",
