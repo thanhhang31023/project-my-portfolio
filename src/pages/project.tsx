@@ -2,13 +2,11 @@ import { Helmet } from "react-helmet-async";
 import { lazy, Suspense } from "react";
 import Fallbacks from "components/skeletons/fallbacks";
 
-
 import { Container } from "react-bootstrap";
 
 import bg from "assets/section.svg";
 
 <Helmet>
-
     <title>個人 プロジェクト | ハン | フロントエンド開発者・ポートフォリオ</title>
 
     <meta
@@ -26,7 +24,7 @@ import bg from "assets/section.svg";
     <meta
         property="og:description"
         content="React, TypeScript, Javascript, HTML, CSS, Bootstrap を使ったフロントエンド開発者・グェン ティ タィン ハン の プロジェクト一覧 の 紹介です。"
-        />
+    />
 
     <meta property="og:url" content="https://hang-frontend.jp/" />
     <meta property="og:image" content="/demo-project.png" />
@@ -53,7 +51,7 @@ const ProjectPage = () => {
             ></div>
             <section className="mt-md-5 mt-2 pt-md-5 pt-0">
                 <Container>
-                <Suspense fallback={Fallbacks.ProjectGrid(6)}>
+                    <Suspense fallback={Fallbacks.ProjectGrid(6)}>
                         {" "}
                         <Project />
                     </Suspense>

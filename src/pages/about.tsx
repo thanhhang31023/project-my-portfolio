@@ -6,7 +6,6 @@ import { Container } from "react-bootstrap";
 import bg from "assets/section.svg";
 
 <Helmet>
-
     <title>自己紹介 | ハン | フロントエンド開発者・ポートフォリオ</title>
 
     <meta
@@ -24,7 +23,7 @@ import bg from "assets/section.svg";
     <meta
         property="og:description"
         content="React, TypeScript, Javascript, HTML, CSS, Bootstrap を使ったフロントエンド開発者・グェン ティ タィン ハン の プロフィール、経験、スキル、フロントエンド学習の道のりをご紹介します。"
-        />
+    />
 
     <meta property="og:url" content="https://hang-frontend.jp/" />
     <meta property="og:image" content="/demo-project.png" />
@@ -51,11 +50,9 @@ const AboutPage = () => {
             ></div>
             <section className="mt-md-5 mt-2 t-md-5 pt-0">
                 <Container>
-              
-                       
-                <Suspense fallback={Fallbacks.About}>
+                    <Suspense fallback={Fallbacks.About}>
                         <About />
-</Suspense>
+                    </Suspense>
                 </Container>
             </section>
         </div>
