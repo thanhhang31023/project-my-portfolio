@@ -16,8 +16,8 @@ import Divider from "components/sections/divider";
 
     <meta
         name="description"
-        content="React, TypeScript, Javascript, HTML, CSS, Bootstrap を使ったフロントエンド開発者・グェン ティ タィン ハン のポートフォリオです。"
-    />
+        content="React, TypeScript, Javascript, HTML, CSS を使ったフロントエンド開発者・グェン ティ タィン ハン のポートフォリオです。ライト/ダークモード、言語切替、モーダルによる詳細表示、EmailJSによるメール送信機能、レスポンシブ対応。ReactとTypeScriptで構築し、実践的なUI/UXを重視した作品です。"
+        />
     <meta
         name="keywords"
         content="ポートフォリオ, フロントエンド, React, TypeScript, Javascript, HTML, CSS, Bootstrap Web開発, Scss, Sass, SEO, 開発者, グェン ティ タィン ハン"
@@ -28,8 +28,8 @@ import Divider from "components/sections/divider";
 
     <meta
         property="og:description"
-        content="React, TypeScript, Javascript, HTML, CSS, Bootstrap を使ったフロントエンド開発者・グェン ティ タィン ハン のポートフォリオです。このポートフォリオサイトでは、自己紹介、スキル、プロジェクトを紹介しています。"
-    />
+        content="React, TypeScript, Javascript, HTML, CSS を使ったフロントエンド開発者・グェン ティ タィン ハン のポートフォリオです。ライト/ダークモード、言語切替、モーダルによる詳細表示、EmailJSによるメール送信機能、レスポンシブ対応。ReactとTypeScriptで構築し、実践的なUI/UXを重視した作品です。"
+        />
 
     <meta property="og:url" content="https://hang-frontend.jp/" />
     <meta property="og:image" content="/demo-project.png" />
