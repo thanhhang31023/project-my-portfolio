@@ -6,24 +6,25 @@ import { Container } from "react-bootstrap";
 import bg from "assets/section.svg";
 
 <Helmet>
-    <title>ハン | フロントエンド開発者・ポートフォリオ</title>
+
+    <title>自己紹介 | ハン | フロントエンド開発者・ポートフォリオ</title>
 
     <meta
         name="description"
-        content="React, TypeScript, Javascript, HTML, CSS, Bootstrap を使ったフロントエンド開発者・グェン ティ タィン ハン のポートフォリオです。"
+        content="React, TypeScript, Javascript, HTML, CSS, Bootstrap を使ったフロントエンド開発者・グェン ティ タィン ハン の プロフィール、経験、スキル、フロントエンド学習の道のりをご紹介します。"
     />
     <meta
         name="keywords"
-        content="ポートフォリオ, フロントエンド, React, TypeScript, Javascript, HTML, CSS, Bootstrap Web開発, Scss, Sass, SEO, 開発者, グェン ティ タィン ハン"
+        content="ポートフォリオ, フロントエンド, React, TypeScript, Javascript, HTML, CSS, Bootstrap Web開発, Scss, Sass, SEO, 開発者, グェン ティ タィン ハン, 自己紹介"
     />
 
     <meta name="author" content="グェン ティ タィン ハン" />
-    <meta property="og:title" content="ハン | フロントエンド開発者・ポートフォリオ" />
+    <meta property="og:title" content="自己紹介 | ハン | フロントエンド開発者・ポートフォリオ" />
 
     <meta
         property="og:description"
-        content="React, TypeScript, Javascript, HTML, CSS, Bootstrap を使ったフロントエンド開発者・グェン ティ タィン ハン のポートフォリオです。このポートフォリオサイトでは、自己紹介、スキル、プロジェクトを紹介しています。"
-    />
+        content="React, TypeScript, Javascript, HTML, CSS, Bootstrap を使ったフロントエンド開発者・グェン ティ タィン ハン の プロフィール、経験、スキル、フロントエンド学習の道のりをご紹介します。"
+        />
 
     <meta property="og:url" content="https://hang-frontend.jp/" />
     <meta property="og:image" content="/demo-project.png" />

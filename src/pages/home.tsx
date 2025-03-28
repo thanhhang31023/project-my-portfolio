@@ -11,7 +11,8 @@ import bg from "assets/section.svg";
 import Divider from "components/sections/divider";
 
 <Helmet>
-    <title>ハン | フロントエンド開発者・ポートフォリオ</title>
+
+    <title>ホーム | ハン | フロントエンド開発者・ポートフォリオ</title>
 
     <meta
         name="description"
@@ -23,7 +24,7 @@ import Divider from "components/sections/divider";
     />
 
     <meta name="author" content="グェン ティ タィン ハン" />
-    <meta property="og:title" content="ハン | フロントエンド開発者・ポートフォリオ" />
+    <meta property="og:title" content="ホーム | ハン | フロントエンド開発者・ポートフォリオ" />
 
     <meta
         property="og:description"
